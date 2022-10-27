@@ -12,3 +12,27 @@ class MuscleGroup:
     id: str
     name: str
     url: str
+
+@dataclass
+class Exercise:
+    id: str
+    name: str
+    url: str
+    muscle: str
+    type: str
+    equipment: str
+    mechanics: str
+    difficulty: str
+
+@dataclass
+class ExerciseGroup:
+    id: str
+    name: str
+    url: str
+    muscle: str
+    type: str
+    equipment: str
+    mechanics: str
+    force_type: str
+    difficulty: str
+    secondary_muscle: str
