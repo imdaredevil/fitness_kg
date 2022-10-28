@@ -1,5 +1,3 @@
-from re import M
-from requests import request
 from scrapy import Spider, Request
 from urllib.parse import urlparse, parse_qs
 from fitness_kg.items import MuscleGroup, Exercise, ExerciseGroup
@@ -99,6 +97,19 @@ class GymSpider(Spider):
             value += a_value
             value += div_value
             record[key] = convert_to_string(value, key)
+        headings = response.css("h2::text").getall()
+        overview = convert_to_string(
+            response.css("div.field.field-name-field-exercise-overview").css("*::text").getall())
+        tips = convert_to_string(
+            response.css("div.field.field-name-field-exercise-tips").css("*::text").getall())
+        instructions = convert_to_string(
+            response.css("div.field.field-name-field-exercise-instructions").css("*::text").getall())
+        if instructions == '':
+            instructions = convert_to_string(
+                response.css("div.field.field-name-body").css("*::text").getall())
+        print(exercise_link, overview)
+        print(exercise_link, instructions)
+        print(exercise_link, tips)
         yield ExerciseGroup(
                 id=exercise_link,
                 name=exercise_name,
@@ -109,7 +120,10 @@ class GymSpider(Spider):
                 mechanics=record.get('mechanics', None),
                 difficulty=record.get('experience level', None),
                 force_type=record.get('force type', None),
-                secondary_muscle=record.get('secondary muscles', None)
+                secondary_muscle=record.get('secondary muscles', None),
+                tips=tips,
+                overview=overview,
+                instructions=instructions
             )
         
 

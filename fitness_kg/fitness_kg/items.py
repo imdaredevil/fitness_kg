@@ -35,4 +35,7 @@ class ExerciseGroup:
     mechanics: str
     force_type: str
     difficulty: str
+    overview: str
+    instructions: str
+    tips: str
     secondary_muscle: str
