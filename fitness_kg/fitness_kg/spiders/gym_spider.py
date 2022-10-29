@@ -100,13 +100,26 @@ class GymSpider(Spider):
         headings = response.css("h2::text").getall()
         overview = convert_to_string(
             response.css("div.field.field-name-field-exercise-overview").css("*::text").getall())
-        tips = convert_to_string(
-            response.css("div.field.field-name-field-exercise-tips").css("*::text").getall())
         instructions = convert_to_string(
             response.css("div.field.field-name-field-exercise-instructions").css("*::text").getall())
         if instructions == '':
-            instructions = convert_to_string(
-                response.css("div.field.field-name-body").css("*::text").getall())
+            instructions = response.css("div.field.field-name-body").css("*::text").getall()
+            instr = []
+            tips = []
+            reached = False
+            for instruction in instructions:
+                if instruction.strip().lower().endswith("tips:"):
+                    reached = True
+                elif reached:
+                    tips.append(instruction)
+                else:
+                    instr.append(instruction)
+        instructions = convert_to_string(instr)
+        if len(tips) == 0:
+            tips = convert_to_string(
+                response.css("div.field.field-name-field-exercise-tips").css("*::text").getall())   
+        else:
+            tips = convert_to_string(tips)    
         print(exercise_link, overview)
         print(exercise_link, instructions)
         print(exercise_link, tips)
