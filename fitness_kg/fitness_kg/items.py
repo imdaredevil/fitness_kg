@@ -67,3 +67,15 @@ class ExrxExerciseGroup:
     instructions: str
     tips: str
     secondary_muscle: str
+
+
+@dataclass
+class CardioExercise:
+    id: str
+    name: str
+    url: str
+    calories: str
+    met: str
+    intensity: str
+
+    
