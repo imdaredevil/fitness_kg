@@ -39,3 +39,31 @@ class ExerciseGroup:
     instructions: str
     tips: str
     secondary_muscle: str
+
+@dataclass
+class ExrxMuscleGroup:
+    id: str
+    name: str
+    url: str
+    parent_muscle: Optional[str]
+
+@dataclass
+class ExrxExercise:
+    id: str
+    name: str
+    url: str
+    muscle: str
+    equipment: str
+
+
+@dataclass
+class ExrxExerciseGroup:
+    id: str
+    name: str
+    url: str
+    mechanics: str
+    force_type: str
+    utility: str
+    instructions: str
+    tips: str
+    secondary_muscle: str

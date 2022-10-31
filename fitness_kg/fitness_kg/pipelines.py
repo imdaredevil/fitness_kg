@@ -7,9 +7,10 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
-from fitness_kg.items import MuscleGroup, Exercise, ExerciseGroup
+from fitness_kg.items import MuscleGroup, Exercise, ExerciseGroup, ExrxMuscleGroup, ExrxExercise, ExrxExerciseGroup
 from scrapy import Item
 import json
+
 
 def getItemType(
         item: Item
@@ -20,6 +21,12 @@ def getItemType(
             return 'exercise'
         if isinstance(item, ExerciseGroup):
             return 'exercisegroup'
+        if isinstance(item, ExrxMuscleGroup):
+            return 'exrx_muscle'
+        if isinstance(item, ExrxExercise):
+            return 'exrx_exercise'
+        if isinstance(item, ExrxExerciseGroup):
+            return 'exrx_exercisegroup'
         return 'unknown'
 
 class DeDuplicatePipeline:
@@ -42,14 +49,22 @@ class DeDuplicatePipeline:
 class JsonWriterPipeline:
     def __init__(self):
         self.filenames = {
-            'muscle' : 'muscle_groups.jsonl',
-            'exercise': 'exercise.jsonl',
-            'exercisegroup': 'exercise_group.jsonl'
+            'gym_spider': {
+                'muscle' : 'muscle_groups.jsonl',
+                'exercise': 'exercise.jsonl',
+                'exercisegroup': 'exercise_group.jsonl',
+                
+            },
+            'exrx_spider': {
+                'exrx_muscle' : 'exrx_muscle_groups.jsonl',
+                'exrx_exercise': 'exrx_exercise.jsonl',
+                'exrx_exercisegroup': 'exrx_exercise_group.jsonl', 
+            }
         }
         self.filewriters = {}
     
     def open_spider(self, spider):
-        for itemClass, file in self.filenames.items():
+        for itemClass, file in self.filenames[spider.name].items():
             self.filewriters[itemClass] = open(file, "w")
 
     def close_spider(self, spider):
