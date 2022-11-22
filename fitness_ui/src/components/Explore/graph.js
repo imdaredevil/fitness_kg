@@ -1,12 +1,18 @@
-import React, { useEffect, useRef } from "react";
-import rd3 from 'react-d3-library';
+import React, { useEffect, useRef, useState } from "react";
+import { Network } from "vis-network";
 
 export default function Graph (props) {
 	// Create a ref to provide DOM access
-    const records = props.graph_results.slice(0, 100) || []
-	const visJsRef = useRef(null)
+    const records = props.graph_results.slice(props.indices[0], props.indices[1])
+    console.log(props.indices, props.graph_results.length, records.length)
+    const [graph_loading, setGraphLoading] = useState(true)
+    if((!records?.length) && graph_loading) {
+        setGraphLoading(false)
+    }
+    const visJsRef = useRef(null)
 	useEffect(() => {
-		const [nodeSet, nodes, edges] = records.reduce(([nodeSet, nodes, edges], record) => {
+        setGraphLoading(true)
+        const [nodeSet, nodes, edges] = records.reduce(([nodeSet, nodes, edges], record) => {
             const exercise = record.get('ex').properties
             if (!nodeSet.has(exercise.url)) {
                 nodes.push({
@@ -26,8 +32,8 @@ export default function Graph (props) {
                     "id": muscle.url
                 })
                 nodeSet.add(muscle.url)
-                edges.push({ "from": exercise.url, "to": muscle.url, "label": "targets"})
             }
+            edges.push({ "from": exercise.url, "to": muscle.url, "label": "targets"})
             const equipment = record.get('eq') && record.get('eq').properties
             if (equipment && !nodeSet.has(equipment.name)) {
                 nodes.push({
@@ -36,19 +42,42 @@ export default function Graph (props) {
                     "id": equipment.name
                 })
                 nodeSet.add(equipment.name)
-                edges.push({ "from": exercise.url, "to": equipment.name, "label": "uses"})
             }
-            console.log([exercise.url, equipment?.name, muscle?.url])
+            edges.push({ "from": exercise.url, "to": equipment.name, "label": "uses"})
             return [nodeSet, nodes, edges]
         }, [new Set(), [], []])
-        console.log(nodes)
-        console.log(edges)
         const data = {
             nodes, edges
         }
+        const options =  {
+            physics: {
+            forceAtlas2Based: {
+                gravitationalConstant: -26,
+                centralGravity: 0.005,
+                springLength: 230,
+                springConstant: 0.18,
+                avoidOverlap: 3.0
+            },
+            maxVelocity: 146,
+            solver: 'forceAtlas2Based',
+            timestep: 0.35,
+            stabilization: {
+                enabled: true,
+                iterations: 1000,
+                updateInterval: 25
+            }
+        }
+    }
         const network =
 			visJsRef.current &&
-			new Network(visJsRef.current, data, {});
-	}, [visJsRef]);
-	return <div ref={visJsRef} style={{ height: '90vh', width: '100%' }} />;
+			new Network(visJsRef.current, data, options);
+        if(network) {
+            network.on("stabilizationIterationsDone", function () {
+                network.setOptions( { physics: false } ); 
+                setGraphLoading(false)
+          });
+        } 
+        setGraphLoading(false)
+	}, [visJsRef, records]);
+    return (graph_loading || props.loading) ? (<div>Loading....</div>) : (<div ref={visJsRef} style={{ height: '50vh', width: '100%' }} />)
 };

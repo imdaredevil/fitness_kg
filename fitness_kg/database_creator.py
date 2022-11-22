@@ -24,7 +24,7 @@ class App:
     def _create_muscle(tx, muscle):
         muscle_id = "-".join(muscle["name"].lower().split(" "))
         query = (
-            "CREATE (m:Muscle { name: $muscle_name, url: $muscle_url, id: $muscle_id })"
+            "MERGE (m:Muscle { name: $muscle_name, url: $muscle_url, id: $muscle_id })"
             "RETURN m"
         )
         try:
@@ -46,11 +46,9 @@ class App:
     @staticmethod
     def _create_exercise(tx, exercise):
         query = (
-            "CREATE (e:Exercise { name: $exercise_name, url: $exercise_url, type: $type, mechanics: $mechanics, difficulty: $difficulty }) "
+            "MERGE (e:Exercise { name: $exercise_name, url: $exercise_url, type: $type, mechanics: $mechanics, difficulty: $difficulty }) "
             "MERGE (eq:Equipment { name: $equipment_name })"
-            "MERGE (me: { "
             "CREATE (e)-[:USES_EQUIPMENT]->(eq)"
-            ""
         )
         query2 = (
             "MATCH (m:Muscle), (e:Exercise) where m.id = $exercise_muscle and e.name = $exercise_name "
@@ -61,9 +59,9 @@ class App:
             result = tx.run(query,
                             exercise_url = exercise['url'],
                             exercise_name = exercise['name'],
-                            mechanics = exercise['mechanics'],
-                            type = exercise['type'],
-                            difficulty= exercise['difficulty'],
+                            mechanics = exercise['mechanics'] if exercise['mechanics'] is not None else 'unknown',
+                            type = exercise['type'] if exercise['type'] is not None else 'unknown',
+                            difficulty= exercise['difficulty'] if exercise['difficulty'] is not None else 'unknown',
                             exercise_muscle = exercise['muscle'],
                             equipment_name = exercise['equipment'] if exercise['equipment'] is not None else 'no Equipment'
             )

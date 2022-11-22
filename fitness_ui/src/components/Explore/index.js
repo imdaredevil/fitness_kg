@@ -1,50 +1,31 @@
-import React, { useState } from "react";
-import { Card } from "react-bootstrap";
-import styles from "./styles";
-import Multiselect from 'multiselect-react-dropdown';
+import React, { useEffect, useState } from "react";
 import { useReadCypher } from "use-neo4j";
-import Graph from "./graph";
-
-const { FullWidthContainer, Row, Col, PlainText } = styles;
+import Grid from '@mui/material/Grid';
+import QuerySelector from "./query_selector";
+import RecordsTable from "./result_table";
 
 export default function Explore() {
-    let { records: exercises } = useReadCypher(`MATCH (ex:Exercise) 
+    const [queryArgs, setQueryArgs] = useState({ initial: true })
+    const { loading, run: queryRun, records: exercises } = useReadCypher(`MATCH (ex:Exercise) 
     MATCH (ex)-[:TARGETS]->(m)
-    MATCH (ex)-[:USES]->(eq)
-    return ex, m, eq`)
-    let { records: muscles } = useReadCypher("MATCH (m:Muscle) RETURN m", {})
-    let { records: equipments } = useReadCypher("MATCH (m:Equipment) RETURN m", {})
-    if (!(muscles && equipments && exercises)) {
-        return <div>Loading......</div>
-    }
-    muscles = muscles.map((m) => m.get('m').properties)
-    equipments = equipments.map((m) => m.get('m').properties)
+    MATCH (ex)-[:USES_EQUIPMENT]->(eq)
+    WHERE 1 = 1
+    AND m.url IN $muscles
+    AND eq.name IN $equipments
+    return ex, m, eq`, { muscles: [], equipments: [] })
+    useEffect(() => {
+        queryRun(queryArgs)
+    }, [queryArgs])
     return (
-        <FullWidthContainer style={{ height: "100vh", paddingTop: "3%", backgroundColor: "#ffffffff" }}>
-            <Row>
-                <Col xs={3} style={{ padding: "1%" }}>
-                    <Card style={{ backgroundColor: "#dcdde2ff" }}>
-                    <PlainText>
-                        Target Muscles
-                    </PlainText>
-                    <Multiselect
-                    options={muscles}
-                    displayValue="name"
-                    />
-                    <PlainText>
-                        Available Equipment
-                    </PlainText>
-                    <Multiselect
-                    options={equipments}
-                    displayValue="name"
-                    />
-                    </Card>
-                </Col>
-                <Col xs={9}>
-                    <Graph graph_results={exercises || []}/>
-                </Col>
-            </Row>
-        </FullWidthContainer>
-
-      );
+        <Grid container sx={{ height: "100vh", paddingTop: "3%" }}>
+            <Grid item xs={3}>
+                <QuerySelector
+                        setQuery={(newVals) => {setQueryArgs({ ...queryArgs, ...newVals, initial: false })}}
+                />
+            </Grid>
+            <Grid item xs={9} sx={{padding: "1%" }}>
+                <RecordsTable loading={loading} exercises={exercises || []} />
+            </Grid>
+        </Grid>
+    );
     } 

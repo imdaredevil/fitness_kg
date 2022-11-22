@@ -5,7 +5,6 @@ import {
   BrowserRouter,
   Routes,
 } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { BreakPoints } from './context';
 import { useMediaQuery } from "react-responsive";
 import routes from './routes';
