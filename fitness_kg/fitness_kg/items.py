@@ -23,6 +23,7 @@ class Exercise:
     equipment: str
     mechanics: str
     difficulty: str
+    image_url: str
 
 @dataclass
 class ExerciseGroup:

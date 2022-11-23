@@ -1,11 +1,14 @@
 import React , { useRef, useState } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import Graph from './graph';
+
 import Box from '@mui/material/Box';
+import { network } from 'vis-network';
 
 const columns = [
     { field: 'id', headerName: 'ID', type: 'number', width: 70, editable: false, sortable: false, filterable: false },
     { field: 'name', headerName: 'Name', type: 'string', width: 300, editable: false, sortable: false, filterable: false },
+    { field: 'muscle', headerName: 'Muscle', type: 'string', width: 200, editable: false, sortable: false, filterable: false },
+    { field: 'equipment', headerName: 'Equipment', type: 'string', width: 200, editable: false, sortable: false, filterable: false },
     { field: 'difficulty', headerName: 'Difficulty', type: 'string', width: 200, editable: false, sortable: false, filterable: false },
     { field: 'mechanics', headerName: 'Mechanics', type: 'string', width: 200, editable: false, sortable: false, filterable: false },
     { field: 'type', headerName: 'Type', type: 'string', width: 200, editable: false, sortable: false, filterable: false }
@@ -14,26 +17,44 @@ const columns = [
 
 export default function RecordsTable(props) {
     const gridRef = useRef()
+    const pageSize = props.pageSize
     const { loading, exercises } = props;
-    const [indices, setIndices] = useState([0, 25])
-    const records = exercises.map((record, index) => { return {id: index + 1, ...record.get('ex').properties }})
-    const onPageChange = (params) => {
-        setIndices([params * 25, (params + 1) * 25])
+    const getRecord = (record, index) => {
+        const exercise = record.get('ex').properties;
+        const muscles = record.get('m').properties;
+        const equipments = record.get('eq').properties;
+        return {
+            id: index + 1,
+            ...exercise,
+            name_key: exercise.url,
+            muscle: muscles.name,
+            muscle_key: muscles.url,
+            equipment: equipments.name,
+            equipment_key: equipments.name
+        }
     }
-     return ( <div style={{ height: "42.5%", width: "100%" }}> 
-      <Box sx={{ height: "100%" }}>
-        <Graph graph_results={exercises || []} loading={loading} indices={indices}/>
+    const records = exercises.map(getRecord)
+    const onPageChange = (params) => {
+        props.setIndices([params * pageSize, (params + 1) * pageSize])
+    }
+
+     return (
+        <Box sx={{ height: "100%", width: "100%" }}>
         <DataGrid
         ref={gridRef}
         density='compact'
           rows={records}
           columns={columns}
-          pageSize={25}
-          loading={props.loading}
+          pageSize={pageSize}
+          loading={loading}
           onPageChange={onPageChange}
-          rowsPerPageOptions={[25]}
+          rowsPerPageOptions={[pageSize]}
+          sx={{
+            '& .MuiTablePagination-root': {
+                height: '5%',
+              }
+          }}
         />
        </Box>
-      </div>
     );
   }

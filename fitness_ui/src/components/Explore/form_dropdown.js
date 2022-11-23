@@ -63,8 +63,7 @@ export default function CheckboxesTags(props) {
         <TextField
           {...params}
           variant="outlined"
-          label="Checkboxes"
-          placeholder="Favorites"
+          label={props.name}
         />
       )}
       defaultValue={[{ [key]: "Select All", [label]: "Select All" }]}

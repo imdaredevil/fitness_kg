@@ -44,7 +44,9 @@ class GymSpider(Spider):
             title_div = exercise_div.css("div.node-title a")
             exercise_link = response.urljoin(title_div.attrib.get("href"))
             exercise_name = title_div.xpath("text()").get().strip()
-            
+            img_url = exercise_div.css("div.node-image img").attrib.get("data-src")
+            if img_url is None:
+                img_url = exercise_div.css("div.node-image img").attrib.get("src")
             specs = exercise_div.css("div.grid-x.exercise-meta div.cell.small-3 div.meta-box")
             exercise_specs = {}
             for spec in specs:
@@ -59,7 +61,8 @@ class GymSpider(Spider):
                 type=exercise_specs.get('type', None),
                 equipment=exercise_specs.get('equipment', None),
                 mechanics=exercise_specs.get('mechanics', None),
-                difficulty=exercise_specs.get('exp. level', None)
+                difficulty=exercise_specs.get('exp. level', None),
+                image_url=img_url
             )
             yield Request(
                 exercise_link,
