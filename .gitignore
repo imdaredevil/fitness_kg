@@ -3,3 +3,5 @@
 **/.DS_STORE
 **/*.ipynb_checkpoints
 **/*.bak
+**/*.png
+Data_Scrape_Yoga/yoga/un-availability_data.txt
