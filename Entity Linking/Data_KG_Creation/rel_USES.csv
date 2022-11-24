@@ -8,7 +8,7 @@ it band foam rolling,USES,foam roll
 seated cable row,USES,cable
 glute kick back,USES,bodyweight
 hyperextension,USES,bodyweight
-machine row,USES,machine
+machine row,USES,row machine
 good mornings,USES,barbell
 reverse grip bent-over dumbbell row,USES,dumbbell
 bodyweight glute bridge,USES,bodyweight
@@ -17,20 +17,20 @@ weight plate pinches,USES,other
 wrist rollers,USES,other
 dumbbell wrist curl over bench,USES,dumbbell
 reverse grip barbell curl,USES,barbell
-barbell bench press,USES,barbell
+barbell bench press,USES,bench press machine
 standing alternate dumbbell reverse curl,USES,dumbbell
 fat gripz dumbbell farmers carry,USES,dumbbell
 dumbbell flys,USES,dumbbell
 reverse dumbbell wrist curl over bench,USES,dumbbell
 one arm reverse dumbbell preacher curl,USES,dumbbell
-decline dumbbell bench press,USES,dumbbell
+decline dumbbell bench press,USES,bench press machine
 standing cable fly,USES,cable
 one arm kettlebell swing,USES,kettle bells
 glute ham raise (ghr),USES,bodyweight
 double kettlebell single leg deadlift,USES,kettle bells
 snatch grip deadlift,USES,barbell
 dumbbell stiff leg deadlift (on bench),USES,dumbbell
-single leg valslide leg curl,USES,valslide
+single leg valslide leg curl,USES,leg curl machine
 weighted crunch,USES,other
 banded conventional deadlift,USES,barbell
 snatch grip deficit deadlift,USES,barbell
@@ -54,7 +54,7 @@ standing barbell twist,USES,barbell
 decline bench leg raise,USES,bodyweight
 decline abdominal reach,USES,bodyweight
 bench jack knife,USES,bodyweight
-standing smith machine wrist curl (behind back),USES,machine
+standing smith machine wrist curl (behind back),USES,smith machine
 ez bar reverse grip preacher curl,USES,ez bar
 decline bench knee raise,USES,bodyweight
 tall kneeling push-pull,USES,cable
@@ -62,7 +62,7 @@ snatch,USES,barbell
 narrow stance high bar back squat,USES,barbell
 split squat with iso-hold,USES,bodyweight
 1/4 squat,USES,barbell
-smith machine zercher squat,USES,machine
+smith machine zercher squat,USES,smith machine
 landmine reverse lunge,USES,landmine
 power jerk,USES,barbell
 split squat with banded adduction,USES,bands
@@ -70,7 +70,7 @@ seated reverse barbell wrist curl,USES,barbell
 reverse grip preacher curl,USES,barbell
 one arm neutral dumbbell wrist curl over bench,USES,dumbbell
 overhead barbell carry,USES,barbell
-pit shark belt squat,USES,machine
+pit shark belt squat,USES,pit shark belt squat machine
 reverse lunge with lateral flexion,USES,bodyweight
 seated neutral dumbbell wrist curl,USES,dumbbell
 ipsilateral load dumbbell front lunge,USES,dumbbell
@@ -124,13 +124,13 @@ cable concentration tricep extension,USES,cable
 seated bent over tricep dumbbell kickback,USES,dumbbell
 twisting floor crunch,USES,bodyweight
 twisting cable crunch,USES,cable
-decline close grip bench press,USES,barbell
+decline close grip bench press,USES,bench press machine
 one-arm standing overhead cable tricep extension,USES,cable
 alternate seated bent-over dumbbell kickback,USES,dumbbell
-smith machine close grip bench press,USES,machine
+smith machine close grip bench press,USES,smith machine
 alternate bent-over dumbbell kickback,USES,dumbbell
 standing overhead ez bar tricep extension,USES,ez bar
-smith machine reverse close grip bench press,USES,machine
+smith machine reverse close grip bench press,USES,smith machine
 lying on floor tricep extension (rope extension),USES,cable
 lying barbell reverse extension,USES,barbell
 close grip chest press,USES,barbell
@@ -138,7 +138,7 @@ lying single dumbbell extension,USES,dumbbell
 weighted bench dip,USES,other
 rolling dumbbell extension,USES,dumbbell
 kneeling overhead tricep extension over flat bench,USES,cable
-smith machine incline tricep extension,USES,machine
+smith machine incline tricep extension,USES,smith machine
 upper body band resistance dead bug,USES,bands
 ring dip,USES,rings
 kettlebell windmill,USES,kettle bells
@@ -168,7 +168,7 @@ dead bug with plates,USES,other
 seated barbell twist,USES,barbell
 reverse grip one-arm standing overhead cable tricep extension,USES,cable
 twisting bench crunch,USES,bodyweight
-twisting dumbbell bench press,USES,dumbbell
+twisting dumbbell bench press,USES,bench press machine
 standing two-arm tricep cable extension,USES,cable
 lying alternate knee raise,USES,bodyweight
 wall press 90/90 extension,USES,bodyweight
@@ -196,7 +196,7 @@ dumbbell goblet split squat,USES,dumbbell
 one-arm lying dumbbell extension,USES,dumbbell
 reverse lunge elbow to instep with rotation,USES,bodyweight
 reverse grip skull crusher,USES,barbell
-one leg hack squat,USES,machine
+one leg hack squat,USES,hack squat machine
 lying dumbbell curl,USES,dumbbell
 exercise ball dumbbell kickbacks,USES,exercise ball
 squatting cable curl,USES,cable
@@ -283,7 +283,7 @@ bus drivers,USES,other
 alternate seated hammer curl,USES,dumbbell
 trap bar shoulder press,USES,trap bar
 jumping jacks battling ropes,USES,rope
-smith machine shoulder press behind neck,USES,machine
+smith machine shoulder press behind neck,USES,smith machine
 one arm seated dumbbell press,USES,dumbbell
 alternate standing dumbbell press,USES,dumbbell
 standing dublin press,USES,dumbbell
@@ -314,7 +314,7 @@ landmine thruster,USES,landmine
 shoulder to shoulder press,USES,landmine
 barbell overhead front raise,USES,barbell
 one arm seated dumbbell front raise,USES,dumbbell
-cable external rotation,USES,machine
+cable external rotation,USES,cable external rotation machine
 dumbbell 6 ways (raise),USES,dumbbell
 lunge jump with alternating waves battling ropes,USES,rope
 exercise ball lateral raise,USES,exercise ball
@@ -357,7 +357,7 @@ standing low-pulley overhead tricep extension,USES,cable
 band assisted dip,USES,bands
 dumbbell hammer preacher curl,USES,dumbbell
 one arm bottoms up kettlebell floor press,USES,kettle bells
-exercise ball dumbbell bench press,USES,exercise ball
+exercise ball dumbbell bench press,USES,bench press machine
 wide grip cable curl,USES,cable
 dumbbell split jump,USES,dumbbell
 front barbell step up,USES,barbell
@@ -370,56 +370,56 @@ dumbbell twist fly,USES,dumbbell
 rocking standing calf raise,USES,barbell
 ring push up,USES,rings
 cross body arm swings,USES,bodyweight
-alternating dumbbell bench press on exercise ball,USES,exercise ball
-resistance banded dumbbell bench press,USES,dumbbell
+alternating dumbbell bench press on exercise ball,USES,bench press machine
+resistance banded dumbbell bench press,USES,bench press machine
 split stance pallof press,USES,cable
-2 board bench press,USES,barbell
+2 board bench press,USES,bench press machine
 eccentric only incline push up,USES,bodyweight
-smith machine bench press,USES,machine
+smith machine bench press,USES,smith machine
 self-assisted straight bar dip,USES,bodyweight
 muscle up,USES,bodyweight
 decline dumbbell twist fly,USES,dumbbell
 push up jacks,USES,bodyweight
 t-push up,USES,bodyweight
-wide grip barbell bench press,USES,barbell
+wide grip barbell bench press,USES,bench press machine
 fingertip push ups,USES,bodyweight
 alternating incline dumbbell fly,USES,dumbbell
 valslide push up,USES,valslide
 yoga push up,USES,bodyweight
 exercise ball push up,USES,exercise ball
-3 board bench press,USES,barbell
+3 board bench press,USES,bench press machine
 shoulder tap push up,USES,bodyweight
-bench press against chains,USES,chains
+bench press against chains,USES,bench press machine
 push up with knee drive,USES,bodyweight
 bench push-up,USES,bodyweight
 standing medicine ball chest throw,USES,medicine ball
-alternating dumbbell bench press (low start),USES,dumbbell
+alternating dumbbell bench press (low start),USES,bench press machine
 wide grip incline push up,USES,bodyweight
 one arm medicine ball push up,USES,medicine ball
 reverse grip dumbbell squeeze press,USES,dumbbell
-one-leg hack squat calf raise,USES,machine
-smith machine seated calf raise,USES,machine
+one-leg hack squat calf raise,USES,hack squat machine
+smith machine seated calf raise,USES,smith machine
 anterior calf tiger tail,USES,tiger tail
 double jump jump rope,USES,jump rope
-hack squat calf raise,USES,machine
-one-leg smith machine seated calf raise,USES,machine
+hack squat calf raise,USES,hack squat machine
+one-leg smith machine seated calf raise,USES,smith machine
 chain fly,USES,chains
 standing pvc pec mobilization,USES,other
-45 degree calf raise (toes out),USES,machine
+45 degree calf raise (toes out),USES,45 degree calf raise (toes out) machine
 rocking gastrocnemius emphasis ankle mobilization,USES,bodyweight
-one-leg seated calf raise,USES,machine
+one-leg seated calf raise,USES,one-leg seated calf raise machine
 peroneal tiger tail,USES,tiger tail
-reverse grip bench press,USES,barbell
+reverse grip bench press,USES,bench press machine
 pec foam rolling,USES,foam roll
 push up with mountain climber,USES,bodyweight
 front to back jump rope,USES,jump rope
 cable inner chest press,USES,cable
-one-arm dumbbell bench press,USES,dumbbell
-one arm bottoms up kettlebell bench press,USES,kettle bells
+one-arm dumbbell bench press,USES,bench press machine
+one arm bottoms up kettlebell bench press,USES,bench press machine
 alternating reach push up,USES,bodyweight
 lying cable pullover (rope extension),USES,cable
 pec lacrosse ball,USES,lacrosse ball
-band suspended kettlebell bench press,USES,barbell
+band suspended kettlebell bench press,USES,bench press machine
 alternating decline dumbbell fly,USES,dumbbell
 alternating dumbbell fly,USES,dumbbell
 reverse grip incline push up,USES,bench
@@ -428,8 +428,8 @@ push up (feet on swiss ball),USES,exercise ball
 paused push up,USES,bodyweight
 sled press,USES,sled
 half kneeling medicine ball chest pass,USES,medicine ball
-wide grip reverse bench press,USES,barbell
-smith machine wide grip bench press,USES,machine
+wide grip reverse bench press,USES,bench press machine
+smith machine wide grip bench press,USES,smith machine
 alternating medicine ball push up,USES,medicine ball
 knee push-up,USES,bodyweight
 push up to side plank,USES,bodyweight
@@ -439,27 +439,27 @@ floor press,USES,barbell
 single leg medicine ball chest pass wall tap,USES,medicine ball
 flat bench cable flys,USES,cable
 eccentric only push up,USES,bodyweight
-neutral grip incline dumbbell bench press,USES,dumbbell
+neutral grip incline dumbbell bench press,USES,bench press machine
 exercise ball dumbbell fly,USES,exercise ball
 rack pec stretch,USES,bodyweight
 decline cable chest press,USES,cable
-reverse grip incline bench press,USES,barbell
+reverse grip incline bench press,USES,bench press machine
 knuckle push up,USES,bodyweight
-dumbbell bench press rotational grip,USES,dumbbell
+dumbbell bench press rotational grip,USES,bench press machine
 bosu ball push up,USES,other
-wide grip decline bench press,USES,bench
+wide grip decline bench press,USES,bench press machine
 decline cable flys,USES,cable
-neutral grip decline dumbbell bench press,USES,dumbbell
+neutral grip decline dumbbell bench press,USES,bench press machine
 tall kneeling medicine ball chest pass,USES,medicine ball
 kettlebell push up,USES,kettle bells
 cable chest press,USES,cable
 rotating mountain climber,USES,bodyweight
 reverse one arm cable curl,USES,cable
-smith machine seated wrist curl,USES,machine
+smith machine seated wrist curl,USES,smith machine
 landmine goblet squat,USES,landmine
 dumbbell thruster,USES,dumbbell
 chair leg raise,USES,bodyweight
-wide hack squat,USES,machine
+wide hack squat,USES,hack squat machine
 ring fly,USES,rings
 wide grip push ups,USES,bodyweight
 standing low pulley overhead tricep extension (rope extension),USES,cable
@@ -473,14 +473,14 @@ standing cable wrist curl (behind back),USES,cable
 push press,USES,barbell
 power clean,USES,barbell
 split squat,USES,bodyweight
-smith machine squat to bench,USES,machine
+smith machine squat to bench,USES,smith machine
 band resisted back squat,USES,bands
 1 kb kettlebell clean & press,USES,kettle bells
 overhead step up,USES,other
 incline cable flys,USES,cable
 standing low to high cable fly,USES,cable
 incline push ups,USES,bodyweight
-incline close grip bench press,USES,barbell
+incline close grip bench press,USES,bench press machine
 one arm bent over dumbbell tricep kickback,USES,dumbbell
 banded tricep extension,USES,bands
 seated french press,USES,barbell
@@ -493,18 +493,18 @@ incline hammer curl,USES,dumbbell
 one arm dumbbell hammer preacher curl,USES,dumbbell
 twisting standing dumbbell curl,USES,dumbbell
 barbell hammer curl,USES,barbell
-smith machine shrug,USES,machine
+smith machine shrug,USES,smith machine
 military press behind neck,USES,barbell
 standing arnold press,USES,dumbbell
 prisoner jump squat,USES,bodyweight
 overhead squat,USES,barbell
 weighted sissy squat,USES,other
 snatch grip barbell shrug,USES,barbell
-smith machine seated toe raise,USES,machine
+smith machine seated toe raise,USES,toe raise machine
 one-leg donkey calf raise,USES,bodyweight
 single leg side to side jump rope,USES,jump rope
-smith machine toe raise,USES,machine
-valslide leg curl,USES,valslide
+smith machine toe raise,USES,toe raise machine
+valslide leg curl,USES,leg curl machine
 alternating single leg jump rope,USES,jump rope
 single leg one dumbbell deadlift,USES,dumbbell
 inchworm,USES,bodyweight
@@ -517,18 +517,18 @@ side crunch with leg lift,USES,bodyweight
 reverse grip cable curl,USES,cable
 backward sled push,USES,sled
 lying cable pullover,USES,cable
-reverse grip close grip bench press,USES,barbell
+reverse grip close grip bench press,USES,bench press machine
 dumbbell tricep kickback,USES,dumbbell
 decline bench dumbbell lunge,USES,dumbbell
 close grip dumbbell press (aka crush press),USES,dumbbell
-alternate dumbbell bench press (high start),USES,dumbbell
+alternate dumbbell bench press (high start),USES,bench press machine
 one-arm seated dumbbell extension,USES,dumbbell
 plate resisted glute ham raise,USES,other
 paused sumo deadlift,USES,barbell
 reverse hyperextension,USES,bodyweight
 seated external rotation,USES,bands
 trap bar rack pull,USES,trap bar
-smith machine stiff leg deadlift,USES,machine
+smith machine stiff leg deadlift,USES,smith machine
 exercise ball preacher curl,USES,exercise ball
 seated zottman curl,USES,dumbbell
 reverse band sumo deadlift,USES,barbell
@@ -543,7 +543,7 @@ trap bar deficit deadlift,USES,trap bar
 jefferson deadlift,USES,barbell
 sumo deadlift,USES,barbell
 snatch grip romanian deadlift,USES,barbell
-smith machine bicep curl,USES,machine
+smith machine bicep curl,USES,smith machine
 alternate seated dumbbell curl,USES,dumbbell
 barbell stiff leg deadlift (on bench),USES,barbell
 barbell sumo romanian deadlift,USES,barbell
@@ -555,11 +555,11 @@ one arm kettlebell z press,USES,kettle bells
 seated cable shrug,USES,cable
 low bar back squat,USES,barbell
 seated dumbbell reverse curl,USES,dumbbell
-smith machine one leg calf raise,USES,machine
+smith machine one leg calf raise,USES,smith machine
 lying cable upright row,USES,cable
 one-leg cable calf raise,USES,cable
 overhead barbell shrug,USES,barbell
-single leg curl,USES,machine
+single leg curl,USES,leg curl machine
 posterior calf foam rolling,USES,foam roll
 double kettlebell suitcase deadlift,USES,kettle bells
 single leg jump rope,USES,jump rope
@@ -576,9 +576,9 @@ weighted chest dip,USES,other
 high pulley overhead tricep extension (rope extension),USES,cable
 reverse grip cable tricep extension,USES,cable
 ipsilateral load dumbbell rear lunge,USES,dumbbell
-paused barbell bench press,USES,barbell
+paused barbell bench press,USES,bench press machine
 cable tricep extension with v-bar,USES,cable
-smith machine incline bench press,USES,machine
+smith machine incline bench press,USES,smith machine
 one arm standing hammer curl,USES,dumbbell
 one arm kettlebell floor press,USES,kettle bells
 hip thruster with mini band,USES,hip thruster
@@ -599,7 +599,7 @@ lying cable shrug,USES,cable
 knee break ankle mobilization,USES,bodyweight
 peroneal foam rolling,USES,foam roll
 single leg front to back jump rope,USES,jump rope
-machine shrug,USES,machine
+machine shrug,USES,shrug machine
 sumo high pull,USES,barbell
 trap lacrosse ball,USES,lacrosse ball
 dumbbell overhead carry,USES,dumbbell
@@ -611,8 +611,8 @@ reverse cable preacher curl,USES,cable
 forearm flexors lacrosse ball,USES,lacrosse ball
 back squat to box against chains,USES,chains
 speed squats,USES,barbell
-wide grip incline bench press,USES,barbell
-neutral grip dumbbell bench press,USES,dumbbell
+wide grip incline bench press,USES,bench press machine
+neutral grip dumbbell bench press,USES,bench press machine
 dumbbell twist press,USES,dumbbell
 standing high to low cable fly,USES,cable
 weighted tricep dips,USES,other
@@ -626,7 +626,7 @@ standing high pulley cable curl,USES,cable
 barbell preacher curl,USES,barbell
 cable upright row,USES,cable
 landmine lateral raise,USES,landmine
-machine lateral raise,USES,machine
+machine lateral raise,USES,lateral raise machine
 cable front raise (bilateral),USES,cable
 one-arm seated cable row,USES,cable
 kettlebell lateral lunge,USES,kettle bells
@@ -646,7 +646,7 @@ close grip pull up,USES,bodyweight
 eccentric only chin up,USES,bodyweight
 standing overhead medicine ball throw,USES,medicine ball
 standing overhead medicine ball slam,USES,medicine ball
-feet forward smith machine squat,USES,machine
+feet forward smith machine squat,USES,smith machine
 snatch shrug,USES,barbell
 inverted shrug,USES,bodyweight
 yoga plex,USES,box
@@ -654,18 +654,18 @@ reverse grip incline bench cable row,USES,cable
 double arm sled row,USES,sled
 incline bench barbell row,USES,barbell
 thoracic extension on foam roller,USES,foam roll
-banded machine t-bar row,USES,machine
+banded machine t-bar row,USES,banded machine
 cable palm rotational row,USES,cable
 batwing reverse sled drag,USES,sled
 reverse grip incline bench two-arm dumbbell row,USES,dumbbell
-t-bar machine shrug,USES,machine
-smith machine one leg toe raise,USES,machine
+t-bar machine shrug,USES,t-bar machine
+smith machine one leg toe raise,USES,toe raise machine
 seated barbell calf raise,USES,barbell
 anterior calf foam rolling,USES,foam roll
 resistance band assisted pull up (from foot),USES,bands
 banded tibialis raise,USES,bands
 skin the cat,USES,rings
-lat pulldown (rope extension),USES,machine
+lat pulldown (rope extension),USES,lat pulldown (rope extension) machine
 single leg barbell romanian deadlift,USES,barbell
 lying cable hamstring curl,USES,cable
 snatch grip block pull deadlift,USES,barbell
@@ -686,14 +686,14 @@ french press,USES,barbell
 single leg glute bridge,USES,bodyweight
 standing dumbbell reverse curl,USES,dumbbell
 one-arm cable curl,USES,cable
-lat pulldown bicep curl,USES,machine
-machine bicep curl,USES,machine
-ghd back extension iso hold,USES,machine
+lat pulldown bicep curl,USES,lat pulldown bicep curl machine
+machine bicep curl,USES,bicep curl machine
+ghd back extension iso hold,USES,back extension machine
 one arm dumbbell lateral raise,USES,dumbbell
-smith machine upright row,USES,machine
+smith machine upright row,USES,smith machine
 barbell front raise,USES,barbell
 palm rotational row,USES,dumbbell
-machine shoulder press,USES,machine
+machine shoulder press,USES,shoulder press machine
 weighted inverted row,USES,rings
 renegade row,USES,dumbbell
 incline bench cable row,USES,cable
@@ -706,16 +706,16 @@ one-arm dumbbell upright row,USES,dumbbell
 2 kb kettlebell sumo deadlift high pull,USES,kettle bells
 zerchers squat,USES,barbell
 single leg circle jump rope,USES,jump rope
-toes in smith machine calf raise,USES,machine
+toes in smith machine calf raise,USES,smith machine
 thibaudeau kayak row,USES,cable
 reverse grip seated cable wrist curl,USES,cable
 archer pull up,USES,bodyweight
 single leg overhead medicine ball tap,USES,medicine ball
-toes out standing calf raise,USES,machine
+toes out standing calf raise,USES,toes out standing calf raise machine
 dumbbell side bends,USES,dumbbell
 forearm tiger tail,USES,tiger tail
 standing one arm dumbbell reverse curl,USES,dumbbell
-hammer strength machine incline bench press,USES,machine
+hammer strength machine incline bench press,USES,bench press machine
 push up,USES,bodyweight
 two arm standing dumbbell extension,USES,dumbbell
 bench dip,USES,bodyweight
@@ -731,14 +731,14 @@ cable lateral raise,USES,cable
 seated dumbbell lateral raise,USES,dumbbell
 seated row using rope,USES,cable
 weight vest weighted inverted row,USES,other
-reverse grip smith machine bent-over row,USES,machine
+reverse grip smith machine bent-over row,USES,smith machine
 1 kb kettlebell sumo deadlift high pull,USES,kettle bells
-standing calf machine shrug,USES,machine
+standing calf machine shrug,USES,standing calf machine
 cable shrug,USES,cable
 wide grip upright row,USES,barbell
 posterior calf lacrosse ball,USES,lacrosse ball
 bodyweight floor calf raise,USES,bodyweight
-toes in standing machine calf raise,USES,machine
+toes in standing machine calf raise,USES,toes in standing machine
 skipping jump rope,USES,jump rope
 underhand close grip lat pulldown,USES,cable
 band assisted chin up (from knee),USES,bands
@@ -751,9 +751,9 @@ cable crossovers (upper chest),USES,cable
 cable crunch,USES,cable
 dumbbell reverse preacher curl,USES,dumbbell
 zercher carry,USES,barbell
-reverse dumbbell bench press,USES,dumbbell
-decline bench press,USES,barbell
-close grip bench press,USES,barbell
+reverse dumbbell bench press,USES,bench press machine
+decline bench press,USES,bench press machine
+close grip bench press,USES,bench press machine
 rope tricep extension,USES,cable
 good mornings off pins,USES,barbell
 dynamic pigeon,USES,bodyweight
@@ -774,8 +774,8 @@ cable row to neck,USES,cable
 clean shrug,USES,barbell
 one-leg seated dumbbell calf raise,USES,dumbbell
 cable calf raise,USES,cable
-45 degree toe raise,USES,machine
-overhand close grip lat pulldown,USES,machine
+45 degree toe raise,USES,toe raise machine
+overhand close grip lat pulldown,USES,overhand close grip lat pulldown machine
 one-leg standing bodyweight calf raise,USES,bodyweight
 trap bar romanian deadlift,USES,trap bar
 lat foam rolling,USES,foam roll
@@ -806,25 +806,25 @@ seated high cable row,USES,cable
 deadstop rack row,USES,barbell
 gittleson shrug,USES,dumbbell
 world's greatest stretch,USES,bodyweight
-smith machine one-arm row,USES,machine
+smith machine one-arm row,USES,smith machine
 tate press,USES,dumbbell
 trap bar shrug,USES,trap bar
 bodyweight standing calf raise,USES,bodyweight
 donkey calf raise,USES,bodyweight
-smith machine calf raise,USES,machine
+smith machine calf raise,USES,smith machine
 rope climb,USES,rope
 band assisted chin up (from foot),USES,bands
 pull up with leg raise,USES,bodyweight
 american deadlift,USES,barbell
-exercise ball leg curl (shelc),USES,exercise ball
+exercise ball leg curl (shelc),USES,leg curl machine
 1 kettlebell single leg deadlift,USES,kettle bells
 landmine rdl,USES,landmine
 reverse barbell wrist curl over bench,USES,barbell
 dumbbell suitcase carry,USES,dumbbell
-hammer strength bench press,USES,machine
+hammer strength bench press,USES,bench press machine
 cable iron cross,USES,cable
 incline dumbbell flys,USES,dumbbell
-pec dec,USES,machine
+pec dec,USES,pec dec machine
 seated dumbbell tricep extension,USES,dumbbell
 ez bar skullcrusher,USES,ez bar
 lying dumbbell extension,USES,dumbbell
@@ -834,9 +834,9 @@ incline dumbbell curl,USES,dumbbell
 straight bar tricep extension,USES,cable
 standing hammer curl,USES,dumbbell
 bent over dumbbell reverse fly,USES,dumbbell
-smith machine shoulder press,USES,machine
+smith machine shoulder press,USES,smith machine
 military press (aka overhead press),USES,barbell
-hip adduction machine,USES,machine
+hip adduction machine,USES,hip adduction machine
 dumbbell lateral raise,USES,dumbbell
 deep squat prying,USES,kettle bells
 high pull sled drag,USES,sled
@@ -845,31 +845,31 @@ ez-bar reverse grip bent-over row,USES,ez bar
 one-arm bent-over row,USES,barbell
 high inverted row,USES,bodyweight
 barbell shrug,USES,barbell
-standing machine calf raise,USES,machine
+standing machine calf raise,USES,standing machine
 barbell upright row,USES,barbell
 dumbbell shrug,USES,dumbbell
 standing one-leg calf raise with dumbbell,USES,dumbbell
 cable hip abduction,USES,cable
 standing barbell calf raise,USES,barbell
-hip abduction machine,USES,machine
+hip abduction machine,USES,hip abduction machine
 weighted pull up,USES,chains
 weighted chin up,USES,chains
 one arm chin up,USES,bodyweight
 razor curl,USES,bodyweight
 gironda sternum chin up,USES,bodyweight
-nordic hamstring curl (bodyweight),USES,machine
+nordic hamstring curl (bodyweight),USES,nordic hamstring curl (bodyweight) machine
 standing cable hamstring curl,USES,cable
 pendlay row,USES,barbell
 bodyweight single leg deadlift,USES,bodyweight
-incline bench press,USES,barbell
+incline bench press,USES,bench press machine
 banded good morning,USES,bands
-ghd back extension,USES,machine
+ghd back extension,USES,back extension machine
 chest supported dumbbell row with isohold,USES,dumbbell
 reverse grip bent over row,USES,barbell
-smith machine bent-over row,USES,machine
+smith machine bent-over row,USES,smith machine
 seated dumbbell calf raise,USES,dumbbell
-45 degree leg press calf raise,USES,machine
-seated calf raise,USES,machine
+45 degree leg press calf raise,USES,leg press machine
+seated calf raise,USES,seated calf raise machine
 triple pause chin up,USES,bodyweight
 resistance band assisted pull up (from knee),USES,bands
 eccentric only pull up,USES,bodyweight
@@ -879,22 +879,22 @@ kettlebell swing,USES,kettle bells
 trap bar deadlift,USES,trap bar
 band assisted nordic hamstring curl,USES,bands
 seated barbell wrist curl,USES,barbell
-incline dumbbell bench press,USES,dumbbell
-dumbbell bench press,USES,dumbbell
+incline dumbbell bench press,USES,bench press machine
+dumbbell bench press,USES,bench press machine
 side lying clam,USES,bodyweight
 cradle walk,USES,bodyweight
-standing glute kickback,USES,machine
+standing glute kickback,USES,standing glute kickback machine
 meadows row,USES,landmine
 t-bar row,USES,barbell
-machine t-bar row,USES,machine
+machine t-bar row,USES,t-bar row machine
 kneeling posterior hip capsule mobilization,USES,bodyweight
 dumbbell pullover,USES,dumbbell
 around the bar chin ups,USES,bodyweight
 rope straight arm pull down,USES,cable
-wide smith machine squat,USES,machine
+wide smith machine squat,USES,smith machine
 v-bar pull down,USES,cable
 v-bar pull up,USES,bodyweight
-reverse hack squat,USES,machine
+reverse hack squat,USES,hack squat machine
 dumbbell hamstring curl,USES,dumbbell
 stiff leg deadlift,USES,barbell
 neutral grip chest supported dumbbell row,USES,dumbbell
@@ -907,54 +907,54 @@ standing hip flexion w/ bands,USES,bands
 fire hydrant circles,USES,bodyweight
 hip flexor lacrosse ball,USES,lacrosse ball
 lying psoas march,USES,bands
-reverse grip lat pull down (underhand),USES,machine
-wide grip lat pull down,USES,machine
+reverse grip lat pull down (underhand),USES,lat pull down machine
+wide grip lat pull down,USES,lat pull down machine
 romanian deadlift (aka rdl),USES,barbell
 pull up,USES,bodyweight
 chin up,USES,bodyweight
 conventional deadlift,USES,barbell
 dumbbell stiff leg deadlift,USES,dumbbell
-leg curl,USES,machine
+leg curl,USES,leg curl machine
 tripod dumbbell row,USES,dumbbell
 bent over row,USES,barbell
-straight arm lat pull down,USES,cable
+straight arm lat pull down,USES,lat pull down machine
 bent over dumbbell row,USES,dumbbell
 one arm dumbbell row,USES,dumbbell
 wide grip pull up,USES,bodyweight
 deep squat,USES,barbell
 box squat,USES,box
-smith machine leg press,USES,machine
-lat pull down,USES,cable
-close grip lat pull down,USES,cable
-barbell hack squat,USES,barbell
+smith machine leg press,USES,leg press machine
+lat pull down,USES,lat pull down machine
+close grip lat pull down,USES,lat pull down machine
+barbell hack squat,USES,hack squat machine
 hang clean,USES,barbell
 sumo squat,USES,barbell
 power clean from blocks,USES,barbell
 1 kb kettlebell snatch,USES,kettle bells
 walking barbell lunge,USES,barbell
-narrow stance machine hack squat,USES,machine
-split stance cable chop,USES,cable
-tall kneeling cable chop,USES,cable
-half kneeling cable lift,USES,machine
+narrow stance machine hack squat,USES,hack squat machine
+split stance cable chop,USES,cable chop machine
+tall kneeling cable chop,USES,cable chop machine
+half kneeling cable lift,USES,half kneeling cable lift machine
 rollover into v-sits,USES,bodyweight
-smith machine deadlift,USES,machine
+smith machine deadlift,USES,smith machine
 kettlebell goblet squat,USES,kettle bells
 prone quad stretch,USES,bodyweight
 tire flip,USES,tire
 split stance cable lift,USES,cable
-smith machine lunge,USES,machine
+smith machine lunge,USES,smith machine
 off bench oblique hold,USES,other
 low cable wood chop,USES,cable
-half kneeling cable chop,USES,machine
+half kneeling cable chop,USES,cable chop machine
 bodyweight lunge,USES,bodyweight
-smith machine squat,USES,machine
+smith machine squat,USES,smith machine
 muscle snatch,USES,barbell
 front squat to bench,USES,barbell
 depth jump to hurdle hop,USES,box
 seated vertical jump,USES,box
-wide stance 45 degree leg press,USES,machine
+wide stance 45 degree leg press,USES,leg press machine
 valslide reverse lunges,USES,valslide
-narrow smith machine squat,USES,machine
+narrow smith machine squat,USES,smith machine
 back squat against chains,USES,chains
 1 kb kettlebell push press,USES,kettle bells
 one leg barbell squat,USES,barbell
@@ -974,14 +974,14 @@ superman,USES,bodyweight
 belt squat,USES,other
 depth jump,USES,box
 dumbbell deadlift,USES,dumbbell
-narrow stance 45 degree leg press,USES,machine
+narrow stance 45 degree leg press,USES,leg press machine
 kettlebell step up,USES,kettle bells
 90/90 hip crossover,USES,bodyweight
 plie squat,USES,dumbbell
 side crunch (aka oblique crunch),USES,bodyweight
 bodyweight walking lunge,USES,bodyweight
 palmar fascia lacrosse ball,USES,lacrosse ball
-smith machine front squat,USES,machine
+smith machine front squat,USES,smith machine
 barbell thruster,USES,barbell
 prisoner squat,USES,bodyweight
 single leg squat from bench,USES,bench
@@ -998,10 +998,10 @@ frog squat,USES,dumbbell
 front squat,USES,barbell
 one leg dumbbell squat (aka dumbbell bulgarian split squat),USES,dumbbell
 dumbbell rear lunge,USES,dumbbell
-machine hack squat,USES,machine
-leg press,USES,machine
+machine hack squat,USES,hack squat machine
+leg press,USES,leg press machine
 dumbbell lunge,USES,dumbbell
 dumbbell squat,USES,dumbbell
-leg extension,USES,machine
+leg extension,USES,leg extension machine
 barbell back squat,USES,barbell
 dumbbell goblet squat,USES,dumbbell
