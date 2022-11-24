@@ -47,3 +47,4 @@ class Poses(scrapy.Item):
     followup_poses = scrapy.Field() #Done
     intructions = scrapy.Field() #Done
     variation = scrapy.Field()
+    url = scrapy.Field()

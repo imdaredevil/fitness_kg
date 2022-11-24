@@ -62,6 +62,8 @@ class YogaPipeline:
             for dict_key,dict_value in item.items():
                 if dict_key == "name":
                     item[dict_key] = dict_value.strip()
+                elif dict_key=="url":
+                    item[dict_key] = dict_value
                 else:
                     new_list = []
                     for poses in dict_value:

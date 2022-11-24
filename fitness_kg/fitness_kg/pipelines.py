@@ -52,18 +52,18 @@ class JsonWriterPipeline:
     def __init__(self):
         self.filenames = {
             'gym_spider': {
-                'muscle' : '../Extracted/Gym/muscle_groups.jsonl',
-                'exercise': '../Extracted/Gym/exercise.jsonl',
-                'exercisegroup': '../Extracted/Gym/exercise_group.jsonl',
+                'muscle' : 'Extracted/Gym/muscle_groups.jsonl',
+                'exercise': 'Extracted/Gym/exercise.jsonl',
+                'exercisegroup': 'Extracted/Gym/exercise_group.jsonl',
                 
             },
             'exrx_spider': {
-                'exrx_muscle' : '../Extracted/exrx/exrx_muscle_groups.jsonl',
-                'exrx_exercise': '../Extracted/exrx/exrx_exercise.jsonl',
-                'exrx_exercisegroup': '../Extracted/exrx/exrx_exercise_group.jsonl', 
+                'exrx_muscle' : 'Extracted/exrx/exrx_muscle_groups.jsonl',
+                'exrx_exercise': 'Extracted/exrx/exrx_exercise.jsonl',
+                'exrx_exercisegroup': 'Extracted/exrx/exrx_exercise_group.jsonl', 
             },
             'fat_spider': {
-                'cardio': '../Extracted/Fat/cardio.jsonl',
+                'cardio': 'Extracted/Fat/cardio.jsonl',
             }
         }
         self.filewriters = {}

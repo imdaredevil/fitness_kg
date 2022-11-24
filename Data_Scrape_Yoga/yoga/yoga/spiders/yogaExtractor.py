@@ -166,6 +166,8 @@ class YogaExtractor(scrapy.Spider):
                 if not inst_set or len(inst_set)<1:
                     # print("1. ", name)
                     pass
+
+        url = response.url
         
         yield Poses(
             name = name,
@@ -175,7 +177,8 @@ class YogaExtractor(scrapy.Spider):
             preparatory_poses = preparatory_data,
             followup_poses = followUp_data,
             intructions = instructions,
-            variation = variation
+            variation = variation,
+            url = url
         )
 
     def meditationDetails(self, response):
