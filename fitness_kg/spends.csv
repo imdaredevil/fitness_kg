@@ -1,0 +1,905 @@
+source,relation,destination
+sleeping,SPENDS,0-2.5
+sleeping,SPENDS,0-5.0
+sleeping,SPENDS,0-1.5
+sleeping,SPENDS,0-1200
+sleeping,SPENDS,0-110
+resting,SPENDS,0-2.5
+resting,SPENDS,0-5.0
+resting,SPENDS,0-1.5
+resting,SPENDS,0-1200
+resting,SPENDS,0-110
+sitting,SPENDS,0-2.5
+sitting,SPENDS,0-5.0
+sitting,SPENDS,0-1.5
+sitting,SPENDS,0-1200
+sitting,SPENDS,0-110
+desk work,SPENDS,0-2.5
+desk work,SPENDS,0-5.0
+desk work,SPENDS,0-1.5
+desk work,SPENDS,0-1200
+desk work,SPENDS,0-110
+driving,SPENDS,0-2.5
+driving,SPENDS,0-5.0
+driving,SPENDS,1.6-2.5
+driving,SPENDS,0-1200
+driving,SPENDS,0-110
+bathing,SPENDS,0-2.5
+bathing,SPENDS,0-5.0
+bathing,SPENDS,1.6-2.5
+bathing,SPENDS,0-1200
+bathing,SPENDS,0-110
+spa,SPENDS,0-2.5
+spa,SPENDS,0-5.0
+spa,SPENDS,1.6-2.5
+spa,SPENDS,0-1200
+spa,SPENDS,0-110
+singing,SPENDS,0-2.5
+singing,SPENDS,0-5.0
+singing,SPENDS,1.6-2.5
+singing,SPENDS,0-1200
+singing,SPENDS,0-110
+showering,SPENDS,0-2.5
+showering,SPENDS,0-5.0
+showering,SPENDS,1.6-2.5
+showering,SPENDS,0-1200
+showering,SPENDS,0-110
+sexual activity,SPENDS,0-2.5
+sexual activity,SPENDS,0-5.0
+sexual activity,SPENDS,1.6-2.5
+sexual activity,SPENDS,0-1200
+sexual activity,SPENDS,0-110
+sewing,SPENDS,0-2.5
+sewing,SPENDS,0-5.0
+sewing,SPENDS,1.6-2.5
+sewing,SPENDS,0-1200
+sewing,SPENDS,0-110
+working,SPENDS,0-2.5
+working,SPENDS,0-5.0
+working,SPENDS,1.6-2.5
+working,SPENDS,0-1200
+working,SPENDS,0-110
+studying,SPENDS,0-2.5
+studying,SPENDS,0-5.0
+studying,SPENDS,1.6-2.5
+studying,SPENDS,0-1200
+studying,SPENDS,0-110
+reading,SPENDS,0-2.5
+reading,SPENDS,0-5.0
+reading,SPENDS,1.6-2.5
+reading,SPENDS,0-1200
+reading,SPENDS,0-110
+music playing,SPENDS,0-2.5
+music playing,SPENDS,0-5.0
+music playing,SPENDS,1.6-2.5
+music playing,SPENDS,0-1200
+music playing,SPENDS,0-110
+teaching,SPENDS,0-2.5
+teaching,SPENDS,0-5.0
+teaching,SPENDS,1.6-2.5
+teaching,SPENDS,0-1200
+teaching,SPENDS,0-110
+massage,SPENDS,0-2.5
+massage,SPENDS,0-5.0
+massage,SPENDS,1.6-2.5
+massage,SPENDS,0-1200
+massage,SPENDS,0-110
+karaoke,SPENDS,0-2.5
+karaoke,SPENDS,0-5.0
+karaoke,SPENDS,1.6-2.5
+karaoke,SPENDS,0-1200
+karaoke,SPENDS,0-110
+walking (slow) - 2/mph,SPENDS,0-2.5
+walking (slow) - 2/mph,SPENDS,0-5.0
+walking (slow) - 2/mph,SPENDS,1.6-2.5
+walking (slow) - 2/mph,SPENDS,0-1200
+walking (slow) - 2/mph,SPENDS,0-110
+watching tv/computer,SPENDS,0-2.5
+watching tv/computer,SPENDS,0-5.0
+watching tv/computer,SPENDS,1.6-2.5
+watching tv/computer,SPENDS,0-1200
+watching tv/computer,SPENDS,0-110
+golf (cart),SPENDS,0-2.5
+golf (cart),SPENDS,0-5.0
+golf (cart),SPENDS,1.6-2.5
+golf (cart),SPENDS,0-1200
+golf (cart),SPENDS,0-110
+cooking,SPENDS,0-2.5
+cooking,SPENDS,0-5.0
+cooking,SPENDS,1.6-2.5
+cooking,SPENDS,0-1200
+cooking,SPENDS,0-110
+breastfeeding,SPENDS,0-2.5
+breastfeeding,SPENDS,0-5.0
+breastfeeding,SPENDS,1.6-2.5
+breastfeeding,SPENDS,0-1200
+breastfeeding,SPENDS,0-110
+standing,SPENDS,0-2.5
+standing,SPENDS,0-5.0
+standing,SPENDS,1.6-2.5
+standing,SPENDS,0-1200
+standing,SPENDS,0-110
+shopping,SPENDS,0-2.5
+shopping,SPENDS,0-5.0
+shopping,SPENDS,1.6-2.5
+shopping,SPENDS,0-1200
+shopping,SPENDS,0-110
+housework,SPENDS,0-2.5
+housework,SPENDS,0-5.0
+housework,SPENDS,1.6-2.5
+housework,SPENDS,0-1200
+housework,SPENDS,0-110
+stretching (yoga),SPENDS,0-2.5
+stretching (yoga),SPENDS,0-5.0
+stretching (yoga),SPENDS,1.6-2.5
+stretching (yoga),SPENDS,0-1200
+stretching (yoga),SPENDS,0-110
+washing dishes,SPENDS,0-5.0
+washing dishes,SPENDS,0-1200
+washing dishes,SPENDS,2.6-3.5
+washing dishes,SPENDS,0-110
+washing dishes,SPENDS,2.6-5.0
+scooter,SPENDS,0-5.0
+scooter,SPENDS,0-1200
+scooter,SPENDS,2.6-3.5
+scooter,SPENDS,0-110
+scooter,SPENDS,2.6-5.0
+motorbike riding,SPENDS,0-5.0
+motorbike riding,SPENDS,0-1200
+motorbike riding,SPENDS,2.6-3.5
+motorbike riding,SPENDS,0-110
+motorbike riding,SPENDS,2.6-5.0
+ironing,SPENDS,0-5.0
+ironing,SPENDS,0-1200
+ironing,SPENDS,2.6-3.5
+ironing,SPENDS,0-110
+ironing,SPENDS,2.6-5.0
+hanging laundry,SPENDS,0-5.0
+hanging laundry,SPENDS,0-1200
+hanging laundry,SPENDS,2.6-3.5
+hanging laundry,SPENDS,0-110
+hanging laundry,SPENDS,2.6-5.0
+grocery shopping,SPENDS,0-5.0
+grocery shopping,SPENDS,0-1200
+grocery shopping,SPENDS,2.6-3.5
+grocery shopping,SPENDS,0-110
+grocery shopping,SPENDS,2.6-5.0
+sauna,SPENDS,0-5.0
+sauna,SPENDS,0-1200
+sauna,SPENDS,2.6-3.5
+sauna,SPENDS,0-110
+sauna,SPENDS,2.6-5.0
+yoga,SPENDS,0-5.0
+yoga,SPENDS,0-1200
+yoga,SPENDS,2.6-3.5
+yoga,SPENDS,0-110
+yoga,SPENDS,2.6-5.0
+cleaning,SPENDS,0-5.0
+cleaning,SPENDS,0-1200
+cleaning,SPENDS,2.6-3.5
+cleaning,SPENDS,0-110
+cleaning,SPENDS,2.6-5.0
+wii fit (electronic games),SPENDS,0-5.0
+wii fit (electronic games),SPENDS,0-1200
+wii fit (electronic games),SPENDS,2.6-3.5
+wii fit (electronic games),SPENDS,0-110
+wii fit (electronic games),SPENDS,2.6-5.0
+washing car,SPENDS,0-5.0
+washing car,SPENDS,0-1200
+washing car,SPENDS,2.6-3.5
+washing car,SPENDS,0-110
+washing car,SPENDS,2.6-5.0
+boating or canoeing,SPENDS,0-5.0
+boating or canoeing,SPENDS,0-1200
+boating or canoeing,SPENDS,2.6-3.5
+boating or canoeing,SPENDS,0-110
+boating or canoeing,SPENDS,2.6-5.0
+fishing,SPENDS,0-5.0
+fishing,SPENDS,0-1200
+fishing,SPENDS,2.6-3.5
+fishing,SPENDS,0-110
+fishing,SPENDS,2.6-5.0
+vacuuming,SPENDS,0-5.0
+vacuuming,SPENDS,0-1200
+vacuuming,SPENDS,2.6-3.5
+vacuuming,SPENDS,0-110
+vacuuming,SPENDS,2.6-5.0
+do it yourself (diy),SPENDS,0-5.0
+do it yourself (diy),SPENDS,0-1200
+do it yourself (diy),SPENDS,2.6-3.5
+do it yourself (diy),SPENDS,0-110
+do it yourself (diy),SPENDS,2.6-5.0
+surfing,SPENDS,0-5.0
+surfing,SPENDS,0-1200
+surfing,SPENDS,2.6-3.5
+surfing,SPENDS,0-110
+surfing,SPENDS,2.6-5.0
+sailing,SPENDS,0-5.0
+sailing,SPENDS,0-1200
+sailing,SPENDS,2.6-3.5
+sailing,SPENDS,0-110
+sailing,SPENDS,2.6-5.0
+pilates,SPENDS,0-5.0
+pilates,SPENDS,0-1200
+pilates,SPENDS,2.6-3.5
+pilates,SPENDS,0-110
+pilates,SPENDS,2.6-5.0
+walking (moderate) - 3/mph,SPENDS,0-5.0
+walking (moderate) - 3/mph,SPENDS,0-1200
+walking (moderate) - 3/mph,SPENDS,2.6-3.5
+walking (moderate) - 3/mph,SPENDS,0-110
+walking (moderate) - 3/mph,SPENDS,2.6-5.0
+"calisthenics (light, e.g. home exercise)",SPENDS,0-5.0
+"calisthenics (light, e.g. home exercise)",SPENDS,0-1200
+"calisthenics (light, e.g. home exercise)",SPENDS,2.6-3.5
+"calisthenics (light, e.g. home exercise)",SPENDS,0-110
+"calisthenics (light, e.g. home exercise)",SPENDS,2.6-5.0
+walking (exercise) - 3.5/mph,SPENDS,0-5.0
+walking (exercise) - 3.5/mph,SPENDS,3.6-5.0
+walking (exercise) - 3.5/mph,SPENDS,0-1200
+walking (exercise) - 3.5/mph,SPENDS,0-110
+walking (exercise) - 3.5/mph,SPENDS,2.6-5.0
+yard work (gardening),SPENDS,0-5.0
+yard work (gardening),SPENDS,3.6-5.0
+yard work (gardening),SPENDS,0-1200
+yard work (gardening),SPENDS,0-110
+yard work (gardening),SPENDS,2.6-5.0
+raking,SPENDS,0-5.0
+raking,SPENDS,3.6-5.0
+raking,SPENDS,0-1200
+raking,SPENDS,0-110
+raking,SPENDS,2.6-5.0
+archery,SPENDS,0-5.0
+archery,SPENDS,3.6-5.0
+archery,SPENDS,0-1200
+archery,SPENDS,0-110
+archery,SPENDS,2.6-5.0
+table tennis (ping pong),SPENDS,0-5.0
+table tennis (ping pong),SPENDS,3.6-5.0
+table tennis (ping pong),SPENDS,0-1200
+table tennis (ping pong),SPENDS,0-110
+table tennis (ping pong),SPENDS,2.6-5.0
+motor-cross,SPENDS,0-5.0
+motor-cross,SPENDS,3.6-5.0
+motor-cross,SPENDS,0-1200
+motor-cross,SPENDS,0-110
+motor-cross,SPENDS,2.6-5.0
+volleyball,SPENDS,0-5.0
+volleyball,SPENDS,3.6-5.0
+volleyball,SPENDS,0-1200
+volleyball,SPENDS,0-110
+volleyball,SPENDS,2.6-5.0
+water biking/running,SPENDS,0-5.0
+water biking/running,SPENDS,3.6-5.0
+water biking/running,SPENDS,0-1200
+water biking/running,SPENDS,0-110
+water biking/running,SPENDS,2.6-5.0
+swimming (slow),SPENDS,0-5.0
+swimming (slow),SPENDS,3.6-5.0
+swimming (slow),SPENDS,0-1200
+swimming (slow),SPENDS,0-110
+swimming (slow),SPENDS,2.6-5.0
+horseback riding,SPENDS,0-5.0
+horseback riding,SPENDS,3.6-5.0
+horseback riding,SPENDS,0-1200
+horseback riding,SPENDS,0-110
+horseback riding,SPENDS,2.6-5.0
+yoga (hot),SPENDS,0-5.0
+yoga (hot),SPENDS,3.6-5.0
+yoga (hot),SPENDS,0-1200
+yoga (hot),SPENDS,0-110
+yoga (hot),SPENDS,2.6-5.0
+bowling,SPENDS,0-5.0
+bowling,SPENDS,3.6-5.0
+bowling,SPENDS,0-1200
+bowling,SPENDS,0-110
+bowling,SPENDS,2.6-5.0
+golf (walking),SPENDS,0-5.0
+golf (walking),SPENDS,3.6-5.0
+golf (walking),SPENDS,0-1200
+golf (walking),SPENDS,0-110
+golf (walking),SPENDS,2.6-5.0
+dance (slow step),SPENDS,0-5.0
+dance (slow step),SPENDS,3.6-5.0
+dance (slow step),SPENDS,0-1200
+dance (slow step),SPENDS,0-110
+dance (slow step),SPENDS,2.6-5.0
+bicycling (leisurely) - <10/mph,SPENDS,0-5.0
+bicycling (leisurely) - <10/mph,SPENDS,3.6-5.0
+bicycling (leisurely) - <10/mph,SPENDS,0-1200
+bicycling (leisurely) - <10/mph,SPENDS,0-110
+bicycling (leisurely) - <10/mph,SPENDS,2.6-5.0
+mowing lawn,SPENDS,0-5.0
+mowing lawn,SPENDS,3.6-5.0
+mowing lawn,SPENDS,0-1200
+mowing lawn,SPENDS,0-110
+mowing lawn,SPENDS,2.6-5.0
+cricket,SPENDS,0-5.0
+cricket,SPENDS,3.6-5.0
+cricket,SPENDS,0-1200
+cricket,SPENDS,0-110
+cricket,SPENDS,2.6-5.0
+softball,SPENDS,0-5.0
+softball,SPENDS,3.6-5.0
+softball,SPENDS,0-1200
+softball,SPENDS,0-110
+softball,SPENDS,2.6-5.0
+skating - 10/mph,SPENDS,0-5.0
+skating - 10/mph,SPENDS,3.6-5.0
+skating - 10/mph,SPENDS,0-1200
+skating - 10/mph,SPENDS,0-110
+skating - 10/mph,SPENDS,2.6-5.0
+walking (brisk) - 4/mph,SPENDS,0-5.0
+walking (brisk) - 4/mph,SPENDS,3.6-5.0
+walking (brisk) - 4/mph,SPENDS,0-1200
+walking (brisk) - 4/mph,SPENDS,0-110
+walking (brisk) - 4/mph,SPENDS,2.6-5.0
+shoveling,SPENDS,0-5.0
+shoveling,SPENDS,3.6-5.0
+shoveling,SPENDS,0-1200
+shoveling,SPENDS,0-110
+shoveling,SPENDS,2.6-5.0
+dance (square dancing),SPENDS,0-5.0
+dance (square dancing),SPENDS,3.6-5.0
+dance (square dancing),SPENDS,0-1200
+dance (square dancing),SPENDS,0-110
+dance (square dancing),SPENDS,2.6-5.0
+baseball,SPENDS,0-5.0
+baseball,SPENDS,3.6-5.0
+baseball,SPENDS,0-1200
+baseball,SPENDS,0-110
+baseball,SPENDS,2.6-5.0
+painting,SPENDS,0-5.0
+painting,SPENDS,3.6-5.0
+painting,SPENDS,0-1200
+painting,SPENDS,0-110
+painting,SPENDS,2.6-5.0
+badminton,SPENDS,0-5.0
+badminton,SPENDS,3.6-5.0
+badminton,SPENDS,0-1200
+badminton,SPENDS,0-110
+badminton,SPENDS,2.6-5.0
+kayaking,SPENDS,0-5.0
+kayaking,SPENDS,3.6-5.0
+kayaking,SPENDS,0-1200
+kayaking,SPENDS,0-110
+kayaking,SPENDS,2.6-5.0
+hunting,SPENDS,0-5.0
+hunting,SPENDS,3.6-5.0
+hunting,SPENDS,0-1200
+hunting,SPENDS,0-110
+hunting,SPENDS,2.6-5.0
+hula hoop,SPENDS,0-5.0
+hula hoop,SPENDS,3.6-5.0
+hula hoop,SPENDS,0-1200
+hula hoop,SPENDS,0-110
+hula hoop,SPENDS,2.6-5.0
+conditioning exercise (health club),SPENDS,5.1-8.0
+conditioning exercise (health club),SPENDS,0-1200
+conditioning exercise (health club),SPENDS,5.1-13.5
+conditioning exercise (health club),SPENDS,0-110
+conditioning exercise (health club),SPENDS,5.1-110
+bicycling (slow) - 11/mph,SPENDS,5.1-8.0
+bicycling (slow) - 11/mph,SPENDS,0-1200
+bicycling (slow) - 11/mph,SPENDS,5.1-13.5
+bicycling (slow) - 11/mph,SPENDS,0-110
+bicycling (slow) - 11/mph,SPENDS,5.1-110
+weight training (moderate),SPENDS,5.1-8.0
+weight training (moderate),SPENDS,0-1200
+weight training (moderate),SPENDS,5.1-13.5
+weight training (moderate),SPENDS,0-110
+weight training (moderate),SPENDS,5.1-110
+circuit training,SPENDS,5.1-8.0
+circuit training,SPENDS,0-1200
+circuit training,SPENDS,5.1-13.5
+circuit training,SPENDS,0-110
+circuit training,SPENDS,5.1-110
+basketball,SPENDS,5.1-8.0
+basketball,SPENDS,0-1200
+basketball,SPENDS,5.1-13.5
+basketball,SPENDS,0-110
+basketball,SPENDS,5.1-110
+tree climbing (ropes),SPENDS,5.1-8.0
+tree climbing (ropes),SPENDS,0-1200
+tree climbing (ropes),SPENDS,5.1-13.5
+tree climbing (ropes),SPENDS,0-110
+tree climbing (ropes),SPENDS,5.1-110
+skiing (water),SPENDS,5.1-8.0
+skiing (water),SPENDS,0-1200
+skiing (water),SPENDS,5.1-13.5
+skiing (water),SPENDS,0-110
+skiing (water),SPENDS,5.1-110
+"dance (fast step, aerobic)",SPENDS,5.1-8.0
+"dance (fast step, aerobic)",SPENDS,0-1200
+"dance (fast step, aerobic)",SPENDS,5.1-13.5
+"dance (fast step, aerobic)",SPENDS,0-110
+"dance (fast step, aerobic)",SPENDS,5.1-110
+hiking,SPENDS,5.1-8.0
+hiking,SPENDS,0-1200
+hiking,SPENDS,5.1-13.5
+hiking,SPENDS,0-110
+hiking,SPENDS,5.1-110
+shoveling snow,SPENDS,5.1-8.0
+shoveling snow,SPENDS,0-1200
+shoveling snow,SPENDS,5.1-13.5
+shoveling snow,SPENDS,0-110
+shoveling snow,SPENDS,5.1-110
+scuba diving,SPENDS,5.1-8.0
+scuba diving,SPENDS,0-1200
+scuba diving,SPENDS,5.1-13.5
+scuba diving,SPENDS,0-110
+scuba diving,SPENDS,5.1-110
+power walking,SPENDS,5.1-8.0
+power walking,SPENDS,0-1200
+power walking,SPENDS,5.1-13.5
+power walking,SPENDS,0-110
+power walking,SPENDS,5.1-110
+pole dancing,SPENDS,5.1-8.0
+pole dancing,SPENDS,0-1200
+pole dancing,SPENDS,5.1-13.5
+pole dancing,SPENDS,0-110
+pole dancing,SPENDS,5.1-110
+exercise machine (slow),SPENDS,5.1-8.0
+exercise machine (slow),SPENDS,0-1200
+exercise machine (slow),SPENDS,5.1-13.5
+exercise machine (slow),SPENDS,0-110
+exercise machine (slow),SPENDS,5.1-110
+netball,SPENDS,5.1-8.0
+netball,SPENDS,0-1200
+netball,SPENDS,5.1-13.5
+netball,SPENDS,0-110
+netball,SPENDS,5.1-110
+floorball,SPENDS,5.1-8.0
+floorball,SPENDS,0-1200
+floorball,SPENDS,5.1-13.5
+floorball,SPENDS,0-110
+floorball,SPENDS,5.1-110
+trampolining,SPENDS,5.1-8.0
+trampolining,SPENDS,0-1200
+trampolining,SPENDS,5.1-13.5
+trampolining,SPENDS,0-110
+trampolining,SPENDS,5.1-110
+gym,SPENDS,5.1-8.0
+gym,SPENDS,0-1200
+gym,SPENDS,5.1-13.5
+gym,SPENDS,0-110
+gym,SPENDS,5.1-110
+zumba,SPENDS,5.1-8.0
+zumba,SPENDS,0-1200
+zumba,SPENDS,5.1-13.5
+zumba,SPENDS,0-110
+zumba,SPENDS,5.1-110
+t25,SPENDS,5.1-8.0
+t25,SPENDS,0-1200
+t25,SPENDS,5.1-13.5
+t25,SPENDS,0-110
+t25,SPENDS,5.1-110
+swimming (moderate),SPENDS,5.1-8.0
+swimming (moderate),SPENDS,0-1200
+swimming (moderate),SPENDS,5.1-13.5
+swimming (moderate),SPENDS,0-110
+swimming (moderate),SPENDS,5.1-110
+stairs (climbing stairs),SPENDS,5.1-8.0
+stairs (climbing stairs),SPENDS,0-1200
+stairs (climbing stairs),SPENDS,5.1-13.5
+stairs (climbing stairs),SPENDS,0-110
+stairs (climbing stairs),SPENDS,5.1-110
+power jump,SPENDS,5.1-8.0
+power jump,SPENDS,0-1200
+power jump,SPENDS,5.1-13.5
+power jump,SPENDS,0-110
+power jump,SPENDS,5.1-110
+fitness training (workout),SPENDS,5.1-8.0
+fitness training (workout),SPENDS,0-1200
+fitness training (workout),SPENDS,5.1-13.5
+fitness training (workout),SPENDS,0-110
+fitness training (workout),SPENDS,5.1-110
+muay thai,SPENDS,5.1-8.0
+muay thai,SPENDS,0-1200
+muay thai,SPENDS,5.1-13.5
+muay thai,SPENDS,0-110
+muay thai,SPENDS,5.1-110
+grit,SPENDS,5.1-8.0
+grit,SPENDS,0-1200
+grit,SPENDS,5.1-13.5
+grit,SPENDS,0-110
+grit,SPENDS,5.1-110
+xco,SPENDS,5.1-8.0
+xco,SPENDS,0-1200
+xco,SPENDS,5.1-13.5
+xco,SPENDS,0-110
+xco,SPENDS,5.1-110
+high intensity interval training (hiit),SPENDS,5.1-8.0
+high intensity interval training (hiit),SPENDS,0-1200
+high intensity interval training (hiit),SPENDS,5.1-13.5
+high intensity interval training (hiit),SPENDS,0-110
+high intensity interval training (hiit),SPENDS,5.1-110
+martial arts,SPENDS,5.1-8.0
+martial arts,SPENDS,0-1200
+martial arts,SPENDS,5.1-13.5
+martial arts,SPENDS,0-110
+martial arts,SPENDS,5.1-110
+insanity,SPENDS,5.1-8.0
+insanity,SPENDS,0-1200
+insanity,SPENDS,5.1-13.5
+insanity,SPENDS,0-110
+insanity,SPENDS,5.1-110
+jiu jitsu,SPENDS,5.1-8.0
+jiu jitsu,SPENDS,0-1200
+jiu jitsu,SPENDS,5.1-13.5
+jiu jitsu,SPENDS,0-110
+jiu jitsu,SPENDS,5.1-110
+judo,SPENDS,5.1-8.0
+judo,SPENDS,0-1200
+judo,SPENDS,5.1-13.5
+judo,SPENDS,0-110
+judo,SPENDS,5.1-110
+snow boarding,SPENDS,5.1-8.0
+snow boarding,SPENDS,0-1200
+snow boarding,SPENDS,5.1-13.5
+snow boarding,SPENDS,0-110
+snow boarding,SPENDS,5.1-110
+kangoo,SPENDS,5.1-8.0
+kangoo,SPENDS,0-1200
+kangoo,SPENDS,5.1-13.5
+kangoo,SPENDS,0-110
+kangoo,SPENDS,5.1-110
+tae bo,SPENDS,5.1-8.0
+tae bo,SPENDS,0-1200
+tae bo,SPENDS,5.1-13.5
+tae bo,SPENDS,0-110
+tae bo,SPENDS,5.1-110
+karate,SPENDS,5.1-8.0
+karate,SPENDS,0-1200
+karate,SPENDS,5.1-13.5
+karate,SPENDS,0-110
+karate,SPENDS,5.1-110
+cx,SPENDS,5.1-8.0
+cx,SPENDS,0-1200
+cx,SPENDS,5.1-13.5
+cx,SPENDS,0-110
+cx,SPENDS,5.1-110
+crossfit,SPENDS,5.1-8.0
+crossfit,SPENDS,0-1200
+crossfit,SPENDS,5.1-13.5
+crossfit,SPENDS,0-110
+crossfit,SPENDS,5.1-110
+aerobics,SPENDS,5.1-8.0
+aerobics,SPENDS,0-1200
+aerobics,SPENDS,5.1-13.5
+aerobics,SPENDS,0-110
+aerobics,SPENDS,5.1-110
+pedalling,SPENDS,5.1-8.0
+pedalling,SPENDS,0-1200
+pedalling,SPENDS,5.1-13.5
+pedalling,SPENDS,0-110
+pedalling,SPENDS,5.1-110
+water aerobics,SPENDS,5.1-8.0
+water aerobics,SPENDS,0-1200
+water aerobics,SPENDS,5.1-13.5
+water aerobics,SPENDS,0-110
+water aerobics,SPENDS,5.1-110
+ballet,SPENDS,5.1-8.0
+ballet,SPENDS,0-1200
+ballet,SPENDS,5.1-13.5
+ballet,SPENDS,0-110
+ballet,SPENDS,5.1-110
+vtt,SPENDS,5.1-8.0
+vtt,SPENDS,0-1200
+vtt,SPENDS,5.1-13.5
+vtt,SPENDS,0-110
+vtt,SPENDS,5.1-110
+trx,SPENDS,5.1-8.0
+trx,SPENDS,0-1200
+trx,SPENDS,5.1-13.5
+trx,SPENDS,0-110
+trx,SPENDS,5.1-110
+curves,SPENDS,5.1-8.0
+curves,SPENDS,0-1200
+curves,SPENDS,5.1-13.5
+curves,SPENDS,0-110
+curves,SPENDS,5.1-110
+p90x,SPENDS,5.1-8.0
+p90x,SPENDS,0-1200
+p90x,SPENDS,5.1-13.5
+p90x,SPENDS,0-110
+p90x,SPENDS,5.1-110
+body balance,SPENDS,5.1-8.0
+body balance,SPENDS,0-1200
+body balance,SPENDS,5.1-13.5
+body balance,SPENDS,0-110
+body balance,SPENDS,5.1-110
+body combat,SPENDS,5.1-8.0
+body combat,SPENDS,0-1200
+body combat,SPENDS,5.1-13.5
+body combat,SPENDS,0-110
+body combat,SPENDS,5.1-110
+body pump,SPENDS,5.1-8.0
+body pump,SPENDS,0-1200
+body pump,SPENDS,5.1-13.5
+body pump,SPENDS,0-110
+body pump,SPENDS,5.1-110
+rpm,SPENDS,5.1-8.0
+rpm,SPENDS,0-1200
+rpm,SPENDS,5.1-13.5
+rpm,SPENDS,0-110
+rpm,SPENDS,5.1-110
+taekwondo,SPENDS,5.1-8.0
+taekwondo,SPENDS,0-1200
+taekwondo,SPENDS,5.1-13.5
+taekwondo,SPENDS,0-110
+taekwondo,SPENDS,5.1-110
+cardio,SPENDS,5.1-8.0
+cardio,SPENDS,0-1200
+cardio,SPENDS,5.1-13.5
+cardio,SPENDS,0-110
+cardio,SPENDS,5.1-110
+cross training,SPENDS,5.1-8.0
+cross training,SPENDS,0-1200
+cross training,SPENDS,5.1-13.5
+cross training,SPENDS,0-110
+cross training,SPENDS,5.1-110
+body attack,SPENDS,5.1-8.0
+body attack,SPENDS,0-1200
+body attack,SPENDS,5.1-13.5
+body attack,SPENDS,0-110
+body attack,SPENDS,5.1-110
+kickboxing,SPENDS,5.1-8.0
+kickboxing,SPENDS,0-1200
+kickboxing,SPENDS,5.1-13.5
+kickboxing,SPENDS,0-110
+kickboxing,SPENDS,5.1-110
+rowing,SPENDS,5.1-8.0
+rowing,SPENDS,0-1200
+rowing,SPENDS,5.1-13.5
+rowing,SPENDS,0-110
+rowing,SPENDS,5.1-110
+running (jogging) - 5/mph,SPENDS,5.1-8.0
+running (jogging) - 5/mph,SPENDS,0-1200
+running (jogging) - 5/mph,SPENDS,5.1-13.5
+running (jogging) - 5/mph,SPENDS,0-110
+running (jogging) - 5/mph,SPENDS,5.1-110
+stair climber (stepper),SPENDS,5.1-8.0
+stair climber (stepper),SPENDS,0-1200
+stair climber (stepper),SPENDS,5.1-13.5
+stair climber (stepper),SPENDS,0-110
+stair climber (stepper),SPENDS,5.1-110
+soccer,SPENDS,5.1-8.0
+soccer,SPENDS,0-1200
+soccer,SPENDS,5.1-13.5
+soccer,SPENDS,0-110
+soccer,SPENDS,5.1-110
+spinning,SPENDS,5.1-8.0
+spinning,SPENDS,0-1200
+spinning,SPENDS,5.1-13.5
+spinning,SPENDS,0-110
+spinning,SPENDS,5.1-110
+squash or handball,SPENDS,5.1-8.0
+squash or handball,SPENDS,0-1200
+squash or handball,SPENDS,5.1-13.5
+squash or handball,SPENDS,0-110
+squash or handball,SPENDS,5.1-110
+squats (legs),SPENDS,5.1-8.0
+squats (legs),SPENDS,0-1200
+squats (legs),SPENDS,5.1-13.5
+squats (legs),SPENDS,0-110
+squats (legs),SPENDS,5.1-110
+tennis,SPENDS,5.1-8.0
+tennis,SPENDS,0-1200
+tennis,SPENDS,5.1-13.5
+tennis,SPENDS,0-110
+tennis,SPENDS,5.1-110
+treadmill,SPENDS,5.1-8.0
+treadmill,SPENDS,0-1200
+treadmill,SPENDS,5.1-13.5
+treadmill,SPENDS,0-110
+treadmill,SPENDS,5.1-110
+vibrating platform machine,SPENDS,5.1-8.0
+vibrating platform machine,SPENDS,0-1200
+vibrating platform machine,SPENDS,5.1-13.5
+vibrating platform machine,SPENDS,0-110
+vibrating platform machine,SPENDS,5.1-110
+weight training (bodybuilding),SPENDS,5.1-8.0
+weight training (bodybuilding),SPENDS,0-1200
+weight training (bodybuilding),SPENDS,5.1-13.5
+weight training (bodybuilding),SPENDS,0-110
+weight training (bodybuilding),SPENDS,5.1-110
+skiing (downhill),SPENDS,5.1-8.0
+skiing (downhill),SPENDS,0-1200
+skiing (downhill),SPENDS,5.1-13.5
+skiing (downhill),SPENDS,0-110
+skiing (downhill),SPENDS,5.1-110
+rock climbing,SPENDS,5.1-8.0
+rock climbing,SPENDS,0-1200
+rock climbing,SPENDS,5.1-13.5
+rock climbing,SPENDS,0-110
+rock climbing,SPENDS,5.1-110
+mountain biking,SPENDS,5.1-8.0
+mountain biking,SPENDS,0-1200
+mountain biking,SPENDS,5.1-13.5
+mountain biking,SPENDS,0-110
+mountain biking,SPENDS,5.1-110
+race,SPENDS,5.1-8.0
+race,SPENDS,0-1200
+race,SPENDS,5.1-13.5
+race,SPENDS,0-110
+race,SPENDS,5.1-110
+air climber,SPENDS,5.1-8.0
+air climber,SPENDS,0-1200
+air climber,SPENDS,5.1-13.5
+air climber,SPENDS,0-110
+air climber,SPENDS,5.1-110
+arc trainer,SPENDS,5.1-8.0
+arc trainer,SPENDS,0-1200
+arc trainer,SPENDS,5.1-13.5
+arc trainer,SPENDS,0-110
+arc trainer,SPENDS,5.1-110
+bicycling (moderate) - 13/mph,SPENDS,5.1-8.0
+bicycling (moderate) - 13/mph,SPENDS,0-1200
+bicycling (moderate) - 13/mph,SPENDS,5.1-13.5
+bicycling (moderate) - 13/mph,SPENDS,0-110
+bicycling (moderate) - 13/mph,SPENDS,5.1-110
+bike machine (cycling),SPENDS,5.1-8.0
+bike machine (cycling),SPENDS,0-1200
+bike machine (cycling),SPENDS,5.1-13.5
+bike machine (cycling),SPENDS,0-110
+bike machine (cycling),SPENDS,5.1-110
+"calisthenics (heavy, e.g. pushups)",SPENDS,5.1-8.0
+"calisthenics (heavy, e.g. pushups)",SPENDS,0-1200
+"calisthenics (heavy, e.g. pushups)",SPENDS,5.1-13.5
+"calisthenics (heavy, e.g. pushups)",SPENDS,0-110
+"calisthenics (heavy, e.g. pushups)",SPENDS,5.1-110
+elliptical,SPENDS,5.1-8.0
+elliptical,SPENDS,0-1200
+elliptical,SPENDS,5.1-13.5
+elliptical,SPENDS,0-110
+elliptical,SPENDS,5.1-110
+endurance sport,SPENDS,5.1-8.0
+endurance sport,SPENDS,0-1200
+endurance sport,SPENDS,5.1-13.5
+endurance sport,SPENDS,0-110
+endurance sport,SPENDS,5.1-110
+exercise machine,SPENDS,5.1-8.0
+exercise machine,SPENDS,0-1200
+exercise machine,SPENDS,5.1-13.5
+exercise machine,SPENDS,0-110
+exercise machine,SPENDS,5.1-110
+exercise machine (moderate),SPENDS,5.1-8.0
+exercise machine (moderate),SPENDS,0-1200
+exercise machine (moderate),SPENDS,5.1-13.5
+exercise machine (moderate),SPENDS,0-110
+exercise machine (moderate),SPENDS,5.1-110
+football,SPENDS,5.1-8.0
+football,SPENDS,0-1200
+football,SPENDS,5.1-13.5
+football,SPENDS,0-110
+football,SPENDS,5.1-110
+hockey,SPENDS,5.1-8.0
+hockey,SPENDS,0-1200
+hockey,SPENDS,5.1-13.5
+hockey,SPENDS,0-110
+hockey,SPENDS,5.1-110
+ice hockey,SPENDS,5.1-8.0
+ice hockey,SPENDS,0-1200
+ice hockey,SPENDS,5.1-13.5
+ice hockey,SPENDS,0-110
+ice hockey,SPENDS,5.1-110
+handball,SPENDS,5.1-8.0
+handball,SPENDS,0-1200
+handball,SPENDS,5.1-13.5
+handball,SPENDS,0-110
+handball,SPENDS,5.1-110
+abdominal (sit ups),SPENDS,5.1-8.0
+abdominal (sit ups),SPENDS,0-1200
+abdominal (sit ups),SPENDS,5.1-13.5
+abdominal (sit ups),SPENDS,0-110
+abdominal (sit ups),SPENDS,5.1-110
+kettlebells,SPENDS,5.1-8.0
+kettlebells,SPENDS,0-1200
+kettlebells,SPENDS,5.1-13.5
+kettlebells,SPENDS,0-110
+kettlebells,SPENDS,5.1-110
+padel tennis,SPENDS,5.1-8.0
+padel tennis,SPENDS,0-1200
+padel tennis,SPENDS,5.1-13.5
+padel tennis,SPENDS,0-110
+padel tennis,SPENDS,5.1-110
+lacrosse,SPENDS,5.1-8.0
+lacrosse,SPENDS,0-1200
+lacrosse,SPENDS,5.1-13.5
+lacrosse,SPENDS,0-110
+lacrosse,SPENDS,5.1-110
+nordic walking,SPENDS,5.1-8.0
+nordic walking,SPENDS,0-1200
+nordic walking,SPENDS,5.1-13.5
+nordic walking,SPENDS,0-110
+nordic walking,SPENDS,5.1-110
+jumping jacks (star jumps),SPENDS,5.1-8.0
+jumping jacks (star jumps),SPENDS,0-1200
+jumping jacks (star jumps),SPENDS,5.1-13.5
+jumping jacks (star jumps),SPENDS,0-110
+jumping jacks (star jumps),SPENDS,5.1-110
+roller blading,SPENDS,10-110
+roller blading,SPENDS,8.1-13.5
+roller blading,SPENDS,0-1200
+roller blading,SPENDS,5.1-13.5
+roller blading,SPENDS,0-110
+roller blading,SPENDS,5.1-110
+bicycling (fast) - 15/mph,SPENDS,10-110
+bicycling (fast) - 15/mph,SPENDS,8.1-13.5
+bicycling (fast) - 15/mph,SPENDS,0-1200
+bicycling (fast) - 15/mph,SPENDS,5.1-13.5
+bicycling (fast) - 15/mph,SPENDS,0-110
+bicycling (fast) - 15/mph,SPENDS,5.1-110
+running - 6/mph,SPENDS,10-110
+running - 6/mph,SPENDS,8.1-13.5
+running - 6/mph,SPENDS,0-1200
+running - 6/mph,SPENDS,5.1-13.5
+running - 6/mph,SPENDS,0-110
+running - 6/mph,SPENDS,5.1-110
+skipping rope (jumping rope),SPENDS,10-110
+skipping rope (jumping rope),SPENDS,8.1-13.5
+skipping rope (jumping rope),SPENDS,0-1200
+skipping rope (jumping rope),SPENDS,5.1-13.5
+skipping rope (jumping rope),SPENDS,0-110
+skipping rope (jumping rope),SPENDS,5.1-110
+swimming (fast),SPENDS,10-110
+swimming (fast),SPENDS,8.1-13.5
+swimming (fast),SPENDS,0-1200
+swimming (fast),SPENDS,5.1-13.5
+swimming (fast),SPENDS,0-110
+swimming (fast),SPENDS,5.1-110
+exercise machine (fast),SPENDS,10-110
+exercise machine (fast),SPENDS,8.1-13.5
+exercise machine (fast),SPENDS,0-1200
+exercise machine (fast),SPENDS,5.1-13.5
+exercise machine (fast),SPENDS,0-110
+exercise machine (fast),SPENDS,5.1-110
+racquetball,SPENDS,10-110
+racquetball,SPENDS,8.1-13.5
+racquetball,SPENDS,0-1200
+racquetball,SPENDS,5.1-13.5
+racquetball,SPENDS,0-110
+racquetball,SPENDS,5.1-110
+running - 7/mph,SPENDS,10-110
+running - 7/mph,SPENDS,8.1-13.5
+running - 7/mph,SPENDS,0-1200
+running - 7/mph,SPENDS,5.1-13.5
+running - 7/mph,SPENDS,0-110
+running - 7/mph,SPENDS,5.1-110
+boxing,SPENDS,10-110
+boxing,SPENDS,8.1-13.5
+boxing,SPENDS,0-1200
+boxing,SPENDS,5.1-13.5
+boxing,SPENDS,0-110
+boxing,SPENDS,5.1-110
+bicycling (very fast) - 17.5/mph,SPENDS,10-110
+bicycling (very fast) - 17.5/mph,SPENDS,8.1-13.5
+bicycling (very fast) - 17.5/mph,SPENDS,0-1200
+bicycling (very fast) - 17.5/mph,SPENDS,5.1-13.5
+bicycling (very fast) - 17.5/mph,SPENDS,0-110
+bicycling (very fast) - 17.5/mph,SPENDS,5.1-110
+skiing (cross country),SPENDS,10-110
+skiing (cross country),SPENDS,8.1-13.5
+skiing (cross country),SPENDS,0-1200
+skiing (cross country),SPENDS,5.1-13.5
+skiing (cross country),SPENDS,0-110
+skiing (cross country),SPENDS,5.1-110
+running - 8/mph,SPENDS,10-110
+running - 8/mph,SPENDS,8.1-13.5
+running - 8/mph,SPENDS,0-1200
+running - 8/mph,SPENDS,5.1-13.5
+running - 8/mph,SPENDS,0-110
+running - 8/mph,SPENDS,5.1-110
+running - 9/mph,SPENDS,10-110
+running - 9/mph,SPENDS,0-1200
+running - 9/mph,SPENDS,13.6-16.0
+running - 9/mph,SPENDS,0-110
+running - 9/mph,SPENDS,5.1-110
+running - 9/mph,SPENDS,13.6-110
+running - 10/mph,SPENDS,10-110
+running - 10/mph,SPENDS,0-1200
+running - 10/mph,SPENDS,13.6-16.0
+running - 10/mph,SPENDS,0-110
+running - 10/mph,SPENDS,5.1-110
+running - 10/mph,SPENDS,13.6-110

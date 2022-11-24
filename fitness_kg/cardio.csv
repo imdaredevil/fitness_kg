@@ -1,0 +1,179 @@
+name,url,intensity,calories,met
+sleeping,https://www.fatsecret.com/fitness/sleeping,Light Intensity,66.0,0.9
+resting,https://www.fatsecret.com/fitness/resting,Light Intensity,74.0,1.0
+sitting,https://www.fatsecret.com/fitness/sitting,Light Intensity,103.0,1.4
+desk work,https://www.fatsecret.com/fitness/desk-work,Light Intensity,110.0,1.5
+driving,https://www.fatsecret.com/fitness/driving,Light Intensity,118.0,1.6
+bathing,https://www.fatsecret.com/fitness/bathing,Light Intensity,147.0,2.0
+spa,https://www.fatsecret.com/fitness/spa,Light Intensity,147.0,2.0
+singing,https://www.fatsecret.com/fitness/singing,Light Intensity,147.0,2.0
+showering,https://www.fatsecret.com/fitness/showering,Light Intensity,147.0,2.0
+sexual activity,https://www.fatsecret.com/fitness/sexual-activity,Light Intensity,147.0,2.0
+sewing,https://www.fatsecret.com/fitness/sewing,Light Intensity,147.0,2.0
+working,https://www.fatsecret.com/fitness/working,Light Intensity,147.0,2.0
+studying,https://www.fatsecret.com/fitness/studying,Light Intensity,147.0,2.0
+reading,https://www.fatsecret.com/fitness/reading,Light Intensity,147.0,2.0
+music playing,https://www.fatsecret.com/fitness/music-playing,Light Intensity,147.0,2.0
+teaching,https://www.fatsecret.com/fitness/teaching,Light Intensity,147.0,2.0
+massage,https://www.fatsecret.com/fitness/massage,Light Intensity,147.0,2.0
+karaoke,https://www.fatsecret.com/fitness/karaoke,Light Intensity,147.0,2.0
+walking (slow) - 2/mph,https://www.fatsecret.com/fitness/walking-(slow)-2-mph,Light Intensity,147.0,2.0
+watching tv/computer,https://www.fatsecret.com/fitness/watching-tv-computer,Light Intensity,147.0,2.0
+golf (cart),https://www.fatsecret.com/fitness/golf-(cart),Light Intensity,147.0,2.0
+cooking,https://www.fatsecret.com/fitness/cooking,Light Intensity,147.0,2.0
+breastfeeding,https://www.fatsecret.com/fitness/breastfeeding,Light Intensity,147.0,2.0
+standing,https://www.fatsecret.com/fitness/standing,Light Intensity,147.0,2.0
+shopping,https://www.fatsecret.com/fitness/shopping,Light Intensity,169.0,2.3
+housework,https://www.fatsecret.com/fitness/housework,Light Intensity,184.0,2.5
+stretching (yoga),https://www.fatsecret.com/fitness/stretching-(yoga),Light Intensity,184.0,2.5
+washing dishes,https://www.fatsecret.com/fitness/washing-dishes,Light Intensity,220.0,3.0
+scooter,https://www.fatsecret.com/fitness/scooter,Light Intensity,220.0,3.0
+motorbike riding,https://www.fatsecret.com/fitness/motorbike-riding,Light Intensity,220.0,3.0
+ironing,https://www.fatsecret.com/fitness/ironing,Light Intensity,220.0,3.0
+hanging laundry,https://www.fatsecret.com/fitness/hanging-laundry,Light Intensity,220.0,3.0
+grocery shopping,https://www.fatsecret.com/fitness/grocery-shopping,Light Intensity,220.0,3.0
+sauna,https://www.fatsecret.com/fitness/sauna,Light Intensity,220.0,3.0
+yoga,https://www.fatsecret.com/fitness/yoga,Light Intensity,220.0,3.0
+cleaning,https://www.fatsecret.com/fitness/cleaning,Moderate Intensity,220.0,3.0
+wii fit (electronic games),https://www.fatsecret.com/fitness/wii-fit-(electronic-games),Moderate Intensity,220.0,3.0
+washing car,https://www.fatsecret.com/fitness/washing-car,Moderate Intensity,220.0,3.0
+boating or canoeing,https://www.fatsecret.com/fitness/boating-or-canoeing,Moderate Intensity,220.0,3.0
+fishing,https://www.fatsecret.com/fitness/fishing,Moderate Intensity,220.0,3.0
+vacuuming,https://www.fatsecret.com/fitness/vacuuming,Moderate Intensity,220.0,3.0
+do it yourself (diy),https://www.fatsecret.com/fitness/do-it-yourself-(diy),Moderate Intensity,220.0,3.0
+surfing,https://www.fatsecret.com/fitness/surfing,Moderate Intensity,220.0,3.0
+sailing,https://www.fatsecret.com/fitness/sailing,Moderate Intensity,220.0,3.0
+pilates,https://www.fatsecret.com/fitness/pilates,Moderate Intensity,228.0,3.1
+walking (moderate) - 3/mph,https://www.fatsecret.com/fitness/walking-(moderate)-3-mph,Moderate Intensity,243.0,3.3
+"calisthenics (light, e.g. home exercise)",https://www.fatsecret.com/fitness/calisthenics-(light-eg-home-exercise),Moderate Intensity,257.0,3.5
+walking (exercise) - 3.5/mph,https://www.fatsecret.com/fitness/walking-(exercise)-35-mph,Moderate Intensity,279.0,3.8
+yard work (gardening),https://www.fatsecret.com/fitness/yard-work-(gardening),Moderate Intensity,294.0,4.0
+raking,https://www.fatsecret.com/fitness/raking,Moderate Intensity,294.0,4.0
+archery,https://www.fatsecret.com/fitness/archery,Moderate Intensity,294.0,4.0
+table tennis (ping pong),https://www.fatsecret.com/fitness/table-tennis-(ping-pong),Moderate Intensity,294.0,4.0
+motor-cross,https://www.fatsecret.com/fitness/motor-cross,Moderate Intensity,294.0,4.0
+volleyball,https://www.fatsecret.com/fitness/volleyball,Moderate Intensity,294.0,4.0
+water biking/running,https://www.fatsecret.com/fitness/water-biking-running,Moderate Intensity,294.0,4.0
+swimming (slow),https://www.fatsecret.com/fitness/swimming-(slow),Moderate Intensity,294.0,4.0
+horseback riding,https://www.fatsecret.com/fitness/horseback-riding,Moderate Intensity,294.0,4.0
+yoga (hot),https://www.fatsecret.com/fitness/yoga-(hot),Moderate Intensity,294.0,4.0
+bowling,https://www.fatsecret.com/fitness/bowling,Moderate Intensity,294.0,4.0
+golf (walking),https://www.fatsecret.com/fitness/golf-(walking),Moderate Intensity,294.0,4.0
+dance (slow step),https://www.fatsecret.com/fitness/dance-(slow-step),Moderate Intensity,294.0,4.0
+bicycling (leisurely) - <10/mph,https://www.fatsecret.com/fitness/bicycling-(leisurely)-10-mph,Moderate Intensity,294.0,4.0
+mowing lawn,https://www.fatsecret.com/fitness/mowing-lawn,Moderate Intensity,368.0,5.0
+cricket,https://www.fatsecret.com/fitness/cricket,Moderate Intensity,368.0,5.0
+softball,https://www.fatsecret.com/fitness/softball,Moderate Intensity,368.0,5.0
+skating - 10/mph,https://www.fatsecret.com/fitness/skating-10-mph,Moderate Intensity,368.0,5.0
+walking (brisk) - 4/mph,https://www.fatsecret.com/fitness/walking-(brisk)-4-mph,Moderate Intensity,368.0,5.0
+shoveling,https://www.fatsecret.com/fitness/shoveling,Moderate Intensity,368.0,5.0
+dance (square dancing),https://www.fatsecret.com/fitness/dance-(square-dancing),Moderate Intensity,368.0,5.0
+baseball,https://www.fatsecret.com/fitness/baseball,Moderate Intensity,368.0,5.0
+painting,https://www.fatsecret.com/fitness/painting,Moderate Intensity,368.0,5.0
+badminton,https://www.fatsecret.com/fitness/badminton,Moderate Intensity,368.0,5.0
+kayaking,https://www.fatsecret.com/fitness/kayaking,Moderate Intensity,368.0,5.0
+hunting,https://www.fatsecret.com/fitness/hunting,Moderate Intensity,368.0,5.0
+hula hoop,https://www.fatsecret.com/fitness/hula-hoop,Moderate Intensity,368.0,5.0
+conditioning exercise (health club),https://www.fatsecret.com/fitness/conditioning-exercise-(health-club),Moderate Intensity,404.0,5.5
+bicycling (slow) - 11/mph,https://www.fatsecret.com/fitness/bicycling-(slow)-11-mph,Moderate Intensity,441.0,6.0
+weight training (moderate),https://www.fatsecret.com/fitness/weight-training-(moderate),Moderate Intensity,441.0,6.0
+circuit training,https://www.fatsecret.com/fitness/circuit-training,Moderate Intensity,441.0,6.0
+basketball,https://www.fatsecret.com/fitness/basketball,Moderate Intensity,441.0,6.0
+tree climbing (ropes),https://www.fatsecret.com/fitness/tree-climbing-(ropes),Moderate Intensity,441.0,6.0
+skiing (water),https://www.fatsecret.com/fitness/skiing-(water),Moderate Intensity,441.0,6.0
+"dance (fast step, aerobic)",https://www.fatsecret.com/fitness/dance-(fast-step-aerobic),Moderate Intensity,441.0,6.0
+hiking,https://www.fatsecret.com/fitness/hiking,Moderate Intensity,441.0,6.0
+shoveling snow,https://www.fatsecret.com/fitness/shoveling-snow,Moderate Intensity,441.0,6.0
+scuba diving,https://www.fatsecret.com/fitness/scuba-diving,Moderate Intensity,441.0,6.0
+power walking,https://www.fatsecret.com/fitness/power-walking,Moderate Intensity,441.0,6.0
+pole dancing,https://www.fatsecret.com/fitness/pole-dancing,Moderate Intensity,441.0,6.0
+exercise machine (slow),https://www.fatsecret.com/fitness/exercise-machine-(slow),Moderate Intensity,441.0,6.0
+netball,https://www.fatsecret.com/fitness/netball,Moderate Intensity,441.0,6.0
+floorball,https://www.fatsecret.com/fitness/floorball,Moderate Intensity,441.0,6.0
+trampolining,https://www.fatsecret.com/fitness/trampolining,Moderate Intensity,441.0,6.0
+gym,https://www.fatsecret.com/fitness/gym,Moderate Intensity,441.0,6.0
+zumba,https://www.fatsecret.com/fitness/zumba,Strenuous Intensity,514.0,7.0
+t25,https://www.fatsecret.com/fitness/t25,Strenuous Intensity,514.0,7.0
+swimming (moderate),https://www.fatsecret.com/fitness/swimming-(moderate),Strenuous Intensity,514.0,7.0
+stairs (climbing stairs),https://www.fatsecret.com/fitness/stairs-(climbing-stairs),Strenuous Intensity,514.0,7.0
+power jump,https://www.fatsecret.com/fitness/power-jump,Strenuous Intensity,514.0,7.0
+fitness training (workout),https://www.fatsecret.com/fitness/fitness-training-(workout),Strenuous Intensity,514.0,7.0
+muay thai,https://www.fatsecret.com/fitness/muay-thai,Strenuous Intensity,514.0,7.0
+grit,https://www.fatsecret.com/fitness/grit,Strenuous Intensity,514.0,7.0
+xco,https://www.fatsecret.com/fitness/xco,Strenuous Intensity,514.0,7.0
+high intensity interval training (hiit),https://www.fatsecret.com/fitness/high-intensity-interval-training-(hiit),Strenuous Intensity,514.0,7.0
+martial arts,https://www.fatsecret.com/fitness/martial-arts,Strenuous Intensity,514.0,7.0
+insanity,https://www.fatsecret.com/fitness/insanity,Strenuous Intensity,514.0,7.0
+jiu jitsu,https://www.fatsecret.com/fitness/jiu-jitsu,Strenuous Intensity,514.0,7.0
+judo,https://www.fatsecret.com/fitness/judo,Strenuous Intensity,514.0,7.0
+snow boarding,https://www.fatsecret.com/fitness/snow-boarding,Strenuous Intensity,514.0,7.0
+kangoo,https://www.fatsecret.com/fitness/kangoo,Strenuous Intensity,514.0,7.0
+tae bo,https://www.fatsecret.com/fitness/tae-bo,Strenuous Intensity,514.0,7.0
+karate,https://www.fatsecret.com/fitness/karate,Strenuous Intensity,514.0,7.0
+cx,https://www.fatsecret.com/fitness/cx,Strenuous Intensity,514.0,7.0
+crossfit,https://www.fatsecret.com/fitness/crossfit,Strenuous Intensity,514.0,7.0
+aerobics,https://www.fatsecret.com/fitness/aerobics,Strenuous Intensity,514.0,7.0
+pedalling,https://www.fatsecret.com/fitness/pedalling,Strenuous Intensity,514.0,7.0
+water aerobics,https://www.fatsecret.com/fitness/water-aerobics,Strenuous Intensity,514.0,7.0
+ballet,https://www.fatsecret.com/fitness/ballet,Strenuous Intensity,514.0,7.0
+vtt,https://www.fatsecret.com/fitness/vtt,Strenuous Intensity,514.0,7.0
+trx,https://www.fatsecret.com/fitness/trx,Strenuous Intensity,514.0,7.0
+curves,https://www.fatsecret.com/fitness/curves,Strenuous Intensity,514.0,7.0
+p90x,https://www.fatsecret.com/fitness/p90x,Strenuous Intensity,514.0,7.0
+body balance,https://www.fatsecret.com/fitness/body-balance,Strenuous Intensity,514.0,7.0
+body combat,https://www.fatsecret.com/fitness/body-combat,Strenuous Intensity,514.0,7.0
+body pump,https://www.fatsecret.com/fitness/body-pump,Strenuous Intensity,514.0,7.0
+rpm,https://www.fatsecret.com/fitness/rpm,Strenuous Intensity,514.0,7.0
+taekwondo,https://www.fatsecret.com/fitness/taekwondo,Strenuous Intensity,514.0,7.0
+cardio,https://www.fatsecret.com/fitness/cardio,Strenuous Intensity,514.0,7.0
+cross training,https://www.fatsecret.com/fitness/cross-training,Strenuous Intensity,514.0,7.0
+body attack,https://www.fatsecret.com/fitness/body-attack,Strenuous Intensity,514.0,7.0
+kickboxing,https://www.fatsecret.com/fitness/kickboxing,Strenuous Intensity,514.0,7.0
+rowing,https://www.fatsecret.com/fitness/rowing,Strenuous Intensity,588.0,8.0
+running (jogging) - 5/mph,https://www.fatsecret.com/fitness/running-(jogging)-5-mph,Strenuous Intensity,588.0,8.0
+stair climber (stepper),https://www.fatsecret.com/fitness/stair-climber-(stepper),Strenuous Intensity,588.0,8.0
+soccer,https://www.fatsecret.com/fitness/soccer,Strenuous Intensity,588.0,8.0
+spinning,https://www.fatsecret.com/fitness/spinning,Strenuous Intensity,588.0,8.0
+squash or handball,https://www.fatsecret.com/fitness/squash-or-handball,Strenuous Intensity,588.0,8.0
+squats (legs),https://www.fatsecret.com/fitness/squats-(legs),Strenuous Intensity,588.0,8.0
+tennis,https://www.fatsecret.com/fitness/tennis,Strenuous Intensity,588.0,8.0
+treadmill,https://www.fatsecret.com/fitness/treadmill,Strenuous Intensity,588.0,8.0
+vibrating platform machine,https://www.fatsecret.com/fitness/vibrating-platform-machine,Strenuous Intensity,588.0,8.0
+weight training (bodybuilding),https://www.fatsecret.com/fitness/weight-training-(bodybuilding),Strenuous Intensity,588.0,8.0
+skiing (downhill),https://www.fatsecret.com/fitness/skiing-(downhill),Strenuous Intensity,588.0,8.0
+rock climbing,https://www.fatsecret.com/fitness/rock-climbing,Strenuous Intensity,588.0,8.0
+mountain biking,https://www.fatsecret.com/fitness/mountain-biking,Strenuous Intensity,588.0,8.0
+race,https://www.fatsecret.com/fitness/race,Strenuous Intensity,588.0,8.0
+air climber,https://www.fatsecret.com/fitness/air-climber,Strenuous Intensity,588.0,8.0
+arc trainer,https://www.fatsecret.com/fitness/arc-trainer,Strenuous Intensity,588.0,8.0
+bicycling (moderate) - 13/mph,https://www.fatsecret.com/fitness/bicycling-(moderate)-13-mph,Strenuous Intensity,588.0,8.0
+bike machine (cycling),https://www.fatsecret.com/fitness/bike-machine-(cycling),Strenuous Intensity,588.0,8.0
+"calisthenics (heavy, e.g. pushups)",https://www.fatsecret.com/fitness/calisthenics-(heavy-eg-pushups),Strenuous Intensity,588.0,8.0
+elliptical,https://www.fatsecret.com/fitness/elliptical,Strenuous Intensity,588.0,8.0
+endurance sport,https://www.fatsecret.com/fitness/endurance-sport,Strenuous Intensity,588.0,8.0
+exercise machine,https://www.fatsecret.com/fitness/exercise-machine,Strenuous Intensity,588.0,8.0
+exercise machine (moderate),https://www.fatsecret.com/fitness/exercise-machine-(moderate),Strenuous Intensity,588.0,8.0
+football,https://www.fatsecret.com/fitness/football,Strenuous Intensity,588.0,8.0
+hockey,https://www.fatsecret.com/fitness/hockey,Strenuous Intensity,588.0,8.0
+ice hockey,https://www.fatsecret.com/fitness/ice-hockey,Strenuous Intensity,588.0,8.0
+handball,https://www.fatsecret.com/fitness/handball,Strenuous Intensity,588.0,8.0
+abdominal (sit ups),https://www.fatsecret.com/fitness/abdominal-(sit-ups),Strenuous Intensity,588.0,8.0
+kettlebells,https://www.fatsecret.com/fitness/kettlebells,Strenuous Intensity,588.0,8.0
+padel tennis,https://www.fatsecret.com/fitness/padel-tennis,Strenuous Intensity,588.0,8.0
+lacrosse,https://www.fatsecret.com/fitness/lacrosse,Strenuous Intensity,588.0,8.0
+nordic walking,https://www.fatsecret.com/fitness/nordic-walking,Strenuous Intensity,588.0,8.0
+jumping jacks (star jumps),https://www.fatsecret.com/fitness/jumping-jacks-(star-jumps),Strenuous Intensity,588.0,8.0
+roller blading,https://www.fatsecret.com/fitness/roller-blading,Strenuous Intensity,735.0,10.0
+bicycling (fast) - 15/mph,https://www.fatsecret.com/fitness/bicycling-(fast)-15-mph,Strenuous Intensity,735.0,10.0
+running - 6/mph,https://www.fatsecret.com/fitness/running-6-mph,Strenuous Intensity,735.0,10.0
+skipping rope (jumping rope),https://www.fatsecret.com/fitness/skipping-rope-(jumping-rope),Strenuous Intensity,735.0,10.0
+swimming (fast),https://www.fatsecret.com/fitness/swimming-(fast),Strenuous Intensity,735.0,10.0
+exercise machine (fast),https://www.fatsecret.com/fitness/exercise-machine-(fast),Strenuous Intensity,735.0,10.0
+racquetball,https://www.fatsecret.com/fitness/racquetball,Strenuous Intensity,735.0,10.0
+running - 7/mph,https://www.fatsecret.com/fitness/running-7-mph,Strenuous Intensity,845.0,11.5
+boxing,https://www.fatsecret.com/fitness/boxing,Strenuous Intensity,882.0,12.0
+bicycling (very fast) - 17.5/mph,https://www.fatsecret.com/fitness/bicycling-(very-fast)-175-mph,Strenuous Intensity,882.0,12.0
+skiing (cross country),https://www.fatsecret.com/fitness/skiing-(cross-country),Strenuous Intensity,882.0,12.0
+running - 8/mph,https://www.fatsecret.com/fitness/running-8-mph,Strenuous Intensity,992.0,13.5
+running - 9/mph,https://www.fatsecret.com/fitness/running-9-mph,Strenuous Intensity,1102.0,15.0
+running - 10/mph,https://www.fatsecret.com/fitness/running-10-mph,Strenuous Intensity,1176.0,16.0
