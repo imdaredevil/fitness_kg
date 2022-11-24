@@ -1,0 +1,57 @@
+muscle,relation,Anatomy
+gastrocnemius,PART_OF,calves
+quadriceps,PART_OF,thighs
+brachioradialis,PART_OF,forearms
+anterior deltoid,PART_OF,chest
+pectoralis major-sternal,PART_OF,chest
+rectus abdominis,PART_OF,abs
+sternocleidomastoid,PART_OF,neck
+triceps brachii,PART_OF,triceps
+wrist flexors,PART_OF,forearms
+splenius,PART_OF,neck
+soleus,PART_OF,calves
+wrist extensors,PART_OF,forearms
+tibialis anterior,PART_OF,calves
+pronators,PART_OF,forearms
+supinators,PART_OF,forearms
+lateral deltoid,PART_OF,shoulders
+popliteus,PART_OF,calves
+posterior deltoid,PART_OF,shoulders
+pectoralis major-clavicular,PART_OF,chest
+latissimus dorsi,PART_OF,lats
+biceps brachii,PART_OF,biceps
+transverse abdominis,PART_OF,abs
+obliques,PART_OF,abs
+pectoralis minor,PART_OF,chest
+brachialis,PART_OF,upper arms
+serratus anterior,PART_OF,chest
+supraspinatus,PART_OF,back
+hamstrings,PART_OF,quads
+quadratus lumborum,PART_OF,back
+trapezius-upper fibers,PART_OF,traps
+erector spinae,PART_OF,back
+trapezius-middle fibers,PART_OF,traps
+trapezius-lower fibers,PART_OF,traps
+rhomboids,PART_OF,back
+infraspinatus,PART_OF,back
+subscapularis,PART_OF,back
+adductor magnus,PART_OF,thighs
+deep hip external rotators,PART_OF,hips
+abductors,PART_OF,thighs
+lower back,PART_OF,back
+palmar fascia,PART_OF,hands
+upper back,PART_OF,back
+plantar fascia,PART_OF,"legs
+"
+adductors,PART_OF,thighs
+hip flexors,PART_OF,hips
+it band,PART_OF,thighs
+abs,PART_OF,waist
+traps,PART_OF,back
+quads,PART_OF,thighs
+forearms,PART_OF,hands
+upper arms,PART_OF,hands
+belly,PART_OF,waist
+knees,PART_OF,legs
+flexors,PART_OF,hips
+wrists,PART_OF,hands

@@ -1,0 +1,207 @@
+yoga1,relation,yoga2
+crow pose,FOLLOWS,four-limbed staff pose
+cat pose,FOLLOWS,cow pose
+cow pose,FOLLOWS,cat pose
+cow pose,FOLLOWS,child's pose
+cow pose,FOLLOWS,standing forward bend
+cow pose,FOLLOWS,sphinx pose
+cow pose,FOLLOWS,locust pose
+cow pose,FOLLOWS,upward-facing dog pose
+chair pose,FOLLOWS,standing forward bend
+chair pose,FOLLOWS,bridge pose
+chair pose,FOLLOWS,cobra pose
+chair pose,FOLLOWS,downward-facing dog
+bow pose,FOLLOWS,child's pose
+bow pose,FOLLOWS,"wind-relieving pose, in which you lie on your back with your knees drawn into your chest"
+bound angle pose,FOLLOWS,staff pose
+bound angle pose,FOLLOWS,reverse plank | upward plank pose
+bound angle pose,FOLLOWS,bridge pose
+bridge pose,FOLLOWS,cobra pose
+bridge pose,FOLLOWS,supported shoulderstand
+bridge pose,FOLLOWS,upward-facing dog pose
+bridge pose,FOLLOWS,upward bow pose
+cobra pose,FOLLOWS,"if you feel any discomfort or compression in the lower back, don't come up as high in the pose. focus instead on creating strength in the upper back, between the shoulder blades."
+camel pose,FOLLOWS,seated forward bend
+camel pose,FOLLOWS,happy baby pose
+camel pose,FOLLOWS,child's pose
+camel pose,FOLLOWS,reclining hand-to-big-toe pose
+big toe pose,FOLLOWS,utkatasana
+big toe pose,FOLLOWS,trikonasana
+boat pose,FOLLOWS,bound angle pose
+boat pose,FOLLOWS,bharadvajasana
+boat pose,FOLLOWS,
+boat pose,FOLLOWS,bharadvaja's twist
+reclining bound angle pose,FOLLOWS,"supta baddha konasana is an excellent preparatory pose for a number of different poses, including many standing poses,"
+reclining bound angle pose,FOLLOWS,gomukhasana
+reclining bound angle pose,FOLLOWS,","
+reclining bound angle pose,FOLLOWS,malasana
+reclining bound angle pose,FOLLOWS,","
+reclining bound angle pose,FOLLOWS,padmasana
+reclining bound angle pose,FOLLOWS,", and most seated twists and forward bends."
+bharadvaja’s twist,FOLLOWS,bound angle pose
+bharadvaja’s twist,FOLLOWS,pose dedicated to the sage marichi
+bharadvaja’s twist,FOLLOWS,half lord of the fishes pose
+reclining hero pose,FOLLOWS,"like its upright cousin, supta virasana is an excellent preparatory pose for many asanas, including"
+reclining hero pose,FOLLOWS,padmasana
+reclining hero pose,FOLLOWS,","
+reclining hero pose,FOLLOWS,baddha konasana
+reclining hero pose,FOLLOWS,", bakasana, most standing poses, and any inversion and backbend."
+sphinx pose,FOLLOWS,setu bandha sarvangasana
+staff pose,FOLLOWS,reverse plank pose
+staff pose,FOLLOWS,seated forward bend
+cow face pose,FOLLOWS,bound angle pose
+cow face pose,FOLLOWS,eagle pose
+cow face pose,FOLLOWS,reclining bound angle pose
+wheel pose,FOLLOWS,seated forward bend
+wheel pose,FOLLOWS,happy baby pose
+wheel pose,FOLLOWS,child's pose
+feathered peacock pose,FOLLOWS,child's pose
+reclining hand-to-big-toe pose i,FOLLOWS,standing poses
+wide-angled seated forward bend,FOLLOWS,supta baddha konasana
+wide-angled seated forward bend,FOLLOWS,reclining bound angle pose
+pose dedicated to the sage marichi i,FOLLOWS,upavistha konasana
+pose dedicated to the sage marichi i,FOLLOWS,wide-angle seated forward bend
+shoulder-pressing pose,FOLLOWS,uttanasana
+shoulder-pressing pose,FOLLOWS,standing forward bend
+shoulder-pressing pose,FOLLOWS,adho mukha svanasana
+shoulder-pressing pose,FOLLOWS,downward-facing dog
+shoulder-pressing pose,FOLLOWS,urdhva mukha svanasana
+shoulder-pressing pose,FOLLOWS,upward-facing dog
+pose dedicated to the sage koundinya ii,FOLLOWS,uttanasana
+pose dedicated to the sage koundinya ii,FOLLOWS,adho mukha svanasana
+reverse plank,FOLLOWS,happy baby pose
+upward facing two-foot staff pose,FOLLOWS,adho mukha svanasana
+upward facing two-foot staff pose,FOLLOWS,uttanasana
+upward facing two-foot staff pose,FOLLOWS,marichyasana i
+warrior 3 pose,FOLLOWS,mountain pose
+warrior 3 pose,FOLLOWS,standing forward bend
+warrior 3 pose,FOLLOWS,child's pose
+wide-legged standing forward bend,FOLLOWS,mountain pose
+wide-legged standing forward bend,FOLLOWS,chair pose
+wide-legged standing forward bend,FOLLOWS,eagle pose
+wide-legged standing forward bend,FOLLOWS,bound angle pose
+wide-legged standing forward bend,FOLLOWS,child's pose
+warrior 1 pose,FOLLOWS,mountain pose
+warrior 1 pose,FOLLOWS,downward-facing dog
+warrior 1 pose,FOLLOWS,standing forward bend
+warrior 1 pose,FOLLOWS,warrior ii
+warrior 1 pose,FOLLOWS,revolved side angle pose
+standing forward bend,FOLLOWS,downward-facing dog
+standing forward bend,FOLLOWS,chair pose
+standing forward bend,FOLLOWS,high lunge
+upward-facing dog pose,FOLLOWS,downward-facing dog
+upward-facing dog pose,FOLLOWS,child's pose
+side crow pose,FOLLOWS,standing forward bend
+seated forward bend,FOLLOWS,happy baby pose
+seated forward bend,FOLLOWS,bridge pose
+seated forward bend,FOLLOWS,reverse plank pose
+seated forward bend,FOLLOWS,bow pose
+revolved triangle pose,FOLLOWS,bharadvajasana
+revolved triangle pose,FOLLOWS,bharadvaja's twist
+supported headstand,FOLLOWS,standing forward bend
+pose dedicated to the sage koundinya i,FOLLOWS,uttanasana
+pose dedicated to the sage koundinya i,FOLLOWS,adho mukha svanasana
+plow pose,FOLLOWS,fish pose
+plow pose,FOLLOWS,bridge pose
+plow pose,FOLLOWS,upward-facing dog pose
+side plank pose,FOLLOWS,adho mukha svanasana
+side plank pose,FOLLOWS,downward-facing dog
+scale pose,FOLLOWS,
+scale pose,FOLLOWS,kukkuta
+scale pose,FOLLOWS,"= cock. here the arms are slipped into the creases between the thighs and calves and, as in tolasana, the torso and legs are then lifted away from the floor."
+one-legged king pigeon pose,FOLLOWS,downward-facing dog
+mountain pose,FOLLOWS,uttanasana
+mountain pose,FOLLOWS,standing forward bend
+mountain pose,FOLLOWS,utkatasana
+mountain pose,FOLLOWS,chair pose
+mountain pose,FOLLOWS,savasana
+mountain pose,FOLLOWS,corpse pose
+mountain pose,FOLLOWS,learn more about finding alignment and balancing effort with ease in this pose in
+mountain pose,FOLLOWS,mountain pose: the complete guide for students and teachers
+mountain pose,FOLLOWS,". access these and other expert insights from top teachers—including video instruction, anatomy know-how, variations, and more—when you"
+mountain pose,FOLLOWS,become a member
+mountain pose,FOLLOWS,. it's a resource you'll return to again and again.
+plank pose,FOLLOWS,downward-facing dog
+pose dedicated to the sage marichi iii,FOLLOWS,seated forward bend
+revolved side angle pose,FOLLOWS,uttanasana
+revolved side angle pose,FOLLOWS,standing forward bend
+lotus pose,FOLLOWS,seated forward bend
+peacock pose,FOLLOWS,try lifting one leg at a time.
+legs up the wall pose,FOLLOWS,corpse pose
+king pigeon pose,FOLLOWS,balasana
+king pigeon pose,FOLLOWS,bharadvajasana i
+king pigeon pose,FOLLOWS,pasasana
+king pigeon pose,FOLLOWS,adho mukha svanasana
+"high lunge, crescent variation",FOLLOWS,virabhadrasana i
+"high lunge, crescent variation",FOLLOWS,warrior i pose
+"high lunge, crescent variation",FOLLOWS,virabhadrasana ii
+"high lunge, crescent variation",FOLLOWS,warrior ii pose
+"high lunge, crescent variation",FOLLOWS,utkatasana
+"high lunge, crescent variation",FOLLOWS,chair pose
+one-legged king pigeon pose ii,FOLLOWS,adho mukha svanasana
+one-legged king pigeon pose ii,FOLLOWS,downward-facing dog
+monkey pose,FOLLOWS,one-legged king pigeon pose
+dancer pose,FOLLOWS,standing forward bend
+low lunge,FOLLOWS,warrior poses i and iii
+hero pose,FOLLOWS,padmasana
+hero pose,FOLLOWS,bakasana
+head-to-knee pose,FOLLOWS,downward-facing dog pose
+locust pose,FOLLOWS,child's pose
+happy baby pose,FOLLOWS,adho mukha svanasana
+happy baby pose,FOLLOWS,downward-facing dog
+half moon pose,FOLLOWS,standing forward bend
+rope pose,FOLLOWS,downward-facing dog
+half lord of the fishes pose,FOLLOWS,seated forward bend
+half lord of the fishes pose,FOLLOWS,bound angle pose
+half lord of the fishes pose,FOLLOWS,corpse pose
+half frog pose,FOLLOWS,downward-facing dog pose
+half frog pose,FOLLOWS,eagle pose
+half frog pose,FOLLOWS,", arms only"
+garland or squat pose,FOLLOWS,uttanasana
+garland or squat pose,FOLLOWS,adho mukha svanasana
+garland or squat pose,FOLLOWS,bhujangasana
+firefly pose,FOLLOWS,standing forward bend
+handstand,FOLLOWS,child's pose
+high lunge,FOLLOWS,standing forward bend
+heron pose,FOLLOWS,"marichi's pose,"
+heron pose,FOLLOWS,seated wide angle pose
+heron pose,FOLLOWS,", and"
+heron pose,FOLLOWS,seated forward bend
+heron pose,FOLLOWS,.
+extended puppy pose,FOLLOWS,balasana
+extended triangle pose,FOLLOWS,"if your legs are too close together, you won't feel the full benefit of the pose. if your legs are too far apart, you'll feel unbalanced. the length is unique to you and your legs, so explore the stance to find the foot position that is best for you. you should feel a pleasant stretch, but you shouldn't feel strained."
+extended triangle pose,FOLLOWS,"if you feel unsteady in the pose, brace your back heel against a wall."
+extended triangle pose,FOLLOWS,"to keep the back of your body aligned, pretend that you are pressing your head, shoulders, and buttocks against a wall. or practice alongside an actual wall and press your back body against it."
+extended triangle pose,FOLLOWS,try to keep your arms in one long line from the floor to the ceiling.
+extended triangle pose,FOLLOWS,"if turning your head to face the ceiling is not comfortable on your neck, look straight ahead or down at the mat."
+eagle pose,FOLLOWS,child's pose
+four-limbed staff pose,FOLLOWS,reverse plank pose
+gate pose,FOLLOWS,child's pose
+fish pose,FOLLOWS,gomukhasana
+fish pose,FOLLOWS,setu bandha sarvangasana
+fish pose,FOLLOWS,supta virasana
+fish pose,FOLLOWS,ustrasana
+fish pose,FOLLOWS,virasana
+downward-facing dog pose,FOLLOWS,balasana
+downward-facing dog pose,FOLLOWS,learn more about finding alignment and balancing effort with ease in this pose in
+downward-facing dog pose,FOLLOWS,downward-facing dog: the complete guide for students and teachers
+downward-facing dog pose,FOLLOWS,". access expert insights from top teachers—including anatomy know-how, variations, and more—when you"
+downward-facing dog pose,FOLLOWS,become a member
+downward-facing dog pose,FOLLOWS,. it's a resource you'll return to again and again.
+dolphin pose,FOLLOWS,salabhasana
+dolphin pose,FOLLOWS,arms only
+eight-angle pose,FOLLOWS,staff pose
+eight-angle pose,FOLLOWS,fish pose
+eight-angle pose,FOLLOWS,seated forward bend
+eight-angle pose,FOLLOWS,child's pose
+forearm plank,FOLLOWS,downward-facing dog pose
+extended hand-to-big-toe pose,FOLLOWS,warrior pose i
+extended hand-to-big-toe pose,FOLLOWS,mountain pose
+extended hand-to-big-toe pose,FOLLOWS,reclining hand-to-big toe pose i
+extended hand-to-big-toe pose,FOLLOWS,tree pose
+fire log pose,FOLLOWS,paschimottanasana
+fire log pose,FOLLOWS,bharadvajasana i
+extended side angle pose,FOLLOWS,standing forward bend
+extended side angle pose,FOLLOWS,revolved triangle
+extended side angle pose,FOLLOWS,half moon pose
+easy pose,FOLLOWS,child's pose
