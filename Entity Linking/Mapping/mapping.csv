@@ -1,0 +1,50 @@
+name_x,name_y
+neck,
+shoulders,
+upper arms,
+forearms,
+back,
+chest,
+waist,
+hips,
+thighs,
+calves,
+gastrocnemius,calves
+quadriceps,thighs
+brachioradialis,forearms
+anterior deltoid,shoulders
+"pectoralis major, sternal",chest
+rectus abdominis,waist
+gluteus maximus,hips
+sternocleidomastoid,neck
+triceps brachii,upper arms
+wrist flexors,forearms
+splenius,neck
+soleus,calves
+wrist extensors,forearms
+tibialis anterior,calves
+pronators,forearms
+supinators,forearms
+lateral deltoid,shoulders
+popliteus,calves
+posterior deltoid,shoulders
+"pectoralis major, clavicular",chest
+latissimus dorsi,back
+biceps brachii,upper arms
+transverse abdominis,waist
+obliques,waist
+pectoralis minor,chest
+brachialis,upper arms
+serratus anterior,chest
+supraspinatus,shoulders
+hamstrings,thighs
+quadratus lumborum,waist
+"trapezius, upper fibers",back
+erector spinae,waist
+"trapezius, middle fibers",back
+"trapezius, lower fibers",back
+rhomboids,back
+infraspinatus,back
+subscapularis,back
+adductor magnus,thighs
+deep hip external rotators,hips

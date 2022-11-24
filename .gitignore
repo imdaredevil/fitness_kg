@@ -1,3 +1,5 @@
 *.jsonl
 *.pyc
 **/.DS_STORE
+**/*.ipynb_checkpoints
+**/*.bak
