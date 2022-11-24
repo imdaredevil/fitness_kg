@@ -1,509 +1,509 @@
 yoga,relation,anatomy
-child’s pose,TARGETS,['Thighs']
-child’s pose,TARGETS,['Ankles']
-child’s pose,TARGETS,['Hips']
-crow pose,TARGETS,['Hands']
-crow pose,TARGETS,['Belly']
-crow pose,TARGETS,['Back']
-crow pose,TARGETS,['Wrists']
-crow pose,TARGETS,['Back']
-crow pose,TARGETS,['Arms']
-crow pose,TARGETS,['Flexors']
-crow pose,TARGETS,['Back']
-crow pose,TARGETS,['Abs']
-cat pose,TARGETS,['Belly']
-cat pose,TARGETS,['Kidneys']
-cat pose,TARGETS,['Back']
-cat pose,TARGETS,['Neck']
-cat pose,TARGETS,['Back']
-cat pose,TARGETS,['Spine']
-cat pose,TARGETS,['Shoulders']
-cat pose,TARGETS,['Pelvis']
-cat pose,TARGETS,['Heart']
-cat pose,TARGETS,['Lungs']
-cat pose,TARGETS,['Hips']
-cat pose,TARGETS,['Back']
-cow pose,TARGETS,['Kidneys']
-cow pose,TARGETS,['Belly']
-cow pose,TARGETS,['Back']
-cow pose,TARGETS,['Neck']
-cow pose,TARGETS,['Back']
-cow pose,TARGETS,['Spine']
-cow pose,TARGETS,['Shoulders']
-cow pose,TARGETS,['Pelvis']
-cow pose,TARGETS,['Heart']
-cow pose,TARGETS,['Lungs']
-cow pose,TARGETS,['Hips']
-cow pose,TARGETS,['Back']
-chair pose,TARGETS,['Belly']
-chair pose,TARGETS,['Back']
-chair pose,TARGETS,['Thighs']
-chair pose,TARGETS,['Spine']
-chair pose,TARGETS,['Heart']
-chair pose,TARGETS,['Legs']
-chair pose,TARGETS,['Ankles']
-chair pose,TARGETS,['Back']
-bow pose,TARGETS,['Belly']
-bow pose,TARGETS,['Neck']
-bow pose,TARGETS,['Thighs']
-bow pose,TARGETS,['Spine']
-bow pose,TARGETS,['Shoulders']
-bow pose,TARGETS,['Heart']
-bow pose,TARGETS,['Flexors']
-bound angle pose,TARGETS,['Hamstrings']
-bound angle pose,TARGETS,['Belly']
-bound angle pose,TARGETS,['Kidneys']
-bound angle pose,TARGETS,['Thighs']
-bound angle pose,TARGETS,['Heart']
-bound angle pose,TARGETS,['Knees']
-bound angle pose,TARGETS,['Legs']
-bound angle pose,TARGETS,['Hips']
-bridge pose,TARGETS,['Belly']
-bridge pose,TARGETS,['Kidneys']
-bridge pose,TARGETS,['Back']
-bridge pose,TARGETS,['Neck']
-bridge pose,TARGETS,['Back']
-bridge pose,TARGETS,['Spine']
-bridge pose,TARGETS,['Pelvis']
-bridge pose,TARGETS,['Heart']
-bridge pose,TARGETS,['Knees']
-bridge pose,TARGETS,['Legs']
-bridge pose,TARGETS,['Lungs']
-bridge pose,TARGETS,['Flexors']
-bridge pose,TARGETS,['Back']
-bridge pose,TARGETS,['Abs']
-cobra pose,TARGETS,['Hands']
-cobra pose,TARGETS,['Glutes']
-cobra pose,TARGETS,['Kidneys']
-cobra pose,TARGETS,['Belly']
-cobra pose,TARGETS,['Back']
-cobra pose,TARGETS,['Spine']
-cobra pose,TARGETS,['Shoulders']
-cobra pose,TARGETS,['Heart']
-cobra pose,TARGETS,['Lungs']
-cobra pose,TARGETS,['Back']
-camel pose,TARGETS,['Belly']
-camel pose,TARGETS,['Neck']
-camel pose,TARGETS,['Thighs']
-camel pose,TARGETS,['Spine']
-camel pose,TARGETS,['Shoulders']
-camel pose,TARGETS,['Flexors']
-camel pose,TARGETS,['Ankles']
-big toe pose,TARGETS,['Glutes']
-big toe pose,TARGETS,['Hamstrings']
-big toe pose,TARGETS,['Kidneys']
-big toe pose,TARGETS,['Back']
-big toe pose,TARGETS,['Neck']
-big toe pose,TARGETS,['Back']
-big toe pose,TARGETS,['Thighs']
-big toe pose,TARGETS,['Spine']
-big toe pose,TARGETS,['Shoulders']
-big toe pose,TARGETS,['Pelvis']
-big toe pose,TARGETS,['Heart']
-big toe pose,TARGETS,['Knees']
-big toe pose,TARGETS,['Legs']
-big toe pose,TARGETS,['Lungs']
-big toe pose,TARGETS,['Hips']
-big toe pose,TARGETS,['Back']
-boat pose,TARGETS,['Belly']
-boat pose,TARGETS,['Kidneys']
-boat pose,TARGETS,['Spine']
-boat pose,TARGETS,['Flexors']
-boat pose,TARGETS,['Hips']
-boat pose,TARGETS,['Abs']
-reclining bound angle pose,TARGETS,['Kidneys']
-reclining bound angle pose,TARGETS,['Heart']
-reclining bound angle pose,TARGETS,['Knees']
-reclining bound angle pose,TARGETS,['Hips']
-bharadvaja’s twist,TARGETS,['Belly']
-bharadvaja’s twist,TARGETS,['Back']
-bharadvaja’s twist,TARGETS,['Neck']
-bharadvaja’s twist,TARGETS,['Back']
-bharadvaja’s twist,TARGETS,['Spine']
-bharadvaja’s twist,TARGETS,['Shoulders']
-bharadvaja’s twist,TARGETS,['Hips']
-bharadvaja’s twist,TARGETS,['Back']
-reclining hero pose,TARGETS,['Knees']
-reclining hero pose,TARGETS,['Flexors']
-reclining hero pose,TARGETS,['Ankles']
-sphinx pose,TARGETS,['Glutes']
-sphinx pose,TARGETS,['Kidneys']
-sphinx pose,TARGETS,['Neck']
-sphinx pose,TARGETS,['Back']
-sphinx pose,TARGETS,['Pelvis']
-sphinx pose,TARGETS,['Heart']
-sphinx pose,TARGETS,['Lungs']
-staff pose,TARGETS,['Hamstrings']
-staff pose,TARGETS,['Kidneys']
-staff pose,TARGETS,['Neck']
-staff pose,TARGETS,['Pelvis']
-staff pose,TARGETS,['Heart']
-staff pose,TARGETS,['Legs']
-staff pose,TARGETS,['Lungs']
-cow face pose,TARGETS,['Thighs']
-cow face pose,TARGETS,['Ankles']
-cow face pose,TARGETS,['Hips']
-wheel pose,TARGETS,['Hands']
-wheel pose,TARGETS,['Glutes']
-wheel pose,TARGETS,['Wrists']
-wheel pose,TARGETS,['Arms']
-wheel pose,TARGETS,['Legs']
-wheel pose,TARGETS,['Lungs']
-feathered peacock pose,TARGETS,['Spine']
-feathered peacock pose,TARGETS,['Shoulders']
-feathered peacock pose,TARGETS,['Arms']
-feathered peacock pose,TARGETS,['Lungs']
-reclining hand-to-big-toe pose i,TARGETS,['Hamstrings']
-reclining hand-to-big-toe pose i,TARGETS,['Knees']
-wide-angled seated forward bend,TARGETS,['Hamstrings']
-pose dedicated to the sage marichi i,TARGETS,['Hamstrings']
-pose dedicated to the sage marichi i,TARGETS,['Kidneys']
-pose dedicated to the sage marichi i,TARGETS,['Hips']
-shoulder-pressing pose,TARGETS,['Hands']
-shoulder-pressing pose,TARGETS,['Wrists']
-shoulder-pressing pose,TARGETS,['Arms']
-shoulder-pressing pose,TARGETS,['Flexors']
-pose dedicated to the sage koundinya ii,TARGETS,['Hands']
-pose dedicated to the sage koundinya ii,TARGETS,['Back']
-pose dedicated to the sage koundinya ii,TARGETS,['Wrists']
-pose dedicated to the sage koundinya ii,TARGETS,['Back']
-pose dedicated to the sage koundinya ii,TARGETS,['Shoulders']
-pose dedicated to the sage koundinya ii,TARGETS,['Arms']
-pose dedicated to the sage koundinya ii,TARGETS,['Flexors']
-pose dedicated to the sage koundinya ii,TARGETS,['Abs']
-reverse plank,TARGETS,['Hands']
-reverse plank,TARGETS,['Glutes']
-reverse plank,TARGETS,['Neck']
-reverse plank,TARGETS,['Wrists']
-reverse plank,TARGETS,['Pelvis']
-reverse plank,TARGETS,['Heart']
-upward facing two-foot staff pose,TARGETS,['Glutes']
-upward facing two-foot staff pose,TARGETS,['Neck']
-upward facing two-foot staff pose,TARGETS,['Pelvis']
-upward facing two-foot staff pose,TARGETS,['Arms']
-upward facing two-foot staff pose,TARGETS,['Heart']
-upward facing two-foot staff pose,TARGETS,['Lungs']
-warrior 3 pose,TARGETS,['Hamstrings']
-wide-legged standing forward bend,TARGETS,['Hamstrings']
-supported shoulderstand,TARGETS,['Glutes']
-supported shoulderstand,TARGETS,['Lungs']
-warrior 1 pose,TARGETS,['Neck']
-standing forward bend,TARGETS,['Hamstrings']
-standing forward bend,TARGETS,['Kidneys']
-standing forward bend,TARGETS,['Knees']
-upward-facing dog pose,TARGETS,['Glutes']
-upward-facing dog pose,TARGETS,['Wrists']
-upward-facing dog pose,TARGETS,['Lungs']
-upward-facing dog pose,TARGETS,['Flexors']
-side crow pose,TARGETS,['Hands']
-side crow pose,TARGETS,['Kidneys']
-side crow pose,TARGETS,['Wrists']
-side crow pose,TARGETS,['Back']
-side crow pose,TARGETS,['Arms']
-side crow pose,TARGETS,['Flexors']
-seated forward bend,TARGETS,['Hamstrings']
-seated forward bend,TARGETS,['Kidneys']
-seated forward bend,TARGETS,['Back']
-seated forward bend,TARGETS,['Pelvis']
-revolved triangle pose,TARGETS,['Back']
-revolved triangle pose,TARGETS,['Legs']
-revolved triangle pose,TARGETS,['Ankles']
-supported headstand,TARGETS,['Glutes']
-supported headstand,TARGETS,['Pelvis']
-supported headstand,TARGETS,['Arms']
-supported headstand,TARGETS,['Legs']
-pose dedicated to the sage koundinya i,TARGETS,['Hands']
-pose dedicated to the sage koundinya i,TARGETS,['Back']
-pose dedicated to the sage koundinya i,TARGETS,['Wrists']
-pose dedicated to the sage koundinya i,TARGETS,['Back']
-pose dedicated to the sage koundinya i,TARGETS,['Shoulders']
-pose dedicated to the sage koundinya i,TARGETS,['Arms']
-pose dedicated to the sage koundinya i,TARGETS,['Flexors']
-pose dedicated to the sage koundinya i,TARGETS,['Abs']
-plow pose,TARGETS,['Shoulders']
-side plank pose,TARGETS,['Glutes']
-side plank pose,TARGETS,['Hands']
-side plank pose,TARGETS,['Wrists']
-side plank pose,TARGETS,['Arms']
-scale pose,TARGETS,['Hands']
-scale pose,TARGETS,['Wrists']
-scale pose,TARGETS,['Knees']
-scale pose,TARGETS,['Flexors']
-one-legged king pigeon pose,TARGETS,['Knees']
-one-legged king pigeon pose,TARGETS,['Flexors']
-one-legged king pigeon pose,TARGETS,['Hips']
-mountain pose,TARGETS,['Glutes']
-mountain pose,TARGETS,['Back']
-mountain pose,TARGETS,['Knees']
-mountain pose,TARGETS,['Legs']
-mountain pose,TARGETS,['Ankles']
-plank pose,TARGETS,['Hands']
-plank pose,TARGETS,['Wrists']
-plank pose,TARGETS,['Arms']
-plank pose,TARGETS,['Abs']
-pose dedicated to the sage marichi iii,TARGETS,['Back']
-pose dedicated to the sage marichi iii,TARGETS,['Shoulders']
-pose dedicated to the sage marichi iii,TARGETS,['Hips']
-pose dedicated to the sage marichi iii,TARGETS,['Back']
-pose dedicated to the sage marichi iii,TARGETS,['Abs']
-revolved side angle pose,TARGETS,['Hamstrings']
-revolved side angle pose,TARGETS,['Legs']
-revolved side angle pose,TARGETS,['Lungs']
-revolved side angle pose,TARGETS,['Flexors']
-revolved side angle pose,TARGETS,['Ankles']
-lotus pose,TARGETS,['Pelvis']
-lotus pose,TARGETS,['Knees']
-lotus pose,TARGETS,['Ankles']
-peacock pose,TARGETS,['Glutes']
-peacock pose,TARGETS,['Hands']
-peacock pose,TARGETS,['Wrists']
-peacock pose,TARGETS,['Arms']
-peacock pose,TARGETS,['Legs']
-peacock pose,TARGETS,['Abs']
-legs up the wall pose,TARGETS,['Neck']
-legs up the wall pose,TARGETS,['Legs']
-king pigeon pose,TARGETS,['Glutes']
-king pigeon pose,TARGETS,['Kidneys']
-king pigeon pose,TARGETS,['Back']
-king pigeon pose,TARGETS,['Neck']
-king pigeon pose,TARGETS,['Back']
-king pigeon pose,TARGETS,['Thighs']
-king pigeon pose,TARGETS,['Shoulders']
-king pigeon pose,TARGETS,['Pelvis']
-king pigeon pose,TARGETS,['Arms']
-king pigeon pose,TARGETS,['Heart']
-king pigeon pose,TARGETS,['Lungs']
-king pigeon pose,TARGETS,['Flexors']
-king pigeon pose,TARGETS,['Hips']
-king pigeon pose,TARGETS,['Back']
-king pigeon pose,TARGETS,['Abs']
-"high lunge, crescent variation",TARGETS,['Belly']
-"high lunge, crescent variation",TARGETS,['Neck']
-"high lunge, crescent variation",TARGETS,['Thighs']
-"high lunge, crescent variation",TARGETS,['Flexors']
-"high lunge, crescent variation",TARGETS,['Ankles']
-"high lunge, crescent variation",TARGETS,['Abs']
-one-legged king pigeon pose ii,TARGETS,['Neck']
-one-legged king pigeon pose ii,TARGETS,['Flexors']
-one-legged king pigeon pose ii,TARGETS,['Ankles']
-one-legged king pigeon pose ii,TARGETS,['Hips']
-one-legged king pigeon pose ii,TARGETS,['Abs']
-monkey pose,TARGETS,['Hamstrings']
-monkey pose,TARGETS,['Thighs']
-monkey pose,TARGETS,['Shoulders']
-monkey pose,TARGETS,['Flexors']
-dancer pose,TARGETS,['Kidneys']
-dancer pose,TARGETS,['Shoulders']
-dancer pose,TARGETS,['Thighs']
-dancer pose,TARGETS,['Pelvis']
-dancer pose,TARGETS,['Knees']
-dancer pose,TARGETS,['Legs']
-dancer pose,TARGETS,['Lungs']
-dancer pose,TARGETS,['Flexors']
-dancer pose,TARGETS,['Ankles']
-dancer pose,TARGETS,['Abs']
-low lunge,TARGETS,['Neck']
-low lunge,TARGETS,['Thighs']
-low lunge,TARGETS,['Lungs']
-low lunge,TARGETS,['Flexors']
-hero pose,TARGETS,['Belly']
-hero pose,TARGETS,['Back']
-hero pose,TARGETS,['Thighs']
-hero pose,TARGETS,['Knees']
-hero pose,TARGETS,['Ankles']
-head-to-knee pose,TARGETS,['Hamstrings']
-head-to-knee pose,TARGETS,['Kidneys']
-head-to-knee pose,TARGETS,['Thighs']
-head-to-knee pose,TARGETS,['Pelvis']
-head-to-knee pose,TARGETS,['Back']
-locust pose,TARGETS,['Hamstrings']
-locust pose,TARGETS,['Glutes']
-locust pose,TARGETS,['Back']
-locust pose,TARGETS,['Neck']
-locust pose,TARGETS,['Back']
-locust pose,TARGETS,['Thighs']
-locust pose,TARGETS,['Arms']
-locust pose,TARGETS,['Lungs']
-locust pose,TARGETS,['Back']
-happy baby pose,TARGETS,['Glutes']
-happy baby pose,TARGETS,['Hips']
-half moon pose,TARGETS,['Belly']
-half moon pose,TARGETS,['Thighs']
-half moon pose,TARGETS,['Spine']
-half moon pose,TARGETS,['Shoulders']
-half moon pose,TARGETS,['Knees']
-half moon pose,TARGETS,['Ankles']
-half moon pose,TARGETS,['Abs']
-rope pose,TARGETS,['Kidneys']
-rope pose,TARGETS,['Pelvis']
-rope pose,TARGETS,['Shoulders']
-rope pose,TARGETS,['Knees']
-rope pose,TARGETS,['Ankles']
-rope pose,TARGETS,['Hips']
-rope pose,TARGETS,['Abs']
-half lord of the fishes pose,TARGETS,['Kidneys']
-half lord of the fishes pose,TARGETS,['Back']
-half lord of the fishes pose,TARGETS,['Neck']
-half lord of the fishes pose,TARGETS,['Back']
-half lord of the fishes pose,TARGETS,['Spine']
-half lord of the fishes pose,TARGETS,['Hips']
-half lord of the fishes pose,TARGETS,['Back']
-half frog pose,TARGETS,['Glutes']
-half frog pose,TARGETS,['Kidneys']
-half frog pose,TARGETS,['Belly']
-half frog pose,TARGETS,['Back']
-half frog pose,TARGETS,['Back']
-half frog pose,TARGETS,['Thighs']
-half frog pose,TARGETS,['Spine']
-half frog pose,TARGETS,['Shoulders']
-half frog pose,TARGETS,['Pelvis']
-half frog pose,TARGETS,['Arms']
-half frog pose,TARGETS,['Heart']
-half frog pose,TARGETS,['Knees']
-half frog pose,TARGETS,['Legs']
-half frog pose,TARGETS,['Lungs']
-half frog pose,TARGETS,['Ankles']
-half frog pose,TARGETS,['Hips']
-half frog pose,TARGETS,['Back']
-half frog pose,TARGETS,['Abs']
-garland or squat pose,TARGETS,['Hands']
-garland or squat pose,TARGETS,['Belly']
-garland or squat pose,TARGETS,['Back']
-garland or squat pose,TARGETS,['Thighs']
-garland or squat pose,TARGETS,['Spine']
-garland or squat pose,TARGETS,['Pelvis']
-garland or squat pose,TARGETS,['Knees']
-garland or squat pose,TARGETS,['Legs']
-garland or squat pose,TARGETS,['Ankles']
-garland or squat pose,TARGETS,['Back']
-firefly pose,TARGETS,['Hamstrings']
-firefly pose,TARGETS,['Hands']
-firefly pose,TARGETS,['Belly']
-firefly pose,TARGETS,['Back']
-firefly pose,TARGETS,['Wrists']
-firefly pose,TARGETS,['Back']
-firefly pose,TARGETS,['Thighs']
-firefly pose,TARGETS,['Shoulders']
-firefly pose,TARGETS,['Arms']
-firefly pose,TARGETS,['Legs']
-firefly pose,TARGETS,['Flexors']
-firefly pose,TARGETS,['Back']
-firefly pose,TARGETS,['Abs']
-handstand,TARGETS,['Hands']
-handstand,TARGETS,['Wrists']
-handstand,TARGETS,['Spine']
-handstand,TARGETS,['Shoulders']
-handstand,TARGETS,['Arms']
-handstand,TARGETS,['Legs']
-handstand,TARGETS,['Lungs']
-high lunge,TARGETS,['Thighs']
-high lunge,TARGETS,['Legs']
-high lunge,TARGETS,['Flexors']
-heron pose,TARGETS,['Hamstrings']
-heron pose,TARGETS,['Knees']
-heron pose,TARGETS,['Ankles']
-heron pose,TARGETS,['Hips']
-extended puppy pose,TARGETS,['Back']
-extended puppy pose,TARGETS,['Spine']
-extended puppy pose,TARGETS,['Shoulders']
-extended puppy pose,TARGETS,['Heart']
-extended puppy pose,TARGETS,['Lungs']
-extended puppy pose,TARGETS,['Back']
-extended puppy pose,TARGETS,['Abs']
-extended triangle pose,TARGETS,['Belly']
-extended triangle pose,TARGETS,['Back']
-extended triangle pose,TARGETS,['Neck']
-extended triangle pose,TARGETS,['Thighs']
-extended triangle pose,TARGETS,['Spine']
-extended triangle pose,TARGETS,['Knees']
-extended triangle pose,TARGETS,['Legs']
-extended triangle pose,TARGETS,['Hips']
-extended triangle pose,TARGETS,['Back']
-extended triangle pose,TARGETS,['Abs']
-eagle pose,TARGETS,['Thighs']
-eagle pose,TARGETS,['Shoulders']
-eagle pose,TARGETS,['Ankles']
-eagle pose,TARGETS,['Hips']
-four-limbed staff pose,TARGETS,['Hands']
-four-limbed staff pose,TARGETS,['Belly']
-four-limbed staff pose,TARGETS,['Wrists']
-four-limbed staff pose,TARGETS,['Arms']
-four-limbed staff pose,TARGETS,['Abs']
-gate pose,TARGETS,['Hamstrings']
-gate pose,TARGETS,['Kidneys']
-gate pose,TARGETS,['Belly']
-gate pose,TARGETS,['Spine']
-gate pose,TARGETS,['Lungs']
-gate pose,TARGETS,['Abs']
-fish pose,TARGETS,['Belly']
-fish pose,TARGETS,['Neck']
-fish pose,TARGETS,['Spine']
-fish pose,TARGETS,['Flexors']
-fish pose,TARGETS,['Abs']
-downward-facing dog pose,TARGETS,['Hamstrings']
-downward-facing dog pose,TARGETS,['Hands']
-downward-facing dog pose,TARGETS,['Kidneys']
-downward-facing dog pose,TARGETS,['Back']
-downward-facing dog pose,TARGETS,['Back']
-downward-facing dog pose,TARGETS,['Arms']
-downward-facing dog pose,TARGETS,['Legs']
-downward-facing dog pose,TARGETS,['Back']
-dolphin pose,TARGETS,['Back']
-dolphin pose,TARGETS,['Neck']
-dolphin pose,TARGETS,['Back']
-dolphin pose,TARGETS,['Spine']
-dolphin pose,TARGETS,['Shoulders']
-dolphin pose,TARGETS,['Arms']
-dolphin pose,TARGETS,['Heart']
-dolphin pose,TARGETS,['Back']
-eight-angle pose,TARGETS,['Hands']
-eight-angle pose,TARGETS,['Belly']
-eight-angle pose,TARGETS,['Wrists']
-eight-angle pose,TARGETS,['Arms']
-eight-angle pose,TARGETS,['Flexors']
-eight-angle pose,TARGETS,['Ankles']
-eight-angle pose,TARGETS,['Abs']
-forearm plank,TARGETS,['Hands']
-forearm plank,TARGETS,['Back']
-forearm plank,TARGETS,['Neck']
-forearm plank,TARGETS,['Back']
-forearm plank,TARGETS,['Shoulders']
-forearm plank,TARGETS,['Arms']
-forearm plank,TARGETS,['Heart']
-forearm plank,TARGETS,['Back']
-forearm plank,TARGETS,['Abs']
-extended hand-to-big-toe pose,TARGETS,['Glutes']
-extended hand-to-big-toe pose,TARGETS,['Hamstrings']
-extended hand-to-big-toe pose,TARGETS,['Hands']
-extended hand-to-big-toe pose,TARGETS,['Back']
-extended hand-to-big-toe pose,TARGETS,['Back']
-extended hand-to-big-toe pose,TARGETS,['Thighs']
-extended hand-to-big-toe pose,TARGETS,['Spine']
-extended hand-to-big-toe pose,TARGETS,['Arms']
-extended hand-to-big-toe pose,TARGETS,['Heart']
-extended hand-to-big-toe pose,TARGETS,['Knees']
-extended hand-to-big-toe pose,TARGETS,['Legs']
-extended hand-to-big-toe pose,TARGETS,['Lungs']
-extended hand-to-big-toe pose,TARGETS,['Ankles']
-extended hand-to-big-toe pose,TARGETS,['Hips']
-extended hand-to-big-toe pose,TARGETS,['Back']
-fire log pose,TARGETS,['Glutes']
-fire log pose,TARGETS,['Belly']
-fire log pose,TARGETS,['Hips']
-extended side angle pose,TARGETS,['Belly']
-extended side angle pose,TARGETS,['Spine']
-extended side angle pose,TARGETS,['Knees']
-extended side angle pose,TARGETS,['Legs']
-extended side angle pose,TARGETS,['Ankles']
-extended side angle pose,TARGETS,['Abs']
-easy pose,TARGETS,['Back']
-easy pose,TARGETS,['Back']
-easy pose,TARGETS,['Thighs']
-easy pose,TARGETS,['Spine']
-easy pose,TARGETS,['Heart']
-easy pose,TARGETS,['Knees']
-easy pose,TARGETS,['Legs']
-easy pose,TARGETS,['Lungs']
-easy pose,TARGETS,['Ankles']
-easy pose,TARGETS,['Hips']
-easy pose,TARGETS,['Back']
+child’s pose,TARGETS,Thighs
+child’s pose,TARGETS,Ankles
+child’s pose,TARGETS,Hips
+crow pose,TARGETS,Hands
+crow pose,TARGETS,Belly
+crow pose,TARGETS,Back
+crow pose,TARGETS,Wrists
+crow pose,TARGETS,Back
+crow pose,TARGETS,Arms
+crow pose,TARGETS,Flexors
+crow pose,TARGETS,Back
+crow pose,TARGETS,Abs
+cat pose,TARGETS,Belly
+cat pose,TARGETS,Kidneys
+cat pose,TARGETS,Back
+cat pose,TARGETS,Neck
+cat pose,TARGETS,Back
+cat pose,TARGETS,Spine
+cat pose,TARGETS,Shoulders
+cat pose,TARGETS,Pelvis
+cat pose,TARGETS,Heart
+cat pose,TARGETS,Lungs
+cat pose,TARGETS,Hips
+cat pose,TARGETS,Back
+cow pose,TARGETS,Kidneys
+cow pose,TARGETS,Belly
+cow pose,TARGETS,Back
+cow pose,TARGETS,Neck
+cow pose,TARGETS,Back
+cow pose,TARGETS,Spine
+cow pose,TARGETS,Shoulders
+cow pose,TARGETS,Pelvis
+cow pose,TARGETS,Heart
+cow pose,TARGETS,Lungs
+cow pose,TARGETS,Hips
+cow pose,TARGETS,Back
+chair pose,TARGETS,Belly
+chair pose,TARGETS,Back
+chair pose,TARGETS,Thighs
+chair pose,TARGETS,Spine
+chair pose,TARGETS,Heart
+chair pose,TARGETS,Legs
+chair pose,TARGETS,Ankles
+chair pose,TARGETS,Back
+bow pose,TARGETS,Belly
+bow pose,TARGETS,Neck
+bow pose,TARGETS,Thighs
+bow pose,TARGETS,Spine
+bow pose,TARGETS,Shoulders
+bow pose,TARGETS,Heart
+bow pose,TARGETS,Flexors
+bound angle pose,TARGETS,Hamstrings
+bound angle pose,TARGETS,Belly
+bound angle pose,TARGETS,Kidneys
+bound angle pose,TARGETS,Thighs
+bound angle pose,TARGETS,Heart
+bound angle pose,TARGETS,Knees
+bound angle pose,TARGETS,Legs
+bound angle pose,TARGETS,Hips
+bridge pose,TARGETS,Belly
+bridge pose,TARGETS,Kidneys
+bridge pose,TARGETS,Back
+bridge pose,TARGETS,Neck
+bridge pose,TARGETS,Back
+bridge pose,TARGETS,Spine
+bridge pose,TARGETS,Pelvis
+bridge pose,TARGETS,Heart
+bridge pose,TARGETS,Knees
+bridge pose,TARGETS,Legs
+bridge pose,TARGETS,Lungs
+bridge pose,TARGETS,Flexors
+bridge pose,TARGETS,Back
+bridge pose,TARGETS,Abs
+cobra pose,TARGETS,Hands
+cobra pose,TARGETS,Glutes
+cobra pose,TARGETS,Kidneys
+cobra pose,TARGETS,Belly
+cobra pose,TARGETS,Back
+cobra pose,TARGETS,Spine
+cobra pose,TARGETS,Shoulders
+cobra pose,TARGETS,Heart
+cobra pose,TARGETS,Lungs
+cobra pose,TARGETS,Back
+camel pose,TARGETS,Belly
+camel pose,TARGETS,Neck
+camel pose,TARGETS,Thighs
+camel pose,TARGETS,Spine
+camel pose,TARGETS,Shoulders
+camel pose,TARGETS,Flexors
+camel pose,TARGETS,Ankles
+big toe pose,TARGETS,Glutes
+big toe pose,TARGETS,Hamstrings
+big toe pose,TARGETS,Kidneys
+big toe pose,TARGETS,Back
+big toe pose,TARGETS,Neck
+big toe pose,TARGETS,Back
+big toe pose,TARGETS,Thighs
+big toe pose,TARGETS,Spine
+big toe pose,TARGETS,Shoulders
+big toe pose,TARGETS,Pelvis
+big toe pose,TARGETS,Heart
+big toe pose,TARGETS,Knees
+big toe pose,TARGETS,Legs
+big toe pose,TARGETS,Lungs
+big toe pose,TARGETS,Hips
+big toe pose,TARGETS,Back
+boat pose,TARGETS,Belly
+boat pose,TARGETS,Kidneys
+boat pose,TARGETS,Spine
+boat pose,TARGETS,Flexors
+boat pose,TARGETS,Hips
+boat pose,TARGETS,Abs
+reclining bound angle pose,TARGETS,Kidneys
+reclining bound angle pose,TARGETS,Heart
+reclining bound angle pose,TARGETS,Knees
+reclining bound angle pose,TARGETS,Hips
+bharadvaja’s twist,TARGETS,Belly
+bharadvaja’s twist,TARGETS,Back
+bharadvaja’s twist,TARGETS,Neck
+bharadvaja’s twist,TARGETS,Back
+bharadvaja’s twist,TARGETS,Spine
+bharadvaja’s twist,TARGETS,Shoulders
+bharadvaja’s twist,TARGETS,Hips
+bharadvaja’s twist,TARGETS,Back
+reclining hero pose,TARGETS,Knees
+reclining hero pose,TARGETS,Flexors
+reclining hero pose,TARGETS,Ankles
+sphinx pose,TARGETS,Glutes
+sphinx pose,TARGETS,Kidneys
+sphinx pose,TARGETS,Neck
+sphinx pose,TARGETS,Back
+sphinx pose,TARGETS,Pelvis
+sphinx pose,TARGETS,Heart
+sphinx pose,TARGETS,Lungs
+staff pose,TARGETS,Hamstrings
+staff pose,TARGETS,Kidneys
+staff pose,TARGETS,Neck
+staff pose,TARGETS,Pelvis
+staff pose,TARGETS,Heart
+staff pose,TARGETS,Legs
+staff pose,TARGETS,Lungs
+cow face pose,TARGETS,Thighs
+cow face pose,TARGETS,Ankles
+cow face pose,TARGETS,Hips
+wheel pose,TARGETS,Hands
+wheel pose,TARGETS,Glutes
+wheel pose,TARGETS,Wrists
+wheel pose,TARGETS,Arms
+wheel pose,TARGETS,Legs
+wheel pose,TARGETS,Lungs
+feathered peacock pose,TARGETS,Spine
+feathered peacock pose,TARGETS,Shoulders
+feathered peacock pose,TARGETS,Arms
+feathered peacock pose,TARGETS,Lungs
+reclining hand-to-big-toe pose i,TARGETS,Hamstrings
+reclining hand-to-big-toe pose i,TARGETS,Knees
+wide-angled seated forward bend,TARGETS,Hamstrings
+pose dedicated to the sage marichi i,TARGETS,Hamstrings
+pose dedicated to the sage marichi i,TARGETS,Kidneys
+pose dedicated to the sage marichi i,TARGETS,Hips
+shoulder-pressing pose,TARGETS,Hands
+shoulder-pressing pose,TARGETS,Wrists
+shoulder-pressing pose,TARGETS,Arms
+shoulder-pressing pose,TARGETS,Flexors
+pose dedicated to the sage koundinya ii,TARGETS,Hands
+pose dedicated to the sage koundinya ii,TARGETS,Back
+pose dedicated to the sage koundinya ii,TARGETS,Wrists
+pose dedicated to the sage koundinya ii,TARGETS,Back
+pose dedicated to the sage koundinya ii,TARGETS,Shoulders
+pose dedicated to the sage koundinya ii,TARGETS,Arms
+pose dedicated to the sage koundinya ii,TARGETS,Flexors
+pose dedicated to the sage koundinya ii,TARGETS,Abs
+reverse plank,TARGETS,Hands
+reverse plank,TARGETS,Glutes
+reverse plank,TARGETS,Neck
+reverse plank,TARGETS,Wrists
+reverse plank,TARGETS,Pelvis
+reverse plank,TARGETS,Heart
+upward facing two-foot staff pose,TARGETS,Glutes
+upward facing two-foot staff pose,TARGETS,Neck
+upward facing two-foot staff pose,TARGETS,Pelvis
+upward facing two-foot staff pose,TARGETS,Arms
+upward facing two-foot staff pose,TARGETS,Heart
+upward facing two-foot staff pose,TARGETS,Lungs
+warrior 3 pose,TARGETS,Hamstrings
+wide-legged standing forward bend,TARGETS,Hamstrings
+supported shoulderstand,TARGETS,Glutes
+supported shoulderstand,TARGETS,Lungs
+warrior 1 pose,TARGETS,Neck
+standing forward bend,TARGETS,Hamstrings
+standing forward bend,TARGETS,Kidneys
+standing forward bend,TARGETS,Knees
+upward-facing dog pose,TARGETS,Glutes
+upward-facing dog pose,TARGETS,Wrists
+upward-facing dog pose,TARGETS,Lungs
+upward-facing dog pose,TARGETS,Flexors
+side crow pose,TARGETS,Hands
+side crow pose,TARGETS,Kidneys
+side crow pose,TARGETS,Wrists
+side crow pose,TARGETS,Back
+side crow pose,TARGETS,Arms
+side crow pose,TARGETS,Flexors
+seated forward bend,TARGETS,Hamstrings
+seated forward bend,TARGETS,Kidneys
+seated forward bend,TARGETS,Back
+seated forward bend,TARGETS,Pelvis
+revolved triangle pose,TARGETS,Back
+revolved triangle pose,TARGETS,Legs
+revolved triangle pose,TARGETS,Ankles
+supported headstand,TARGETS,Glutes
+supported headstand,TARGETS,Pelvis
+supported headstand,TARGETS,Arms
+supported headstand,TARGETS,Legs
+pose dedicated to the sage koundinya i,TARGETS,Hands
+pose dedicated to the sage koundinya i,TARGETS,Back
+pose dedicated to the sage koundinya i,TARGETS,Wrists
+pose dedicated to the sage koundinya i,TARGETS,Back
+pose dedicated to the sage koundinya i,TARGETS,Shoulders
+pose dedicated to the sage koundinya i,TARGETS,Arms
+pose dedicated to the sage koundinya i,TARGETS,Flexors
+pose dedicated to the sage koundinya i,TARGETS,Abs
+plow pose,TARGETS,Shoulders
+side plank pose,TARGETS,Glutes
+side plank pose,TARGETS,Hands
+side plank pose,TARGETS,Wrists
+side plank pose,TARGETS,Arms
+scale pose,TARGETS,Hands
+scale pose,TARGETS,Wrists
+scale pose,TARGETS,Knees
+scale pose,TARGETS,Flexors
+one-legged king pigeon pose,TARGETS,Knees
+one-legged king pigeon pose,TARGETS,Flexors
+one-legged king pigeon pose,TARGETS,Hips
+mountain pose,TARGETS,Glutes
+mountain pose,TARGETS,Back
+mountain pose,TARGETS,Knees
+mountain pose,TARGETS,Legs
+mountain pose,TARGETS,Ankles
+plank pose,TARGETS,Hands
+plank pose,TARGETS,Wrists
+plank pose,TARGETS,Arms
+plank pose,TARGETS,Abs
+pose dedicated to the sage marichi iii,TARGETS,Back
+pose dedicated to the sage marichi iii,TARGETS,Shoulders
+pose dedicated to the sage marichi iii,TARGETS,Hips
+pose dedicated to the sage marichi iii,TARGETS,Back
+pose dedicated to the sage marichi iii,TARGETS,Abs
+revolved side angle pose,TARGETS,Hamstrings
+revolved side angle pose,TARGETS,Legs
+revolved side angle pose,TARGETS,Lungs
+revolved side angle pose,TARGETS,Flexors
+revolved side angle pose,TARGETS,Ankles
+lotus pose,TARGETS,Pelvis
+lotus pose,TARGETS,Knees
+lotus pose,TARGETS,Ankles
+peacock pose,TARGETS,Glutes
+peacock pose,TARGETS,Hands
+peacock pose,TARGETS,Wrists
+peacock pose,TARGETS,Arms
+peacock pose,TARGETS,Legs
+peacock pose,TARGETS,Abs
+legs up the wall pose,TARGETS,Neck
+legs up the wall pose,TARGETS,Legs
+king pigeon pose,TARGETS,Glutes
+king pigeon pose,TARGETS,Kidneys
+king pigeon pose,TARGETS,Back
+king pigeon pose,TARGETS,Neck
+king pigeon pose,TARGETS,Back
+king pigeon pose,TARGETS,Thighs
+king pigeon pose,TARGETS,Shoulders
+king pigeon pose,TARGETS,Pelvis
+king pigeon pose,TARGETS,Arms
+king pigeon pose,TARGETS,Heart
+king pigeon pose,TARGETS,Lungs
+king pigeon pose,TARGETS,Flexors
+king pigeon pose,TARGETS,Hips
+king pigeon pose,TARGETS,Back
+king pigeon pose,TARGETS,Abs
+"high lunge, crescent variation",TARGETS,Belly
+"high lunge, crescent variation",TARGETS,Neck
+"high lunge, crescent variation",TARGETS,Thighs
+"high lunge, crescent variation",TARGETS,Flexors
+"high lunge, crescent variation",TARGETS,Ankles
+"high lunge, crescent variation",TARGETS,Abs
+one-legged king pigeon pose ii,TARGETS,Neck
+one-legged king pigeon pose ii,TARGETS,Flexors
+one-legged king pigeon pose ii,TARGETS,Ankles
+one-legged king pigeon pose ii,TARGETS,Hips
+one-legged king pigeon pose ii,TARGETS,Abs
+monkey pose,TARGETS,Hamstrings
+monkey pose,TARGETS,Thighs
+monkey pose,TARGETS,Shoulders
+monkey pose,TARGETS,Flexors
+dancer pose,TARGETS,Kidneys
+dancer pose,TARGETS,Shoulders
+dancer pose,TARGETS,Thighs
+dancer pose,TARGETS,Pelvis
+dancer pose,TARGETS,Knees
+dancer pose,TARGETS,Legs
+dancer pose,TARGETS,Lungs
+dancer pose,TARGETS,Flexors
+dancer pose,TARGETS,Ankles
+dancer pose,TARGETS,Abs
+low lunge,TARGETS,Neck
+low lunge,TARGETS,Thighs
+low lunge,TARGETS,Lungs
+low lunge,TARGETS,Flexors
+hero pose,TARGETS,Belly
+hero pose,TARGETS,Back
+hero pose,TARGETS,Thighs
+hero pose,TARGETS,Knees
+hero pose,TARGETS,Ankles
+head-to-knee pose,TARGETS,Hamstrings
+head-to-knee pose,TARGETS,Kidneys
+head-to-knee pose,TARGETS,Thighs
+head-to-knee pose,TARGETS,Pelvis
+head-to-knee pose,TARGETS,Back
+locust pose,TARGETS,Hamstrings
+locust pose,TARGETS,Glutes
+locust pose,TARGETS,Back
+locust pose,TARGETS,Neck
+locust pose,TARGETS,Back
+locust pose,TARGETS,Thighs
+locust pose,TARGETS,Arms
+locust pose,TARGETS,Lungs
+locust pose,TARGETS,Back
+happy baby pose,TARGETS,Glutes
+happy baby pose,TARGETS,Hips
+half moon pose,TARGETS,Belly
+half moon pose,TARGETS,Thighs
+half moon pose,TARGETS,Spine
+half moon pose,TARGETS,Shoulders
+half moon pose,TARGETS,Knees
+half moon pose,TARGETS,Ankles
+half moon pose,TARGETS,Abs
+rope pose,TARGETS,Kidneys
+rope pose,TARGETS,Pelvis
+rope pose,TARGETS,Shoulders
+rope pose,TARGETS,Knees
+rope pose,TARGETS,Ankles
+rope pose,TARGETS,Hips
+rope pose,TARGETS,Abs
+half lord of the fishes pose,TARGETS,Kidneys
+half lord of the fishes pose,TARGETS,Back
+half lord of the fishes pose,TARGETS,Neck
+half lord of the fishes pose,TARGETS,Back
+half lord of the fishes pose,TARGETS,Spine
+half lord of the fishes pose,TARGETS,Hips
+half lord of the fishes pose,TARGETS,Back
+half frog pose,TARGETS,Glutes
+half frog pose,TARGETS,Kidneys
+half frog pose,TARGETS,Belly
+half frog pose,TARGETS,Back
+half frog pose,TARGETS,Back
+half frog pose,TARGETS,Thighs
+half frog pose,TARGETS,Spine
+half frog pose,TARGETS,Shoulders
+half frog pose,TARGETS,Pelvis
+half frog pose,TARGETS,Arms
+half frog pose,TARGETS,Heart
+half frog pose,TARGETS,Knees
+half frog pose,TARGETS,Legs
+half frog pose,TARGETS,Lungs
+half frog pose,TARGETS,Ankles
+half frog pose,TARGETS,Hips
+half frog pose,TARGETS,Back
+half frog pose,TARGETS,Abs
+garland or squat pose,TARGETS,Hands
+garland or squat pose,TARGETS,Belly
+garland or squat pose,TARGETS,Back
+garland or squat pose,TARGETS,Thighs
+garland or squat pose,TARGETS,Spine
+garland or squat pose,TARGETS,Pelvis
+garland or squat pose,TARGETS,Knees
+garland or squat pose,TARGETS,Legs
+garland or squat pose,TARGETS,Ankles
+garland or squat pose,TARGETS,Back
+firefly pose,TARGETS,Hamstrings
+firefly pose,TARGETS,Hands
+firefly pose,TARGETS,Belly
+firefly pose,TARGETS,Back
+firefly pose,TARGETS,Wrists
+firefly pose,TARGETS,Back
+firefly pose,TARGETS,Thighs
+firefly pose,TARGETS,Shoulders
+firefly pose,TARGETS,Arms
+firefly pose,TARGETS,Legs
+firefly pose,TARGETS,Flexors
+firefly pose,TARGETS,Back
+firefly pose,TARGETS,Abs
+handstand,TARGETS,Hands
+handstand,TARGETS,Wrists
+handstand,TARGETS,Spine
+handstand,TARGETS,Shoulders
+handstand,TARGETS,Arms
+handstand,TARGETS,Legs
+handstand,TARGETS,Lungs
+high lunge,TARGETS,Thighs
+high lunge,TARGETS,Legs
+high lunge,TARGETS,Flexors
+heron pose,TARGETS,Hamstrings
+heron pose,TARGETS,Knees
+heron pose,TARGETS,Ankles
+heron pose,TARGETS,Hips
+extended puppy pose,TARGETS,Back
+extended puppy pose,TARGETS,Spine
+extended puppy pose,TARGETS,Shoulders
+extended puppy pose,TARGETS,Heart
+extended puppy pose,TARGETS,Lungs
+extended puppy pose,TARGETS,Back
+extended puppy pose,TARGETS,Abs
+extended triangle pose,TARGETS,Belly
+extended triangle pose,TARGETS,Back
+extended triangle pose,TARGETS,Neck
+extended triangle pose,TARGETS,Thighs
+extended triangle pose,TARGETS,Spine
+extended triangle pose,TARGETS,Knees
+extended triangle pose,TARGETS,Legs
+extended triangle pose,TARGETS,Hips
+extended triangle pose,TARGETS,Back
+extended triangle pose,TARGETS,Abs
+eagle pose,TARGETS,Thighs
+eagle pose,TARGETS,Shoulders
+eagle pose,TARGETS,Ankles
+eagle pose,TARGETS,Hips
+four-limbed staff pose,TARGETS,Hands
+four-limbed staff pose,TARGETS,Belly
+four-limbed staff pose,TARGETS,Wrists
+four-limbed staff pose,TARGETS,Arms
+four-limbed staff pose,TARGETS,Abs
+gate pose,TARGETS,Hamstrings
+gate pose,TARGETS,Kidneys
+gate pose,TARGETS,Belly
+gate pose,TARGETS,Spine
+gate pose,TARGETS,Lungs
+gate pose,TARGETS,Abs
+fish pose,TARGETS,Belly
+fish pose,TARGETS,Neck
+fish pose,TARGETS,Spine
+fish pose,TARGETS,Flexors
+fish pose,TARGETS,Abs
+downward-facing dog pose,TARGETS,Hamstrings
+downward-facing dog pose,TARGETS,Hands
+downward-facing dog pose,TARGETS,Kidneys
+downward-facing dog pose,TARGETS,Back
+downward-facing dog pose,TARGETS,Back
+downward-facing dog pose,TARGETS,Arms
+downward-facing dog pose,TARGETS,Legs
+downward-facing dog pose,TARGETS,Back
+dolphin pose,TARGETS,Back
+dolphin pose,TARGETS,Neck
+dolphin pose,TARGETS,Back
+dolphin pose,TARGETS,Spine
+dolphin pose,TARGETS,Shoulders
+dolphin pose,TARGETS,Arms
+dolphin pose,TARGETS,Heart
+dolphin pose,TARGETS,Back
+eight-angle pose,TARGETS,Hands
+eight-angle pose,TARGETS,Belly
+eight-angle pose,TARGETS,Wrists
+eight-angle pose,TARGETS,Arms
+eight-angle pose,TARGETS,Flexors
+eight-angle pose,TARGETS,Ankles
+eight-angle pose,TARGETS,Abs
+forearm plank,TARGETS,Hands
+forearm plank,TARGETS,Back
+forearm plank,TARGETS,Neck
+forearm plank,TARGETS,Back
+forearm plank,TARGETS,Shoulders
+forearm plank,TARGETS,Arms
+forearm plank,TARGETS,Heart
+forearm plank,TARGETS,Back
+forearm plank,TARGETS,Abs
+extended hand-to-big-toe pose,TARGETS,Glutes
+extended hand-to-big-toe pose,TARGETS,Hamstrings
+extended hand-to-big-toe pose,TARGETS,Hands
+extended hand-to-big-toe pose,TARGETS,Back
+extended hand-to-big-toe pose,TARGETS,Back
+extended hand-to-big-toe pose,TARGETS,Thighs
+extended hand-to-big-toe pose,TARGETS,Spine
+extended hand-to-big-toe pose,TARGETS,Arms
+extended hand-to-big-toe pose,TARGETS,Heart
+extended hand-to-big-toe pose,TARGETS,Knees
+extended hand-to-big-toe pose,TARGETS,Legs
+extended hand-to-big-toe pose,TARGETS,Lungs
+extended hand-to-big-toe pose,TARGETS,Ankles
+extended hand-to-big-toe pose,TARGETS,Hips
+extended hand-to-big-toe pose,TARGETS,Back
+fire log pose,TARGETS,Glutes
+fire log pose,TARGETS,Belly
+fire log pose,TARGETS,Hips
+extended side angle pose,TARGETS,Belly
+extended side angle pose,TARGETS,Spine
+extended side angle pose,TARGETS,Knees
+extended side angle pose,TARGETS,Legs
+extended side angle pose,TARGETS,Ankles
+extended side angle pose,TARGETS,Abs
+easy pose,TARGETS,Back
+easy pose,TARGETS,Back
+easy pose,TARGETS,Thighs
+easy pose,TARGETS,Spine
+easy pose,TARGETS,Heart
+easy pose,TARGETS,Knees
+easy pose,TARGETS,Legs
+easy pose,TARGETS,Lungs
+easy pose,TARGETS,Ankles
+easy pose,TARGETS,Hips
+easy pose,TARGETS,Back
