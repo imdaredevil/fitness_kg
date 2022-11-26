@@ -1,9 +1,9 @@
-muscle,relation,Anatomy
+muscle,relation,anatomy
 gastrocnemius,PART_OF,calves
 quadriceps,PART_OF,thighs
 brachioradialis,PART_OF,forearms
 anterior deltoid,PART_OF,chest
-pectoralis major-sternal,PART_OF,chest
+"pectoralis major, sternal",PART_OF,chest
 rectus abdominis,PART_OF,abs
 sternocleidomastoid,PART_OF,neck
 triceps brachii,PART_OF,triceps
@@ -17,21 +17,19 @@ supinators,PART_OF,forearms
 lateral deltoid,PART_OF,shoulders
 popliteus,PART_OF,calves
 posterior deltoid,PART_OF,shoulders
-pectoralis major-clavicular,PART_OF,chest
-latissimus dorsi,PART_OF,lats
-biceps brachii,PART_OF,biceps
+"pectoralis major, clavicular",PART_OF,chest
 transverse abdominis,PART_OF,abs
 obliques,PART_OF,abs
 pectoralis minor,PART_OF,chest
 brachialis,PART_OF,upper arms
 serratus anterior,PART_OF,chest
 supraspinatus,PART_OF,back
-hamstrings,PART_OF,quads
+hamstrings,PART_OF,thighs
 quadratus lumborum,PART_OF,back
-trapezius-upper fibers,PART_OF,traps
+"trapezius, upper fibers",PART_OF,traps
 erector spinae,PART_OF,back
-trapezius-middle fibers,PART_OF,traps
-trapezius-lower fibers,PART_OF,traps
+"trapezius, middle fibers",PART_OF,traps
+"trapezius, lower fibers",PART_OF,traps
 rhomboids,PART_OF,back
 infraspinatus,PART_OF,back
 subscapularis,PART_OF,back
@@ -55,3 +53,4 @@ belly,PART_OF,waist
 knees,PART_OF,legs
 flexors,PART_OF,hips
 wrists,PART_OF,hands
+ankles,PART_OF,legs

@@ -1,4 +1,4 @@
-name_x,name_y
+child,parent
 neck,
 shoulders,
 upper arms,
@@ -10,7 +10,7 @@ hips,
 thighs,
 calves,
 gastrocnemius,calves
-"pectoralis major, sternal",chest
+pectoralis major-sternal,chest
 rectus abdominis,waist
 quadriceps,thighs
 triceps brachii,upper arms
@@ -26,7 +26,7 @@ tibialis anterior,calves
 pronators,forearms
 supinators,forearms
 latissimus dorsi,back
-"pectoralis major, clavicular",chest
+pectoralis major-clavicular,chest
 lateral deltoid,shoulders
 biceps brachii,upper arms
 popliteus,calves
@@ -37,10 +37,10 @@ transverse abdominis,waist
 obliques,waist
 posterior deltoid,shoulders
 hamstrings,thighs
-"trapezius, upper fibers",back
+trapezius-upper fibers,back
 supraspinatus,shoulders
-"trapezius, middle fibers",back
-"trapezius, lower fibers",back
+trapezius-middle fibers,back
+trapezius-lower fibers,back
 rhomboids,back
 infraspinatus,back
 quadratus lumborum,waist
