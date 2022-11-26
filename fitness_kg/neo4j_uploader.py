@@ -4,6 +4,8 @@ from neo4j import GraphDatabase
 import logging
 from neo4j.exceptions import ServiceUnavailable
 import csv
+from copy import deepcopy
+from tqdm import tqdm
 
 uri = "neo4j+s://e3f1202f.databases.neo4j.io"
 user = "neo4j"
@@ -33,12 +35,13 @@ def create_node(tx, node : dict, name : str, fieldnames):
     keys = list(node.keys())
     key_string = "{ " + ", ".join([f"{key}: ${key}" for key in keys]) + " }"
     query = (
-       f"MERGE (m:{name} {key_string})"
-       "RETURN m"
+       f"MERGE (r:{name} {key_string})"
+       "RETURN r"
     )
     try:
         result = tx.run(query, **node)
-        return result
+        res = [row["r"] for row in result]
+        return res
     except ServiceUnavailable as exception:
         logging.error("{query} raised an error: \n {exception}".format(
                 query=query, exception=exception))
@@ -53,12 +56,13 @@ def create_relation(tx, edge: dict, name : str, fieldnames):
     del edge[fieldnames[2]]
     query = (
         "MATCH (s), (d) where s.name = $source and d.name = $destination "
-        f"CREATE (s)-[r:{name} {key_string}]->(d)"
+        f"MERGE (s)-[r:{name} {key_string}]->(d)"
         "RETURN r"
     )
     try:
         result = tx.run(query,source=source, destination=destination, **edge)
-        return result
+        res = [row["r"] for row in result]
+        return res
     except ServiceUnavailable as exception:
         logging.error("{query} raised an error: \n {exception}".format(
                 query=query, exception=exception))
@@ -73,11 +77,13 @@ def main(args):
    else:
        create_func = create_relation
    with driver.session(database="neo4j") as session:
-        for row in data:
+        for row in tqdm(data):
             result = session.execute_write(
-                create_func, row, args.name, fieldnames
+                create_func, deepcopy(row), args.name, fieldnames
             )
-            print(result)
+            if len(result) == 0:
+                print(row)
+            # print(result)
     
 
 

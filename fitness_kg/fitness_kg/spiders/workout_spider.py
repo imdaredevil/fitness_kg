@@ -1,6 +1,6 @@
 from scrapy import Spider, Request
 from urllib.parse import urlparse, parse_qs
-from fitness_kg.items import MuscleGroup, Exercise, ExerciseGroup
+from fitness_kg.items import Routine
 
 
 def convert_to_string(li, key  = ''):
@@ -61,60 +61,15 @@ class WorkoutSpider(Spider):
             yield Request(new_url, self.parse_muscle)
     
     def parse_workout_desc(self, response):
-        exercise_link = response.url
-        exercise_name = response.css("h1::text").get()
-        exercise_name = " ".join(exercise_name.split(" ")[:-3]).lower()
-        list = response.css("div.node-stats-block ul li")
-        record = {}
-        for item in list:
-            key = item.css("span.row-label::text").get().strip().lower()
-            value = item.xpath("text()").getall()
-            a_value = item.css("a::text").getall()
-            div_value = item.css("div::text").getall()
-            value += a_value
-            value += div_value
-            record[key] = convert_to_string(value, key)
-        headings = response.css("h2::text").getall()
-        overview = convert_to_string(
-            response.css("div.field.field-name-field-exercise-overview").css("*::text").getall())
-        instructions = convert_to_string(
-            response.css("div.field.field-name-field-exercise-instructions").css("*::text").getall())
-        if instructions == '':
-            instructions = response.css("div.field.field-name-body").css("*::text").getall()
-            instr = []
-            tips = []
-            reached = False
-            for instruction in instructions:
-                if instruction.strip().lower().endswith("tips:"):
-                    reached = True
-                elif reached:
-                    tips.append(instruction)
-                else:
-                    instr.append(instruction)
-        instructions = convert_to_string(instr)
-        if len(tips) == 0:
-            tips = convert_to_string(
-                response.css("div.field.field-name-field-exercise-tips").css("*::text").getall())   
-        else:
-            tips = convert_to_string(tips)    
-        print(exercise_link, overview)
-        print(exercise_link, instructions)
-        print(exercise_link, tips)
-        yield ExerciseGroup(
-                id=exercise_link,
-                name=exercise_name,
-                url=exercise_link,
-                muscle=record['target muscle group'],
-                type=record.get('exercise type', None),
-                equipment=record.get('equipment required', None),
-                mechanics=record.get('mechanics', None),
-                difficulty=record.get('experience level', None),
-                force_type=record.get('force type', None),
-                secondary_muscle=record.get('secondary muscles', None),
-                tips=tips,
-                overview=overview,
-                instructions=instructions
-            )
+        list = response.css("h4 ~ table")
+        for i, item in enumerate(list):
+            exercises = item.css("td a")
+            exercises = [exercise.attrib.get("href") for exercise in exercises]
+            exercises = [response.urljoin(ex) for ex in exercises]
+            yield Routine(
+                    id=f"{response.url}_{i}",
+                    exercises=exercises
+                )
         
 
             

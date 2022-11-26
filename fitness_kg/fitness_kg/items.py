@@ -79,4 +79,9 @@ class CardioExercise:
     met: str
     intensity: str
 
+@dataclass
+class Routine:
+    id: str
+    exercises: list
+
     

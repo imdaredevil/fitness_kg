@@ -7,7 +7,7 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
-from fitness_kg.items import MuscleGroup, Exercise, ExerciseGroup, ExrxMuscleGroup, ExrxExercise, ExrxExerciseGroup, CardioExercise
+from fitness_kg.items import MuscleGroup, Exercise, ExerciseGroup, ExrxMuscleGroup, ExrxExercise, ExrxExerciseGroup, CardioExercise, Routine
 from scrapy import Item
 import json
 
@@ -29,6 +29,8 @@ def getItemType(
             return 'exrx_exercisegroup'
         if isinstance(item, CardioExercise):
             return 'cardio'
+        if isinstance(item, Routine):
+            return 'routine'
         return 'unknown'
 
 class DeDuplicatePipeline:
@@ -64,6 +66,9 @@ class JsonWriterPipeline:
             },
             'fat_spider': {
                 'cardio': 'Extracted/Fat/cardio.jsonl',
+            },
+            'workout_spider': {
+                'routine': 'workout.jsonl' 
             }
         }
         self.filewriters = {}
