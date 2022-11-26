@@ -20,7 +20,6 @@ bridge pose,PRECEDES,cobra pose
 bridge pose,PRECEDES,supported shoulderstand
 bridge pose,PRECEDES,upward-facing dog pose
 bridge pose,PRECEDES,wheel pose
-cobra pose,PRECEDES,"if you feel any discomfort or compression in the lower back, don't come up as high in the pose. focus instead on creating strength in the upper back, between the shoulder blades."
 camel pose,PRECEDES,seated forward bend
 camel pose,PRECEDES,happy baby pose
 camel pose,PRECEDES,child's pose
@@ -28,26 +27,19 @@ camel pose,PRECEDES,reclining hand-to-big-toe pose
 big toe pose,PRECEDES,chair pose
 big toe pose,PRECEDES,trikonasana
 boat pose,PRECEDES,bound angle pose
-boat pose,PRECEDES,bharadvajasana
-boat pose,PRECEDES,
 boat pose,PRECEDES,bharadvaja's twist
-reclining bound angle pose,PRECEDES,"supta baddha konasana is an excellent preparatory pose for a number of different poses, including many standing poses,"
+boat pose,PRECEDES,bharadvaja's twist)
+reclining bound angle pose,PRECEDES,supta
 reclining bound angle pose,PRECEDES,cow face pose
-reclining bound angle pose,PRECEDES,","
 reclining bound angle pose,PRECEDES,garland pose
-reclining bound angle pose,PRECEDES,","
 reclining bound angle pose,PRECEDES,lotus pose
-reclining bound angle pose,PRECEDES,", and most seated twists and forward bends."
 bharadvaja's twist,PRECEDES,bound angle pose
 bharadvaja's twist,PRECEDES,pose dedicated to the sage marichi
 bharadvaja's twist,PRECEDES,half lord of the fishes pose
-reclining hero pose,PRECEDES,"like its upright cousin, supta virasana is an excellent preparatory pose for many asanas, including"
 reclining hero pose,PRECEDES,lotus pose
-reclining hero pose,PRECEDES,","
 reclining hero pose,PRECEDES,bound angle pose
-reclining hero pose,PRECEDES,", bakasana, most standing poses, and any inversion and backbend."
 sphinx pose,PRECEDES,bridge pose
-staff pose,PRECEDES,reverse plank pose
+staff pose,PRECEDES,reverse plank
 staff pose,PRECEDES,seated forward bend
 cow face pose,PRECEDES,bound angle pose
 cow face pose,PRECEDES,eagle pose
@@ -62,7 +54,7 @@ tree pose,PRECEDES,wide-legged forward bend
 tree pose,PRECEDES,child's pose
 wide-angle seated forward bend,PRECEDES,reclining bound angle pose
 wide-angle seated forward bend,PRECEDES,reclining bound angle pose
-pose dedicated to the sage marichi i,PRECEDES,wide-angled seated forward bend
+pose dedicated to the sage marichi i,PRECEDES,wide-angle seated forward bend
 pose dedicated to the sage marichi i,PRECEDES,wide-angle seated forward bend
 shoulder-pressing pose,PRECEDES,standing forward bend
 shoulder-pressing pose,PRECEDES,standing forward bend
@@ -89,7 +81,7 @@ wide-legged forward bend,PRECEDES,child's pose
 warrior 1 pose,PRECEDES,mountain pose
 warrior 1 pose,PRECEDES,downward-facing dog pose
 warrior 1 pose,PRECEDES,standing forward bend
-warrior 1 pose,PRECEDES,warrior ii
+warrior 1 pose,PRECEDES,warrior 2 pose
 warrior 1 pose,PRECEDES,revolved side angle pose
 wild thing,PRECEDES,downward-facing dog pose
 standing forward bend,PRECEDES,downward-facing dog pose
@@ -102,9 +94,9 @@ upward salute,PRECEDES,mountain pose
 upward salute,PRECEDES,mountain pose
 seated forward bend,PRECEDES,happy baby pose
 seated forward bend,PRECEDES,bridge pose
-seated forward bend,PRECEDES,reverse plank pose
+seated forward bend,PRECEDES,reverse plank
 seated forward bend,PRECEDES,bow pose
-revolved triangle pose,PRECEDES,bharadvajasana
+revolved triangle pose,PRECEDES,bharadvaja's twist
 revolved triangle pose,PRECEDES,bharadvaja's twist
 standing split,PRECEDES,cobra pose
 standing split,PRECEDES,cobra pose
@@ -117,9 +109,7 @@ plow pose,PRECEDES,bridge pose
 plow pose,PRECEDES,upward-facing dog pose
 side plank pose,PRECEDES,downward-facing dog pose
 side plank pose,PRECEDES,downward-facing dog pose
-scale pose,PRECEDES,
 scale pose,PRECEDES,kukkuta
-scale pose,PRECEDES,"= cock. here the arms are slipped into the creases between the thighs and calves and, as in tolasana, the torso and legs are then lifted away from the floor."
 one-legged king pigeon pose,PRECEDES,downward-facing dog pose
 mountain pose,PRECEDES,standing forward bend
 mountain pose,PRECEDES,standing forward bend
@@ -127,11 +117,9 @@ mountain pose,PRECEDES,chair pose
 mountain pose,PRECEDES,chair pose
 mountain pose,PRECEDES,corpse pose
 mountain pose,PRECEDES,corpse pose
-mountain pose,PRECEDES,learn more about finding alignment and balancing effort with ease in this pose in
-mountain pose,PRECEDES,mountain pose: the complete guide for students and teachers
-mountain pose,PRECEDES,". access these and other expert insights from top teachers—including video instruction, anatomy know-how, variations, and more—when you"
+mountain pose,PRECEDES,learn
+mountain pose,PRECEDES,mountain
 mountain pose,PRECEDES,become a member
-mountain pose,PRECEDES,. it's a resource you'll return to again and again.
 plank pose,PRECEDES,downward-facing dog pose
 marichi's pose,PRECEDES,seated forward bend
 revolved side angle pose,PRECEDES,standing forward bend
@@ -177,19 +165,13 @@ garland pose,PRECEDES,cobra pose
 firefly pose,PRECEDES,standing forward bend
 handstand,PRECEDES,child's pose
 high lunge,PRECEDES,standing forward bend
-heron pose,PRECEDES,"marichi's pose,"
+heron pose,PRECEDES,marichi's pose
 heron pose,PRECEDES,seated wide angle pose
 heron pose,PRECEDES,", and"
 heron pose,PRECEDES,seated forward bend
-heron pose,PRECEDES,.
 extended puppy pose,PRECEDES,child's pose
-extended triangle pose,PRECEDES,"if your legs are too close together, you won't feel the full benefit of the pose. if your legs are too far apart, you'll feel unbalanced. the length is unique to you and your legs, so explore the stance to find the foot position that is best for you. you should feel a pleasant stretch, but you shouldn't feel strained."
-extended triangle pose,PRECEDES,"if you feel unsteady in the pose, brace your back heel against a wall."
-extended triangle pose,PRECEDES,"to keep the back of your body aligned, pretend that you are pressing your head, shoulders, and buttocks against a wall. or practice alongside an actual wall and press your back body against it."
-extended triangle pose,PRECEDES,try to keep your arms in one long line from the floor to the ceiling.
-extended triangle pose,PRECEDES,"if turning your head to face the ceiling is not comfortable on your neck, look straight ahead or down at the mat."
 eagle pose,PRECEDES,child's pose
-four-limbed staff pose,PRECEDES,reverse plank pose
+four-limbed staff pose,PRECEDES,reverse plank
 gate pose,PRECEDES,child's pose
 fish pose,PRECEDES,cow face pose
 fish pose,PRECEDES,bridge pose
@@ -197,11 +179,9 @@ fish pose,PRECEDES,reclining hero pose
 fish pose,PRECEDES,camel pose
 fish pose,PRECEDES,hero pose
 downward-facing dog pose,PRECEDES,child's pose
-downward-facing dog pose,PRECEDES,learn more about finding alignment and balancing effort with ease in this pose in
-downward-facing dog pose,PRECEDES,downward-facing dog: the complete guide for students and teachers
-downward-facing dog pose,PRECEDES,". access expert insights from top teachers—including anatomy know-how, variations, and more—when you"
+downward-facing dog pose,PRECEDES,learn
+downward-facing dog pose,PRECEDES,downward-facing
 downward-facing dog pose,PRECEDES,become a member
-downward-facing dog pose,PRECEDES,. it's a resource you'll return to again and again.
 dolphin pose,PRECEDES,locust pose
 dolphin pose,PRECEDES,arms only
 eight-angle pose,PRECEDES,staff pose
@@ -209,9 +189,9 @@ eight-angle pose,PRECEDES,fish pose
 eight-angle pose,PRECEDES,seated forward bend
 eight-angle pose,PRECEDES,child's pose
 dolphin plank pose,PRECEDES,downward-facing dog pose
-extended hand-to-big-toe pose,PRECEDES,warrior pose i
+extended hand-to-big-toe pose,PRECEDES,warrior 1 pose
 extended hand-to-big-toe pose,PRECEDES,mountain pose
-extended hand-to-big-toe pose,PRECEDES,reclining hand-to-big toe pose i
+extended hand-to-big-toe pose,PRECEDES,reclining hand-to-big-toe pose
 extended hand-to-big-toe pose,PRECEDES,tree pose
 fire log pose,PRECEDES,seated forward bend
 fire log pose,PRECEDES,bharadvaja's twist
