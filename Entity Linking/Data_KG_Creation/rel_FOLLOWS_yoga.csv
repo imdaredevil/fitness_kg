@@ -1,16 +1,16 @@
 yoga1,relation,yoga2
-child's pose,FOLLOWS,"balasana can appear at the beginning of class or near the end. the pose doesn't necessarily require warm-up, although it can help you to settle into relaxation when you first stretch your hips and shoulders."
+child's pose,FOLLOWS,child's pose
 crow pose,FOLLOWS,four-limbed staff pose
 cat pose,FOLLOWS,tabletop
 cow pose,FOLLOWS,cat pose
 cow pose,FOLLOWS,child's pose
 cow pose,FOLLOWS,easy pose
-corpse pose,FOLLOWS,"any poses you practiced prior to savasana serve as your preparatory poses. corpse pose is the culmination of your practice, so there are no counter poses afterward. however, after you slowly make your way out of savasana, you can follow it with"
+corpse pose,FOLLOWS,any
 corpse pose,FOLLOWS,easy pose
-corpse pose,FOLLOWS,easy pose for quiet meditation.
+corpse pose,FOLLOWS,easy pose
 chair pose,FOLLOWS,mountain pose
-bow pose,FOLLOWS,"before attempting this intense pose, bring your body into progressively challenging backbends as well as poses that stretch the front of your hips and legs."
-bound angle pose,FOLLOWS,"baddha konasana is an intense hip stretch for many students, but there's no need to force it. ease your way into it by first practicing other poses that target your hip flexors. it helps to come into increasingly challenging hip stretches."
+bow pose,FOLLOWS,before
+bound angle pose,FOLLOWS,baddha
 bridge pose,FOLLOWS,cobra pose
 cobra pose,FOLLOWS,locust pose
 cobra pose,FOLLOWS,sphinx pose
@@ -18,9 +18,9 @@ camel pose,FOLLOWS,cobra pose
 big toe pose,FOLLOWS,reclining hand-to-big-toe pose
 big toe pose,FOLLOWS,downward-facing dog pose
 big toe pose,FOLLOWS,standing forward bend
-big toe pose,FOLLOWS,pashchimottanasana
+big toe pose,FOLLOWS,seated forward bend
 big toe pose,FOLLOWS,reclining hand-to-big-toe pose
-boat pose,FOLLOWS,"before undertaking boat pose, you want to stretch and challenge your body in the same manner demanded by this challenging pose. that means stretching your hamstrings and low back, engaging your abdominals, and lifting your chest without overarching your low back."
+boat pose,FOLLOWS,before
 reclining bound angle pose,FOLLOWS,bound angle pose
 reclining bound angle pose,FOLLOWS,reclining hand-to-big-toe pose
 reclining bound angle pose,FOLLOWS,hero pose
@@ -34,14 +34,14 @@ reclining hero pose,FOLLOWS,cobra pose
 reclining hero pose,FOLLOWS,leg position
 reclining hero pose,FOLLOWS,hero pose
 sphinx pose,FOLLOWS,plank pose
-staff pose,FOLLOWS,"though a challenging pose, dandasana does not require much stretching prior to practicing it. any pose that lengthens your back body will set you up well."
+staff pose,FOLLOWS,though
 cow face pose,FOLLOWS,bound angle pose
 cow face pose,FOLLOWS,eagle pose
 cow face pose,FOLLOWS,reclining bound angle pose
-wheel pose,FOLLOWS,practice this intense backbend at the end of class once your back body has been properly warmed up. do not skimp on the preliminary backbends. use more gentle backbends to warm up. counter with forward bends.
+wheel pose,FOLLOWS,practice
 feathered peacock pose,FOLLOWS,downward-facing dog pose
 reclining hand-to-big-toe pose,FOLLOWS,downward-facing dog pose
-tree pose,FOLLOWS,"to prep for tree pose, focus on poses that open your hips. also, practice your drishti to develop the habit of keeping your attention centered in balancing poses."
+tree pose,FOLLOWS,to
 wide-angle seated forward bend,FOLLOWS,seated forward bend
 wide-angle seated forward bend,FOLLOWS,seated forward bend
 pose dedicated to the sage marichi i,FOLLOWS,standing forward bend
@@ -56,48 +56,48 @@ shoulder-pressing pose,FOLLOWS,bound angle pose
 shoulder-pressing pose,FOLLOWS,bound angle pose
 pose dedicated to the sage koundinya ii,FOLLOWS,reclining hand-to-big-toe pose
 pose dedicated to the sage koundinya ii,FOLLOWS,four-limbed staff pose
-pose dedicated to the sage koundinya ii,FOLLOWS,wide-angled seated forward bend
+pose dedicated to the sage koundinya ii,FOLLOWS,wide-angle seated forward bend
 reverse plank,FOLLOWS,cat pose
 reverse plank,FOLLOWS,cat pose
 upward facing two-foot staff pose,FOLLOWS,wheel pose
-upward facing two-foot staff pose,FOLLOWS,sirsasana
+upward facing two-foot staff pose,FOLLOWS,supported headstand
 upward facing two-foot staff pose,FOLLOWS,reverse plank
-warrior 3 pose,FOLLOWS,"stretch your hips, your entire back body, and your shoulders prior to coming into warrior iii."
-warrior 2 pose,FOLLOWS,"to adequately prepare yourself to engage and align in this pose, you'll want to take your hamstrings, hips, and arms through some warmups."
-wide-legged forward bend,FOLLOWS,standing forward bend. use this pose to open your shoulders and heart to prepare for any deep heart openers or arm balances.
+warrior 3 pose,FOLLOWS,stretch
+warrior 2 pose,FOLLOWS,to
+wide-legged forward bend,FOLLOWS,standing forward bend
 supported shoulderstand,FOLLOWS,plow pose
 supported shoulderstand,FOLLOWS,bridge pose
 supported shoulderstand,FOLLOWS,hero pose
-warrior 1 pose,FOLLOWS,"prior to practicing warrior i, take your time in poses that stretch your hamstrings and shoulders and align your hips toward the front of the mat. afterward, come into poses that lengthen your back to counter the slight backbend of warrior i."
+warrior 1 pose,FOLLOWS,prior
 wild thing,FOLLOWS,downward-facing dog pose
-standing forward bend,FOLLOWS,standing forward bend can be a warmup or a restorative pose to neutralize your hips and stretch your back and hamstrings throughout your practice.
-upward-facing dog pose,FOLLOWS,cobra pose until you feel your back body is ready for a deeper heart opener.
+standing forward bend,FOLLOWS,standing
+upward-facing dog pose,FOLLOWS,cobra pose
 side crow pose,FOLLOWS,four-limbed staff pose
 upward salute,FOLLOWS,mountain pose
 upward salute,FOLLOWS,mountain pose
-seated forward bend,FOLLOWS,"you will derive the most out of paschimottanasana when you first ease yourself into less-demanding stretches for your hamstrings and back. in counter poses, practice gentle backbends."
-revolved triangle pose,FOLLOWS,bharadvajasana
+seated forward bend,FOLLOWS,you
+revolved triangle pose,FOLLOWS,bharadvaja's twist
 revolved triangle pose,FOLLOWS,bharadvaja's twist
 standing split,FOLLOWS,standing forward bend
 standing split,FOLLOWS,standing forward bend
 standing split,FOLLOWS,big toe pose
 standing split,FOLLOWS,big toe pose
 standing split,FOLLOWS,wide-legged forward bend
-standing split,FOLLOWS,wide-legged forward bend pose
+standing split,FOLLOWS,wide-legged forward bend
 standing split,FOLLOWS,downward-facing dog pose
 standing split,FOLLOWS,downward-facing dog pose
 standing split,FOLLOWS,head-to-knee pose
 standing split,FOLLOWS,head-to-knee pose
 standing split,FOLLOWS,seated forward bend
 standing split,FOLLOWS,seated forward bend
-standing split,FOLLOWS,supta padangustasana
+standing split,FOLLOWS,reclining hand-to-big-toe pose
 standing split,FOLLOWS,reclining big toe pose
 revolved head-to-knee pose,FOLLOWS,wide angle seated forward bend
 supported headstand,FOLLOWS,downward-facing dog pose
 pose dedicated to the sage koundinya i,FOLLOWS,pose dedicated to the sage marichi i
 pose dedicated to the sage koundinya i,FOLLOWS,rope pose
 pose dedicated to the sage koundinya i,FOLLOWS,reclining hand-to-big-toe pose
-plow pose,FOLLOWS,"fish pose, but you can come into any pose that lengthens your back and neutralizes the curvature that happens during halasana."
+plow pose,FOLLOWS,fish pose
 side plank pose,FOLLOWS,reclining hand-to-big-toe pose
 side plank pose,FOLLOWS,reclining hand-to-big-toe pose
 scale pose,FOLLOWS,half lord of the fishes pose
@@ -108,13 +108,13 @@ scale pose,FOLLOWS,head-to-knee pose
 scale pose,FOLLOWS,lotus pose
 scale pose,FOLLOWS,hero pose
 one-legged king pigeon pose,FOLLOWS,bound angle pose
-mountain pose,FOLLOWS,"tadasana is a prep pose for any standing asana. to prepare for this pose bring attention to breath, grounding, and alignment."
+mountain pose,FOLLOWS,mountain pose
 plank pose,FOLLOWS,downward-facing dog pose
 marichi's pose,FOLLOWS,bharadvaja's twist
 revolved side angle pose,FOLLOWS,low lunge
 revolved side angle pose,FOLLOWS,low lunge
-lotus pose,FOLLOWS,your ability to come into lotus pose is enhanced when you practice other hip openers prior to attempting it.
-peacock pose,FOLLOWS,chaturanga
+lotus pose,FOLLOWS,your
+peacock pose,FOLLOWS,four-limbed staff pose
 peacock pose,FOLLOWS,staff pose
 peacock pose,FOLLOWS,plank
 peacock pose,FOLLOWS,dolphin plank pose
@@ -124,12 +124,12 @@ side-reclining leg lift,FOLLOWS,gate pose
 side-reclining leg lift,FOLLOWS,gate pose
 side-reclining leg lift,FOLLOWS,extended triangle pose
 side-reclining leg lift,FOLLOWS,extended triangle pose
-legs up the wall pose,FOLLOWS,"viparita karani actually requires no preparation and no counterbalance. you can come into it at any given moment during the day without having more than a moment's notice. however, it can make it easier to relax if you first stretch your back body in a"
+legs up the wall pose,FOLLOWS,viparita
 legs up the wall pose,FOLLOWS,forward bend
-legs up the wall pose,FOLLOWS,. any hip stretch you do prior to the pose will help release even more tension in the pose.
+legs up the wall pose,FOLLOWS,.
 pigeon pose,FOLLOWS,cobra pose
 pigeon pose,FOLLOWS,bow pose
-pigeon pose,FOLLOWS,setu bandha
+pigeon pose,FOLLOWS,bridge pose
 pigeon pose,FOLLOWS,reclining hero pose
 pigeon pose,FOLLOWS,hero pose
 pigeon pose,FOLLOWS,wheel pose
@@ -148,7 +148,7 @@ pigeon pose,FOLLOWS,one-legged king pigeon pose
 one-legged king pigeon pose ii,FOLLOWS,cobra pose
 one-legged king pigeon pose ii,FOLLOWS,cobra pose
 monkey pose,FOLLOWS,bound angle pose
-dancer pose,FOLLOWS,"hip flexors, and shoulders."
+dancer pose,FOLLOWS,hip flexors
 low lunge,FOLLOWS,downward-facing dog pose
 low lunge,FOLLOWS,wide-legged forward bend
 low lunge,FOLLOWS,reclining hero pose
@@ -156,31 +156,31 @@ low lunge,FOLLOWS,chair pose
 low lunge,FOLLOWS,hero pose
 hero pose,FOLLOWS,child's pose
 hero pose,FOLLOWS,bound angle pose
-head-to-knee pose,FOLLOWS,"janu sirsasana is typically sequenced toward the end of class, when you have already stretched your back body and your hips in other poses. counter the pose by stretching and expanding in the areas that were just compressed; in this case, your chest and hip flexors."
-locust pose,FOLLOWS,"locust pose isn't as intense a backbend as some other poses, but it can still be quite challenging given the demand it places on the body. prepare yourself with stretches for the low back, hip flexors, and quadriceps."
+head-to-knee pose,FOLLOWS,janu
+locust pose,FOLLOWS,locust
 happy baby pose,FOLLOWS,child's pose
 happy baby pose,FOLLOWS,child's pose
 happy baby pose,FOLLOWS,hero pose
 happy baby pose,FOLLOWS,hero pose
-half moon pose,FOLLOWS,"standing forward bend, practice pressing down with your fingers into the mat, as this action will help with steadiness when you are balancing."
+half moon pose,FOLLOWS,standing forward bend
 rope pose,FOLLOWS,half lord of the fishes pose
-half lord of the fishes pose,FOLLOWS,stretch your hips and practice twists before practicing half lord of the fishes pose.
+half lord of the fishes pose,FOLLOWS,stretch
 half frog pose,FOLLOWS,cobra pose
 half frog pose,FOLLOWS,bridge pose
 half frog pose,FOLLOWS,reclining hero pose
 half frog pose,FOLLOWS,hero pose
 pyramid pose,FOLLOWS,standing forward bend
 garland pose,FOLLOWS,bound angle pose
-garland pose,FOLLOWS,wide-angled seated forward bend
+garland pose,FOLLOWS,wide-angle seated forward bend
 garland pose,FOLLOWS,hero pose
 firefly pose,FOLLOWS,standing forward bend
 handstand,FOLLOWS,cat pose
-high lunge,FOLLOWS,warrior i
+high lunge,FOLLOWS,warrior 1 pose
 heron pose,FOLLOWS,downward-facing dog pose
 extended puppy pose,FOLLOWS,downward-facing dog pose
 extended puppy pose,FOLLOWS,hero pose
 extended triangle pose,FOLLOWS,standing half forward bend
-eagle pose,FOLLOWS,downward-facing dog pose.
+eagle pose,FOLLOWS,downward-facing dog pose
 four-limbed staff pose,FOLLOWS,plank pose
 gate pose,FOLLOWS,downward-facing dog pose
 fish pose,FOLLOWS,bound angle pose
@@ -191,20 +191,20 @@ fish pose,FOLLOWS,bridge pose
 fish pose,FOLLOWS,reclining hero pose
 fish pose,FOLLOWS,upward-facing dog pose
 fish pose,FOLLOWS,hero pose
-downward-facing dog pose,FOLLOWS,"warm up for adho muka svanasana with spinal stretches such as cat and cow pose, and hamstring stretches such as standing forward bend. almost any pose can follow downward-facing dog, although if you find it challenging, let yourself drop into a comfortable pose such as child's pose afterward."
+downward-facing dog pose,FOLLOWS,warm
 dolphin pose,FOLLOWS,plank pose
 dolphin pose,FOLLOWS,standing forward bend
 dolphin pose,FOLLOWS,cow face pose
 dolphin pose,FOLLOWS,arms only
-eight-angle pose,FOLLOWS,"the more complicated the pose you're attempting, the more preparation and warmup your body requires to properly open and engage it in similar ways. these preparatory poses mimic astavakrasana by engaging your shoulders, abdominals, arms, and legs in the same manner. the counter poses release tension in these same areas."
+eight-angle pose,FOLLOWS,the
 dolphin plank pose,FOLLOWS,plank pose
-extended hand-to-big-toe pose,FOLLOWS,warrior pose i
+extended hand-to-big-toe pose,FOLLOWS,warrior 1 pose
 extended hand-to-big-toe pose,FOLLOWS,mountain pose
-extended hand-to-big-toe pose,FOLLOWS,reclining hand-to-big toe pose i
+extended hand-to-big-toe pose,FOLLOWS,reclining hand-to-big-toe pose
 extended hand-to-big-toe pose,FOLLOWS,tree pose
 fire log pose,FOLLOWS,bound angle pose
 fire log pose,FOLLOWS,reclining bound angle pose
-extended side angle pose,FOLLOWS,"since extended side angle engages nearly the entire body, you want to first incorporate poses into your practice that address full-body movement, including"
+extended side angle pose,FOLLOWS,since
 extended side angle pose,FOLLOWS,surya namaskar a
-extended side angle pose,FOLLOWS,". also emphasize poses that lengthen your side body and stretch your hamstrings, hip flexors, and quadriceps."
+extended side angle pose,FOLLOWS,.
 easy pose,FOLLOWS,staff pose
