@@ -4,18 +4,23 @@ import { Network } from "vis-network";
 export default function Graph (props) {
 	// Create a ref to provide DOM access
     const [networkState, setNetworkState] = useState(null)
-    const records = props.graph_results.slice(props.indices[0], props.indices[1])
+    const indices = props.indices
+    const [workout_records, yoga_records] = props.graph_results
+    const filtered_workout_records = workout_records.slice(indices[0][0], indices[0][1])
+    const filtered_yoga_records = yoga_records.slice(indices[1][0], indices[1][1])
+    const records = filtered_workout_records.concat(filtered_yoga_records)
+    const focus_index = props.focusIndex
     const [graph_loading, setGraphLoading] = useState(true)
     if((!records?.length) && graph_loading) {
         setGraphLoading(false)
     }
     const nodeColorMap = {
-        exercise: "#F48885",
+        Workout: "#F48885",
         muscle: "#D4D7A8",
         anatomy: "#A596FF",
         equipment: "#A6DBF8",
         position: "#452E4F",
-        workout: "#DEAF9F"
+        Yoga: "#DEAF9F",
     }
     const createNode = (record, label_key, node_Type, id_key) => {
         const label = record[label_key]
@@ -50,28 +55,41 @@ export default function Graph (props) {
 
     const getData = (curr_records) => {
         const [nodeSet, nodes, edges] = curr_records.reduce(([nodeSet, nodes, edges], record) => {
-            const exercise = record.get('ex').properties
-            if (!nodeSet.has(exercise.url)) {
-                nodes.push(createNode(exercise, "name", "exercise", "url"))
-                nodeSet.add(exercise.url)
+            nodes.push(createNode(record, "name", record["exercise_type"], "name"))
+            if(!nodeSet.has(record.muscle)) {
+                nodes.push(createNode(record, "muscle", "muscle", "muscle"))
+                nodeSet.add(record.muscle)
             }
-            const muscle = (record.get('m') && record.get('m').properties)
-            if (muscle && !nodeSet.has(muscle.url)) {
-                nodes.push(createNode(muscle, "name", "muscle", "url"))
-                nodeSet.add(muscle.url)
+            if(record.equipment) {
+                if(!nodeSet.has(record.equipment)) {
+                    nodes.push(createNode(record, "equipment", "equipment", "equipment"))
+                    nodeSet.add(record.equipment)
+                }
+                edges.push({ "from": record.name, "to": record.equipment, "label": "uses"})
             }
-            edges.push({ "from": exercise.url, "to": muscle.url, "label": "targets"})
-            const equipment = record.get('eq') && record.get('eq').properties
-            if (equipment && !nodeSet.has(equipment.name)) {
-                nodes.push(createNode(equipment, "name", "equipment", "name"))
-                nodeSet.add(equipment.name)
-            }
-            edges.push({ "from": exercise.url, "to": equipment.name, "label": "uses"})
+            edges.push({ "from": record.name, "to": record.muscle, "label": "targets"})
+
+            // if (!nodeSet.has(exercise.name)) {
+            //     nodes.push(createNode(exercise, "name", "exercise", "name"))
+            //     nodeSet.add(exercise.name)
+            // }
+            // if (muscle && !nodeSet.has(muscle.name)) {
+            //     nodes.push(createNode(muscle, "name", "muscle", "name"))
+            //     nodeSet.add(muscle.name)
+            // }
+            // edges.push({ "from": exercise.name, "to": muscle.name, "label": "targets"})
+            // const equipment = record.get('eq') && record.get('eq')?.properties
+            // if (equipment && !nodeSet.has(equipment.name)) {
+            //     nodes.push(createNode(equipment, "name", "equipment", "name"))
+            //     nodeSet.add(equipment.name)
+            // }
+            // if(equipment) {
+            //     edges.push({ "from": exercise.name, "to": equipment.name, "label": "uses"})
+            // }
             return [nodeSet, nodes, edges]
         }, [new Set(), [], []])
         return { nodes, edges }
     }
-
     const options =  {
             nodes: {
                 shape: "ellipse" 
@@ -97,11 +115,11 @@ export default function Graph (props) {
             }
         }
     }
-
+    const data = getData(records)
     const visJsRef = useRef(null)
+    const networkRef = useRef(null)
 	useEffect(() => {
         setGraphLoading(true)
-        const data = getData(records)
         const network =
 			visJsRef.current &&
 			new Network(visJsRef.current, data, options);
@@ -116,7 +134,16 @@ export default function Graph (props) {
             //   setNetworkState(network)
             //   props.setNetwork(network)
             }
+        networkRef.current = network
         setGraphLoading(false)
-	}, [visJsRef, records]);
+	}, [visJsRef, props.exercises, indices]);
+    useEffect(() => {
+        if(networkRef.current && focus_index) {
+            networkRef.current.fit({
+               nodes: [focus_index] })
+        }
+        
+    }, [focus_index])
+
     return <div ref={visJsRef} style={{ height: '100%', width: '100%' }} />
 };

@@ -2,75 +2,69 @@ import json
 import csv
 
 
-ranges = [
-    (0, 1.5),
-    (1.6, 2.5),
-    (2.6, 3.5),
-    (3.6, 5.0),
-    (5.1, 8.0),
-    (8.1, 13.5),
-    (13.6, 16.0),
-    (10, 110),
-    (111, 200),
-    (201, 260),
-    (261, 410),
-    (411, 590),
-    (591, 890),
-    (891, 1200),
-]
-
-n = len(ranges)
-i = 0
-levels = [ranges]
-while True:
-    new_level = []
-    num_ranges = len(ranges)
-    if num_ranges == 1:
-        break
-    for i in range(num_ranges // 2):
-        left = ranges[i * 2]
-        right = ranges[i * 2 + 1]
-        new_level.append((left[0], right[1]))
-    if (num_ranges % 2) == 1:
-        new_level.append(ranges[-1])
-    levels = [new_level] + levels
-    ranges = new_level
+ranges1 = [(i + 0.1, i + 1.0) for i in range(17)]
+ranges2 = [(i + 1, i + 50) for i in range(100, 1200, 50)]
 
 
-nodes = [x for level in levels for x in level]
-nodes = list(set(nodes))
-nodes = [{
-        "start": x[0],
-        "end": x[1],
-        "name": f"{x[0]}-{x[1]}"
-    } for x in nodes]
+def get_levels(ranges):
+    n = len(ranges)
+    i = 0
+    levels = [ranges]
+    while True:
+        new_level = []
+        num_ranges = len(ranges)
+        if num_ranges == 1:
+            break
+        for i in range(num_ranges // 2):
+            left = ranges[i * 2]
+            right = ranges[i * 2 + 1]
+            new_level.append((left[0], right[1]))
+        if (num_ranges % 2) == 1:
+            new_level.append(ranges[-1])
+        levels = [new_level] + levels
+        ranges = new_level    
+    nodes = [x for level in levels for x in level]
+    nodes = list(set(nodes))
+    nodes = [{
+            "start": x[0],
+            "end": x[1],
+            "name": f"{x[0]}-{x[1]}"
+        } for x in nodes]
 
 
-less_than_links = []
-more_than_links = []
+    less_than_links = []
+    more_than_links = []
 
-for level in levels:
-    n = len(level)
+    for level in levels:
+        n = len(level)
+        for i in range(n-1):
+            curr_node = level[i]
+            next_node = level[i + 1]
+            curr_node = f"{curr_node[0]}-{curr_node[1]}"
+            next_node = f"{next_node[0]}-{next_node[1]}"
+            less_than_links.append((curr_node, next_node))
+            more_than_links.append((next_node, curr_node))
+
+    subset_links = []
+    superset_links = []
+    n = len(levels)
     for i in range(n-1):
-        curr_node = level[i]
-        next_node = level[i + 1]
-        curr_node = f"{curr_node[0]}-{curr_node[1]}"
-        next_node = f"{next_node[0]}-{next_node[1]}"
-        less_than_links.append((curr_node, next_node))
-        more_than_links.append((next_node, curr_node))
+        for parent_node in levels[i]:
+            for child_node in levels[i+1]:
+                if (parent_node[0] <= child_node[0]) and (parent_node[1] >= child_node[1]):
+                    p_node = f"{parent_node[0]}-{parent_node[1]}"
+                    c_node = f"{child_node[0]}-{child_node[1]}"
+                    if p_node != c_node:
+                        subset_links.append((c_node, p_node))
+                        superset_links.append((p_node, c_node))
+    return nodes, superset_links, subset_links, less_than_links, more_than_links
 
-subset_links = []
-superset_links = []
-n = len(levels)
-for i in range(n-1):
-    for parent_node in levels[i]:
-        for child_node in levels[i+1]:
-            if (parent_node[0] <= child_node[0]) and (parent_node[1] >= child_node[1]):
-                p_node = f"{parent_node[0]}-{parent_node[1]}"
-                c_node = f"{child_node[0]}-{child_node[1]}"
-                if p_node != c_node:
-                    subset_links.append((c_node, p_node))
-                    superset_links.append((p_node, c_node))
+data1 = get_levels(ranges1)
+data2 = get_levels(ranges2)
+
+data = [x + y for x,y in zip(data1, data2)]
+
+nodes, superset_links, subset_links, less_than_links, more_than_links = data
 
 f  = open("cardio.jsonl")
 cardio_exercises = [json.loads(x) for x in f.readlines()]

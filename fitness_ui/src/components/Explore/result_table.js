@@ -1,60 +1,103 @@
-import React , { useRef, useState } from 'react';
+import React , { useEffect, useRef, useState } from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 
 import Box from '@mui/material/Box';
-import { network } from 'vis-network';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 
-const columns = [
-    { field: 'id', headerName: 'ID', type: 'number', width: 70, editable: false, sortable: false, filterable: false },
+const columns = [[
+    { field: 'id', headerName: 'S. No.', type: 'number', width: 70, editable: false, sortable: false, filterable: false },
     { field: 'name', headerName: 'Name', type: 'string', width: 300, editable: false, sortable: false, filterable: false },
     { field: 'muscle', headerName: 'Muscle', type: 'string', width: 200, editable: false, sortable: false, filterable: false },
     { field: 'equipment', headerName: 'Equipment', type: 'string', width: 200, editable: false, sortable: false, filterable: false },
     { field: 'difficulty', headerName: 'Difficulty', type: 'string', width: 200, editable: false, sortable: false, filterable: false },
     { field: 'mechanics', headerName: 'Mechanics', type: 'string', width: 200, editable: false, sortable: false, filterable: false },
     { field: 'type', headerName: 'Type', type: 'string', width: 200, editable: false, sortable: false, filterable: false }
+], [
+    { field: 'id', headerName: 'S. No.', type: 'number', width: 70, editable: false, sortable: false, filterable: false },
+    { field: 'name', headerName: 'Name', type: 'string', width: 300, editable: false, sortable: false, filterable: false },
+    { field: 'muscle', headerName: 'Muscle', type: 'string', width: 200, editable: false, sortable: false, filterable: false },
+    { field: 'sanskrit_Name', headerName: 'Sanskrit Name', type: 'string', width: 200, editable: false, sortable: false, filterable: false },
+]]
+
+const clickable = [[
+    "name",
+    "muscle",
+    "equipment"
+],
+[
+    "name",
+    "muscle"
+],
 ]
 
 
+
 export default function RecordsTable(props) {
-    const gridRef = useRef()
     const pageSize = props.pageSize
     const { loading, exercises } = props;
-    const getRecord = (record, index) => {
-        const exercise = record.get('ex').properties;
-        const muscles = record.get('m').properties;
-        const equipments = record.get('eq').properties;
+    const [value, setValue] = React.useState(0);
+    const all_records = exercises
+    console.log(all_records[1].slice(0, 10))
+    const onPageChange = (params, value) => {
+        props.setIndices([params * pageSize, (params + 1) * pageSize], value)
+    }
+    const a11yProps = (index) => {
         return {
-            id: index + 1,
-            ...exercise,
-            name_key: exercise.url,
-            muscle: muscles.name,
-            muscle_key: muscles.url,
-            equipment: equipments.name,
-            equipment_key: equipments.name
-        }
+          id: `simple-tab-${index}`,
+          'aria-controls': `simple-tabpanel-${index}`,
+        };
     }
-    const records = exercises.map(getRecord)
-    const onPageChange = (params) => {
-        props.setIndices([params * pageSize, (params + 1) * pageSize])
-    }
+    const indices = props.indices
+    const setFocusIndex = props.setFocusIndex
+    const TabPanel = (props) => {
+        const { children, value, index, ...other } = props;
+        return (
+          <div
+            role="tabpanel"
+            hidden={value !== index}
+            id={`simple-tabpanel-${index}`}
+            aria-labelledby={`simple-tab-${index}`}
+            style={{ height: "85%" }}
+            {...other}
+          >
+            {value === index && (
+                <DataGrid
+                density='compact'
+                  rows={all_records[value]}
+                  columns={columns[value]}
+                  pageSize={pageSize}
+                  loading={loading}
+                  initialState={{ pagination: { page: indices[value][0] / pageSize }}}
+                  onPageChange={(params) => onPageChange(params, value)}
+                  onCellClick={(params)=>{ 
+                    if (clickable[value].includes(params.field)) setFocusIndex(params.row[params.field])}}
+                  rowsPerPageOptions={[pageSize]}
+                  sx={{
+                    '& .MuiTablePagination-root': {
+                        height: '5%',
+                      }
+                  }}
+                />
+            )}
+          </div>
+        );
+      }
+
+      const handleChange = (event, newValue) => {
+        setValue(newValue);
+      };
 
      return (
         <Box sx={{ height: "100%", width: "100%" }}>
-        <DataGrid
-        ref={gridRef}
-        density='compact'
-          rows={records}
-          columns={columns}
-          pageSize={pageSize}
-          loading={loading}
-          onPageChange={onPageChange}
-          rowsPerPageOptions={[pageSize]}
-          sx={{
-            '& .MuiTablePagination-root': {
-                height: '5%',
-              }
-          }}
-        />
+            <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+                <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+                    <Tab label="Gym Workouts" {...a11yProps(0)} />
+                    <Tab label="Yoga" {...a11yProps(1)} />
+                </Tabs>
+            </Box>
+            <TabPanel value={value} index={0} />
+            <TabPanel value={value} index={1} />
        </Box>
     );
   }

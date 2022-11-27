@@ -1,877 +1,1052 @@
 source,relation,destination
-sleeping,BURNS,10-110
-sleeping,BURNS,0-1200
-sleeping,BURNS,0-110
-sleeping,BURNS,5.1-110
-sleeping,BURNS,13.6-110
-resting,BURNS,10-110
-resting,BURNS,0-1200
-resting,BURNS,0-110
-resting,BURNS,5.1-110
-resting,BURNS,13.6-110
-sitting,BURNS,10-110
-sitting,BURNS,0-1200
-sitting,BURNS,0-110
-sitting,BURNS,5.1-110
-sitting,BURNS,13.6-110
-desk work,BURNS,10-110
-desk work,BURNS,0-1200
-desk work,BURNS,0-110
-desk work,BURNS,5.1-110
-desk work,BURNS,13.6-110
-driving,BURNS,111-1200
-driving,BURNS,111-260
-driving,BURNS,0-1200
-driving,BURNS,111-200
-driving,BURNS,111-590
-bathing,BURNS,111-1200
-bathing,BURNS,111-260
-bathing,BURNS,0-1200
-bathing,BURNS,111-200
-bathing,BURNS,111-590
-spa,BURNS,111-1200
-spa,BURNS,111-260
-spa,BURNS,0-1200
-spa,BURNS,111-200
-spa,BURNS,111-590
-singing,BURNS,111-1200
-singing,BURNS,111-260
-singing,BURNS,0-1200
-singing,BURNS,111-200
-singing,BURNS,111-590
-showering,BURNS,111-1200
-showering,BURNS,111-260
-showering,BURNS,0-1200
-showering,BURNS,111-200
-showering,BURNS,111-590
-sexual activity,BURNS,111-1200
-sexual activity,BURNS,111-260
-sexual activity,BURNS,0-1200
-sexual activity,BURNS,111-200
-sexual activity,BURNS,111-590
-sewing,BURNS,111-1200
-sewing,BURNS,111-260
-sewing,BURNS,0-1200
-sewing,BURNS,111-200
-sewing,BURNS,111-590
-working,BURNS,111-1200
-working,BURNS,111-260
-working,BURNS,0-1200
-working,BURNS,111-200
-working,BURNS,111-590
-studying,BURNS,111-1200
-studying,BURNS,111-260
-studying,BURNS,0-1200
-studying,BURNS,111-200
-studying,BURNS,111-590
-reading,BURNS,111-1200
-reading,BURNS,111-260
-reading,BURNS,0-1200
-reading,BURNS,111-200
-reading,BURNS,111-590
-music playing,BURNS,111-1200
-music playing,BURNS,111-260
-music playing,BURNS,0-1200
-music playing,BURNS,111-200
-music playing,BURNS,111-590
-teaching,BURNS,111-1200
-teaching,BURNS,111-260
-teaching,BURNS,0-1200
-teaching,BURNS,111-200
-teaching,BURNS,111-590
-massage,BURNS,111-1200
-massage,BURNS,111-260
-massage,BURNS,0-1200
-massage,BURNS,111-200
-massage,BURNS,111-590
-karaoke,BURNS,111-1200
-karaoke,BURNS,111-260
-karaoke,BURNS,0-1200
-karaoke,BURNS,111-200
-karaoke,BURNS,111-590
-walking (slow) - 2/mph,BURNS,111-1200
-walking (slow) - 2/mph,BURNS,111-260
-walking (slow) - 2/mph,BURNS,0-1200
-walking (slow) - 2/mph,BURNS,111-200
-walking (slow) - 2/mph,BURNS,111-590
-watching tv/computer,BURNS,111-1200
-watching tv/computer,BURNS,111-260
-watching tv/computer,BURNS,0-1200
-watching tv/computer,BURNS,111-200
-watching tv/computer,BURNS,111-590
-golf (cart),BURNS,111-1200
-golf (cart),BURNS,111-260
-golf (cart),BURNS,0-1200
-golf (cart),BURNS,111-200
-golf (cart),BURNS,111-590
-cooking,BURNS,111-1200
-cooking,BURNS,111-260
-cooking,BURNS,0-1200
-cooking,BURNS,111-200
-cooking,BURNS,111-590
-breastfeeding,BURNS,111-1200
-breastfeeding,BURNS,111-260
-breastfeeding,BURNS,0-1200
-breastfeeding,BURNS,111-200
-breastfeeding,BURNS,111-590
-standing,BURNS,111-1200
-standing,BURNS,111-260
-standing,BURNS,0-1200
-standing,BURNS,111-200
-standing,BURNS,111-590
-shopping,BURNS,111-1200
-shopping,BURNS,111-260
-shopping,BURNS,0-1200
-shopping,BURNS,111-200
-shopping,BURNS,111-590
-housework,BURNS,111-1200
-housework,BURNS,111-260
-housework,BURNS,0-1200
-housework,BURNS,111-200
-housework,BURNS,111-590
-stretching (yoga),BURNS,111-1200
-stretching (yoga),BURNS,111-260
-stretching (yoga),BURNS,0-1200
-stretching (yoga),BURNS,111-200
-stretching (yoga),BURNS,111-590
-washing dishes,BURNS,111-1200
-washing dishes,BURNS,111-260
-washing dishes,BURNS,201-260
-washing dishes,BURNS,0-1200
-washing dishes,BURNS,111-590
-scooter,BURNS,111-1200
-scooter,BURNS,111-260
-scooter,BURNS,201-260
-scooter,BURNS,0-1200
-scooter,BURNS,111-590
-motorbike riding,BURNS,111-1200
-motorbike riding,BURNS,111-260
-motorbike riding,BURNS,201-260
-motorbike riding,BURNS,0-1200
-motorbike riding,BURNS,111-590
-ironing,BURNS,111-1200
-ironing,BURNS,111-260
-ironing,BURNS,201-260
-ironing,BURNS,0-1200
-ironing,BURNS,111-590
-hanging laundry,BURNS,111-1200
-hanging laundry,BURNS,111-260
-hanging laundry,BURNS,201-260
-hanging laundry,BURNS,0-1200
-hanging laundry,BURNS,111-590
-grocery shopping,BURNS,111-1200
-grocery shopping,BURNS,111-260
-grocery shopping,BURNS,201-260
-grocery shopping,BURNS,0-1200
-grocery shopping,BURNS,111-590
-sauna,BURNS,111-1200
-sauna,BURNS,111-260
-sauna,BURNS,201-260
-sauna,BURNS,0-1200
-sauna,BURNS,111-590
-yoga,BURNS,111-1200
-yoga,BURNS,111-260
-yoga,BURNS,201-260
-yoga,BURNS,0-1200
-yoga,BURNS,111-590
-cleaning,BURNS,111-1200
-cleaning,BURNS,111-260
-cleaning,BURNS,201-260
-cleaning,BURNS,0-1200
-cleaning,BURNS,111-590
-wii fit (electronic games),BURNS,111-1200
-wii fit (electronic games),BURNS,111-260
-wii fit (electronic games),BURNS,201-260
-wii fit (electronic games),BURNS,0-1200
-wii fit (electronic games),BURNS,111-590
-washing car,BURNS,111-1200
-washing car,BURNS,111-260
-washing car,BURNS,201-260
-washing car,BURNS,0-1200
-washing car,BURNS,111-590
-boating or canoeing,BURNS,111-1200
-boating or canoeing,BURNS,111-260
-boating or canoeing,BURNS,201-260
-boating or canoeing,BURNS,0-1200
-boating or canoeing,BURNS,111-590
-fishing,BURNS,111-1200
-fishing,BURNS,111-260
-fishing,BURNS,201-260
-fishing,BURNS,0-1200
-fishing,BURNS,111-590
-vacuuming,BURNS,111-1200
-vacuuming,BURNS,111-260
-vacuuming,BURNS,201-260
-vacuuming,BURNS,0-1200
-vacuuming,BURNS,111-590
-do it yourself (diy),BURNS,111-1200
-do it yourself (diy),BURNS,111-260
-do it yourself (diy),BURNS,201-260
-do it yourself (diy),BURNS,0-1200
-do it yourself (diy),BURNS,111-590
-surfing,BURNS,111-1200
-surfing,BURNS,111-260
-surfing,BURNS,201-260
-surfing,BURNS,0-1200
-surfing,BURNS,111-590
-sailing,BURNS,111-1200
-sailing,BURNS,111-260
-sailing,BURNS,201-260
-sailing,BURNS,0-1200
-sailing,BURNS,111-590
-pilates,BURNS,111-1200
-pilates,BURNS,111-260
-pilates,BURNS,201-260
-pilates,BURNS,0-1200
-pilates,BURNS,111-590
-walking (moderate) - 3/mph,BURNS,111-1200
-walking (moderate) - 3/mph,BURNS,111-260
-walking (moderate) - 3/mph,BURNS,201-260
-walking (moderate) - 3/mph,BURNS,0-1200
-walking (moderate) - 3/mph,BURNS,111-590
-"calisthenics (light, e.g. home exercise)",BURNS,111-1200
-"calisthenics (light, e.g. home exercise)",BURNS,111-260
-"calisthenics (light, e.g. home exercise)",BURNS,201-260
-"calisthenics (light, e.g. home exercise)",BURNS,0-1200
-"calisthenics (light, e.g. home exercise)",BURNS,111-590
-walking (exercise) - 3.5/mph,BURNS,111-1200
-walking (exercise) - 3.5/mph,BURNS,0-1200
-walking (exercise) - 3.5/mph,BURNS,261-590
-walking (exercise) - 3.5/mph,BURNS,261-410
-walking (exercise) - 3.5/mph,BURNS,111-590
-yard work (gardening),BURNS,111-1200
-yard work (gardening),BURNS,0-1200
-yard work (gardening),BURNS,261-590
-yard work (gardening),BURNS,261-410
-yard work (gardening),BURNS,111-590
-raking,BURNS,111-1200
-raking,BURNS,0-1200
-raking,BURNS,261-590
-raking,BURNS,261-410
-raking,BURNS,111-590
-archery,BURNS,111-1200
-archery,BURNS,0-1200
-archery,BURNS,261-590
-archery,BURNS,261-410
-archery,BURNS,111-590
-table tennis (ping pong),BURNS,111-1200
-table tennis (ping pong),BURNS,0-1200
-table tennis (ping pong),BURNS,261-590
-table tennis (ping pong),BURNS,261-410
-table tennis (ping pong),BURNS,111-590
-motor-cross,BURNS,111-1200
-motor-cross,BURNS,0-1200
-motor-cross,BURNS,261-590
-motor-cross,BURNS,261-410
-motor-cross,BURNS,111-590
-volleyball,BURNS,111-1200
-volleyball,BURNS,0-1200
-volleyball,BURNS,261-590
-volleyball,BURNS,261-410
-volleyball,BURNS,111-590
-water biking/running,BURNS,111-1200
-water biking/running,BURNS,0-1200
-water biking/running,BURNS,261-590
-water biking/running,BURNS,261-410
-water biking/running,BURNS,111-590
-swimming (slow),BURNS,111-1200
-swimming (slow),BURNS,0-1200
-swimming (slow),BURNS,261-590
-swimming (slow),BURNS,261-410
-swimming (slow),BURNS,111-590
-horseback riding,BURNS,111-1200
-horseback riding,BURNS,0-1200
-horseback riding,BURNS,261-590
-horseback riding,BURNS,261-410
-horseback riding,BURNS,111-590
-yoga (hot),BURNS,111-1200
-yoga (hot),BURNS,0-1200
-yoga (hot),BURNS,261-590
-yoga (hot),BURNS,261-410
-yoga (hot),BURNS,111-590
-bowling,BURNS,111-1200
-bowling,BURNS,0-1200
-bowling,BURNS,261-590
-bowling,BURNS,261-410
-bowling,BURNS,111-590
-golf (walking),BURNS,111-1200
-golf (walking),BURNS,0-1200
-golf (walking),BURNS,261-590
-golf (walking),BURNS,261-410
-golf (walking),BURNS,111-590
-dance (slow step),BURNS,111-1200
-dance (slow step),BURNS,0-1200
-dance (slow step),BURNS,261-590
-dance (slow step),BURNS,261-410
-dance (slow step),BURNS,111-590
-bicycling (leisurely) - <10/mph,BURNS,111-1200
-bicycling (leisurely) - <10/mph,BURNS,0-1200
-bicycling (leisurely) - <10/mph,BURNS,261-590
-bicycling (leisurely) - <10/mph,BURNS,261-410
-bicycling (leisurely) - <10/mph,BURNS,111-590
-mowing lawn,BURNS,111-1200
-mowing lawn,BURNS,0-1200
-mowing lawn,BURNS,261-590
-mowing lawn,BURNS,261-410
-mowing lawn,BURNS,111-590
-cricket,BURNS,111-1200
-cricket,BURNS,0-1200
-cricket,BURNS,261-590
-cricket,BURNS,261-410
-cricket,BURNS,111-590
-softball,BURNS,111-1200
-softball,BURNS,0-1200
-softball,BURNS,261-590
-softball,BURNS,261-410
-softball,BURNS,111-590
-skating - 10/mph,BURNS,111-1200
-skating - 10/mph,BURNS,0-1200
-skating - 10/mph,BURNS,261-590
-skating - 10/mph,BURNS,261-410
-skating - 10/mph,BURNS,111-590
-walking (brisk) - 4/mph,BURNS,111-1200
-walking (brisk) - 4/mph,BURNS,0-1200
-walking (brisk) - 4/mph,BURNS,261-590
-walking (brisk) - 4/mph,BURNS,261-410
-walking (brisk) - 4/mph,BURNS,111-590
-shoveling,BURNS,111-1200
-shoveling,BURNS,0-1200
-shoveling,BURNS,261-590
-shoveling,BURNS,261-410
-shoveling,BURNS,111-590
-dance (square dancing),BURNS,111-1200
-dance (square dancing),BURNS,0-1200
-dance (square dancing),BURNS,261-590
-dance (square dancing),BURNS,261-410
-dance (square dancing),BURNS,111-590
-baseball,BURNS,111-1200
-baseball,BURNS,0-1200
-baseball,BURNS,261-590
-baseball,BURNS,261-410
-baseball,BURNS,111-590
-painting,BURNS,111-1200
-painting,BURNS,0-1200
-painting,BURNS,261-590
-painting,BURNS,261-410
-painting,BURNS,111-590
-badminton,BURNS,111-1200
-badminton,BURNS,0-1200
-badminton,BURNS,261-590
-badminton,BURNS,261-410
-badminton,BURNS,111-590
-kayaking,BURNS,111-1200
-kayaking,BURNS,0-1200
-kayaking,BURNS,261-590
-kayaking,BURNS,261-410
-kayaking,BURNS,111-590
-hunting,BURNS,111-1200
-hunting,BURNS,0-1200
-hunting,BURNS,261-590
-hunting,BURNS,261-410
-hunting,BURNS,111-590
-hula hoop,BURNS,111-1200
-hula hoop,BURNS,0-1200
-hula hoop,BURNS,261-590
-hula hoop,BURNS,261-410
-hula hoop,BURNS,111-590
-conditioning exercise (health club),BURNS,111-1200
-conditioning exercise (health club),BURNS,0-1200
-conditioning exercise (health club),BURNS,261-590
-conditioning exercise (health club),BURNS,261-410
-conditioning exercise (health club),BURNS,111-590
-bicycling (slow) - 11/mph,BURNS,111-1200
-bicycling (slow) - 11/mph,BURNS,0-1200
-bicycling (slow) - 11/mph,BURNS,411-590
-bicycling (slow) - 11/mph,BURNS,261-590
-bicycling (slow) - 11/mph,BURNS,111-590
-weight training (moderate),BURNS,111-1200
-weight training (moderate),BURNS,0-1200
-weight training (moderate),BURNS,411-590
-weight training (moderate),BURNS,261-590
-weight training (moderate),BURNS,111-590
-circuit training,BURNS,111-1200
-circuit training,BURNS,0-1200
-circuit training,BURNS,411-590
-circuit training,BURNS,261-590
-circuit training,BURNS,111-590
-basketball,BURNS,111-1200
-basketball,BURNS,0-1200
-basketball,BURNS,411-590
-basketball,BURNS,261-590
-basketball,BURNS,111-590
-tree climbing (ropes),BURNS,111-1200
-tree climbing (ropes),BURNS,0-1200
-tree climbing (ropes),BURNS,411-590
-tree climbing (ropes),BURNS,261-590
-tree climbing (ropes),BURNS,111-590
-skiing (water),BURNS,111-1200
-skiing (water),BURNS,0-1200
-skiing (water),BURNS,411-590
-skiing (water),BURNS,261-590
-skiing (water),BURNS,111-590
-"dance (fast step, aerobic)",BURNS,111-1200
-"dance (fast step, aerobic)",BURNS,0-1200
-"dance (fast step, aerobic)",BURNS,411-590
-"dance (fast step, aerobic)",BURNS,261-590
-"dance (fast step, aerobic)",BURNS,111-590
-hiking,BURNS,111-1200
-hiking,BURNS,0-1200
-hiking,BURNS,411-590
-hiking,BURNS,261-590
-hiking,BURNS,111-590
-shoveling snow,BURNS,111-1200
-shoveling snow,BURNS,0-1200
-shoveling snow,BURNS,411-590
-shoveling snow,BURNS,261-590
-shoveling snow,BURNS,111-590
-scuba diving,BURNS,111-1200
-scuba diving,BURNS,0-1200
-scuba diving,BURNS,411-590
-scuba diving,BURNS,261-590
-scuba diving,BURNS,111-590
-power walking,BURNS,111-1200
-power walking,BURNS,0-1200
-power walking,BURNS,411-590
-power walking,BURNS,261-590
-power walking,BURNS,111-590
-pole dancing,BURNS,111-1200
-pole dancing,BURNS,0-1200
-pole dancing,BURNS,411-590
-pole dancing,BURNS,261-590
-pole dancing,BURNS,111-590
-exercise machine (slow),BURNS,111-1200
-exercise machine (slow),BURNS,0-1200
-exercise machine (slow),BURNS,411-590
-exercise machine (slow),BURNS,261-590
-exercise machine (slow),BURNS,111-590
-netball,BURNS,111-1200
-netball,BURNS,0-1200
-netball,BURNS,411-590
-netball,BURNS,261-590
-netball,BURNS,111-590
-floorball,BURNS,111-1200
-floorball,BURNS,0-1200
-floorball,BURNS,411-590
-floorball,BURNS,261-590
-floorball,BURNS,111-590
-trampolining,BURNS,111-1200
-trampolining,BURNS,0-1200
-trampolining,BURNS,411-590
-trampolining,BURNS,261-590
-trampolining,BURNS,111-590
-gym,BURNS,111-1200
-gym,BURNS,0-1200
-gym,BURNS,411-590
-gym,BURNS,261-590
-gym,BURNS,111-590
-zumba,BURNS,111-1200
-zumba,BURNS,0-1200
-zumba,BURNS,411-590
-zumba,BURNS,261-590
-zumba,BURNS,111-590
-t25,BURNS,111-1200
-t25,BURNS,0-1200
-t25,BURNS,411-590
-t25,BURNS,261-590
-t25,BURNS,111-590
-swimming (moderate),BURNS,111-1200
-swimming (moderate),BURNS,0-1200
-swimming (moderate),BURNS,411-590
-swimming (moderate),BURNS,261-590
-swimming (moderate),BURNS,111-590
-stairs (climbing stairs),BURNS,111-1200
-stairs (climbing stairs),BURNS,0-1200
-stairs (climbing stairs),BURNS,411-590
-stairs (climbing stairs),BURNS,261-590
-stairs (climbing stairs),BURNS,111-590
-power jump,BURNS,111-1200
-power jump,BURNS,0-1200
-power jump,BURNS,411-590
-power jump,BURNS,261-590
-power jump,BURNS,111-590
-fitness training (workout),BURNS,111-1200
-fitness training (workout),BURNS,0-1200
-fitness training (workout),BURNS,411-590
-fitness training (workout),BURNS,261-590
-fitness training (workout),BURNS,111-590
-muay thai,BURNS,111-1200
-muay thai,BURNS,0-1200
-muay thai,BURNS,411-590
-muay thai,BURNS,261-590
-muay thai,BURNS,111-590
-grit,BURNS,111-1200
-grit,BURNS,0-1200
-grit,BURNS,411-590
-grit,BURNS,261-590
-grit,BURNS,111-590
-xco,BURNS,111-1200
-xco,BURNS,0-1200
-xco,BURNS,411-590
-xco,BURNS,261-590
-xco,BURNS,111-590
-high intensity interval training (hiit),BURNS,111-1200
-high intensity interval training (hiit),BURNS,0-1200
-high intensity interval training (hiit),BURNS,411-590
-high intensity interval training (hiit),BURNS,261-590
-high intensity interval training (hiit),BURNS,111-590
-martial arts,BURNS,111-1200
-martial arts,BURNS,0-1200
-martial arts,BURNS,411-590
-martial arts,BURNS,261-590
-martial arts,BURNS,111-590
-insanity,BURNS,111-1200
-insanity,BURNS,0-1200
-insanity,BURNS,411-590
-insanity,BURNS,261-590
-insanity,BURNS,111-590
-jiu jitsu,BURNS,111-1200
-jiu jitsu,BURNS,0-1200
-jiu jitsu,BURNS,411-590
-jiu jitsu,BURNS,261-590
-jiu jitsu,BURNS,111-590
-judo,BURNS,111-1200
-judo,BURNS,0-1200
-judo,BURNS,411-590
-judo,BURNS,261-590
-judo,BURNS,111-590
-snow boarding,BURNS,111-1200
-snow boarding,BURNS,0-1200
-snow boarding,BURNS,411-590
-snow boarding,BURNS,261-590
-snow boarding,BURNS,111-590
-kangoo,BURNS,111-1200
-kangoo,BURNS,0-1200
-kangoo,BURNS,411-590
-kangoo,BURNS,261-590
-kangoo,BURNS,111-590
-tae bo,BURNS,111-1200
-tae bo,BURNS,0-1200
-tae bo,BURNS,411-590
-tae bo,BURNS,261-590
-tae bo,BURNS,111-590
-karate,BURNS,111-1200
-karate,BURNS,0-1200
-karate,BURNS,411-590
-karate,BURNS,261-590
-karate,BURNS,111-590
-cx,BURNS,111-1200
-cx,BURNS,0-1200
-cx,BURNS,411-590
-cx,BURNS,261-590
-cx,BURNS,111-590
-crossfit,BURNS,111-1200
-crossfit,BURNS,0-1200
-crossfit,BURNS,411-590
-crossfit,BURNS,261-590
-crossfit,BURNS,111-590
-aerobics,BURNS,111-1200
-aerobics,BURNS,0-1200
-aerobics,BURNS,411-590
-aerobics,BURNS,261-590
-aerobics,BURNS,111-590
-pedalling,BURNS,111-1200
-pedalling,BURNS,0-1200
-pedalling,BURNS,411-590
-pedalling,BURNS,261-590
-pedalling,BURNS,111-590
-water aerobics,BURNS,111-1200
-water aerobics,BURNS,0-1200
-water aerobics,BURNS,411-590
-water aerobics,BURNS,261-590
-water aerobics,BURNS,111-590
-ballet,BURNS,111-1200
-ballet,BURNS,0-1200
-ballet,BURNS,411-590
-ballet,BURNS,261-590
-ballet,BURNS,111-590
-vtt,BURNS,111-1200
-vtt,BURNS,0-1200
-vtt,BURNS,411-590
-vtt,BURNS,261-590
-vtt,BURNS,111-590
-trx,BURNS,111-1200
-trx,BURNS,0-1200
-trx,BURNS,411-590
-trx,BURNS,261-590
-trx,BURNS,111-590
-curves,BURNS,111-1200
-curves,BURNS,0-1200
-curves,BURNS,411-590
-curves,BURNS,261-590
-curves,BURNS,111-590
-p90x,BURNS,111-1200
-p90x,BURNS,0-1200
-p90x,BURNS,411-590
-p90x,BURNS,261-590
-p90x,BURNS,111-590
-body balance,BURNS,111-1200
-body balance,BURNS,0-1200
-body balance,BURNS,411-590
-body balance,BURNS,261-590
-body balance,BURNS,111-590
-body combat,BURNS,111-1200
-body combat,BURNS,0-1200
-body combat,BURNS,411-590
-body combat,BURNS,261-590
-body combat,BURNS,111-590
-body pump,BURNS,111-1200
-body pump,BURNS,0-1200
-body pump,BURNS,411-590
-body pump,BURNS,261-590
-body pump,BURNS,111-590
-rpm,BURNS,111-1200
-rpm,BURNS,0-1200
-rpm,BURNS,411-590
-rpm,BURNS,261-590
-rpm,BURNS,111-590
-taekwondo,BURNS,111-1200
-taekwondo,BURNS,0-1200
-taekwondo,BURNS,411-590
-taekwondo,BURNS,261-590
-taekwondo,BURNS,111-590
-cardio,BURNS,111-1200
-cardio,BURNS,0-1200
-cardio,BURNS,411-590
-cardio,BURNS,261-590
-cardio,BURNS,111-590
-cross training,BURNS,111-1200
-cross training,BURNS,0-1200
-cross training,BURNS,411-590
-cross training,BURNS,261-590
-cross training,BURNS,111-590
-body attack,BURNS,111-1200
-body attack,BURNS,0-1200
-body attack,BURNS,411-590
-body attack,BURNS,261-590
-body attack,BURNS,111-590
-kickboxing,BURNS,111-1200
-kickboxing,BURNS,0-1200
-kickboxing,BURNS,411-590
-kickboxing,BURNS,261-590
-kickboxing,BURNS,111-590
-rowing,BURNS,111-1200
-rowing,BURNS,0-1200
-rowing,BURNS,411-590
-rowing,BURNS,261-590
-rowing,BURNS,111-590
-running (jogging) - 5/mph,BURNS,111-1200
-running (jogging) - 5/mph,BURNS,0-1200
-running (jogging) - 5/mph,BURNS,411-590
-running (jogging) - 5/mph,BURNS,261-590
-running (jogging) - 5/mph,BURNS,111-590
-stair climber (stepper),BURNS,111-1200
-stair climber (stepper),BURNS,0-1200
-stair climber (stepper),BURNS,411-590
-stair climber (stepper),BURNS,261-590
-stair climber (stepper),BURNS,111-590
-soccer,BURNS,111-1200
-soccer,BURNS,0-1200
-soccer,BURNS,411-590
-soccer,BURNS,261-590
-soccer,BURNS,111-590
-spinning,BURNS,111-1200
-spinning,BURNS,0-1200
-spinning,BURNS,411-590
-spinning,BURNS,261-590
-spinning,BURNS,111-590
-squash or handball,BURNS,111-1200
-squash or handball,BURNS,0-1200
-squash or handball,BURNS,411-590
-squash or handball,BURNS,261-590
-squash or handball,BURNS,111-590
-squats (legs),BURNS,111-1200
-squats (legs),BURNS,0-1200
-squats (legs),BURNS,411-590
-squats (legs),BURNS,261-590
-squats (legs),BURNS,111-590
-tennis,BURNS,111-1200
-tennis,BURNS,0-1200
-tennis,BURNS,411-590
-tennis,BURNS,261-590
-tennis,BURNS,111-590
-treadmill,BURNS,111-1200
-treadmill,BURNS,0-1200
-treadmill,BURNS,411-590
-treadmill,BURNS,261-590
-treadmill,BURNS,111-590
-vibrating platform machine,BURNS,111-1200
-vibrating platform machine,BURNS,0-1200
-vibrating platform machine,BURNS,411-590
-vibrating platform machine,BURNS,261-590
-vibrating platform machine,BURNS,111-590
-weight training (bodybuilding),BURNS,111-1200
-weight training (bodybuilding),BURNS,0-1200
-weight training (bodybuilding),BURNS,411-590
-weight training (bodybuilding),BURNS,261-590
-weight training (bodybuilding),BURNS,111-590
-skiing (downhill),BURNS,111-1200
-skiing (downhill),BURNS,0-1200
-skiing (downhill),BURNS,411-590
-skiing (downhill),BURNS,261-590
-skiing (downhill),BURNS,111-590
-rock climbing,BURNS,111-1200
-rock climbing,BURNS,0-1200
-rock climbing,BURNS,411-590
-rock climbing,BURNS,261-590
-rock climbing,BURNS,111-590
-mountain biking,BURNS,111-1200
-mountain biking,BURNS,0-1200
-mountain biking,BURNS,411-590
-mountain biking,BURNS,261-590
-mountain biking,BURNS,111-590
-race,BURNS,111-1200
-race,BURNS,0-1200
-race,BURNS,411-590
-race,BURNS,261-590
-race,BURNS,111-590
-air climber,BURNS,111-1200
-air climber,BURNS,0-1200
-air climber,BURNS,411-590
-air climber,BURNS,261-590
-air climber,BURNS,111-590
-arc trainer,BURNS,111-1200
-arc trainer,BURNS,0-1200
-arc trainer,BURNS,411-590
-arc trainer,BURNS,261-590
-arc trainer,BURNS,111-590
-bicycling (moderate) - 13/mph,BURNS,111-1200
-bicycling (moderate) - 13/mph,BURNS,0-1200
-bicycling (moderate) - 13/mph,BURNS,411-590
-bicycling (moderate) - 13/mph,BURNS,261-590
-bicycling (moderate) - 13/mph,BURNS,111-590
-bike machine (cycling),BURNS,111-1200
-bike machine (cycling),BURNS,0-1200
-bike machine (cycling),BURNS,411-590
-bike machine (cycling),BURNS,261-590
-bike machine (cycling),BURNS,111-590
-"calisthenics (heavy, e.g. pushups)",BURNS,111-1200
-"calisthenics (heavy, e.g. pushups)",BURNS,0-1200
-"calisthenics (heavy, e.g. pushups)",BURNS,411-590
-"calisthenics (heavy, e.g. pushups)",BURNS,261-590
-"calisthenics (heavy, e.g. pushups)",BURNS,111-590
-elliptical,BURNS,111-1200
-elliptical,BURNS,0-1200
-elliptical,BURNS,411-590
-elliptical,BURNS,261-590
-elliptical,BURNS,111-590
-endurance sport,BURNS,111-1200
-endurance sport,BURNS,0-1200
-endurance sport,BURNS,411-590
-endurance sport,BURNS,261-590
-endurance sport,BURNS,111-590
-exercise machine,BURNS,111-1200
-exercise machine,BURNS,0-1200
-exercise machine,BURNS,411-590
-exercise machine,BURNS,261-590
-exercise machine,BURNS,111-590
-exercise machine (moderate),BURNS,111-1200
-exercise machine (moderate),BURNS,0-1200
-exercise machine (moderate),BURNS,411-590
-exercise machine (moderate),BURNS,261-590
-exercise machine (moderate),BURNS,111-590
-football,BURNS,111-1200
-football,BURNS,0-1200
-football,BURNS,411-590
-football,BURNS,261-590
-football,BURNS,111-590
-hockey,BURNS,111-1200
-hockey,BURNS,0-1200
-hockey,BURNS,411-590
-hockey,BURNS,261-590
-hockey,BURNS,111-590
-ice hockey,BURNS,111-1200
-ice hockey,BURNS,0-1200
-ice hockey,BURNS,411-590
-ice hockey,BURNS,261-590
-ice hockey,BURNS,111-590
-handball,BURNS,111-1200
-handball,BURNS,0-1200
-handball,BURNS,411-590
-handball,BURNS,261-590
-handball,BURNS,111-590
-abdominal (sit ups),BURNS,111-1200
-abdominal (sit ups),BURNS,0-1200
-abdominal (sit ups),BURNS,411-590
-abdominal (sit ups),BURNS,261-590
-abdominal (sit ups),BURNS,111-590
-kettlebells,BURNS,111-1200
-kettlebells,BURNS,0-1200
-kettlebells,BURNS,411-590
-kettlebells,BURNS,261-590
-kettlebells,BURNS,111-590
-padel tennis,BURNS,111-1200
-padel tennis,BURNS,0-1200
-padel tennis,BURNS,411-590
-padel tennis,BURNS,261-590
-padel tennis,BURNS,111-590
-lacrosse,BURNS,111-1200
-lacrosse,BURNS,0-1200
-lacrosse,BURNS,411-590
-lacrosse,BURNS,261-590
-lacrosse,BURNS,111-590
-nordic walking,BURNS,111-1200
-nordic walking,BURNS,0-1200
-nordic walking,BURNS,411-590
-nordic walking,BURNS,261-590
-nordic walking,BURNS,111-590
-jumping jacks (star jumps),BURNS,111-1200
-jumping jacks (star jumps),BURNS,0-1200
-jumping jacks (star jumps),BURNS,411-590
-jumping jacks (star jumps),BURNS,261-590
-jumping jacks (star jumps),BURNS,111-590
-roller blading,BURNS,111-1200
-roller blading,BURNS,591-890
-roller blading,BURNS,0-1200
-roller blading,BURNS,591-1200
-bicycling (fast) - 15/mph,BURNS,111-1200
-bicycling (fast) - 15/mph,BURNS,591-890
-bicycling (fast) - 15/mph,BURNS,0-1200
-bicycling (fast) - 15/mph,BURNS,591-1200
-running - 6/mph,BURNS,111-1200
-running - 6/mph,BURNS,591-890
-running - 6/mph,BURNS,0-1200
-running - 6/mph,BURNS,591-1200
-skipping rope (jumping rope),BURNS,111-1200
-skipping rope (jumping rope),BURNS,591-890
-skipping rope (jumping rope),BURNS,0-1200
-skipping rope (jumping rope),BURNS,591-1200
-swimming (fast),BURNS,111-1200
-swimming (fast),BURNS,591-890
-swimming (fast),BURNS,0-1200
-swimming (fast),BURNS,591-1200
-exercise machine (fast),BURNS,111-1200
-exercise machine (fast),BURNS,591-890
-exercise machine (fast),BURNS,0-1200
-exercise machine (fast),BURNS,591-1200
-racquetball,BURNS,111-1200
-racquetball,BURNS,591-890
-racquetball,BURNS,0-1200
-racquetball,BURNS,591-1200
-running - 7/mph,BURNS,111-1200
-running - 7/mph,BURNS,591-890
-running - 7/mph,BURNS,0-1200
-running - 7/mph,BURNS,591-1200
-boxing,BURNS,111-1200
-boxing,BURNS,591-890
-boxing,BURNS,0-1200
-boxing,BURNS,591-1200
-bicycling (very fast) - 17.5/mph,BURNS,111-1200
-bicycling (very fast) - 17.5/mph,BURNS,591-890
-bicycling (very fast) - 17.5/mph,BURNS,0-1200
-bicycling (very fast) - 17.5/mph,BURNS,591-1200
-skiing (cross country),BURNS,111-1200
-skiing (cross country),BURNS,591-890
-skiing (cross country),BURNS,0-1200
-skiing (cross country),BURNS,591-1200
-running - 8/mph,BURNS,111-1200
-running - 8/mph,BURNS,0-1200
-running - 8/mph,BURNS,891-1200
-running - 8/mph,BURNS,591-1200
-running - 9/mph,BURNS,111-1200
-running - 9/mph,BURNS,0-1200
-running - 9/mph,BURNS,891-1200
-running - 9/mph,BURNS,591-1200
-running - 10/mph,BURNS,111-1200
-running - 10/mph,BURNS,0-1200
-running - 10/mph,BURNS,891-1200
-running - 10/mph,BURNS,591-1200
+sitting,BURNS,101-200
+sitting,BURNS,101-1200
+sitting,BURNS,101-300
+sitting,BURNS,101-150
+sitting,BURNS,101-900
+sitting,BURNS,101-500
+desk work,BURNS,101-200
+desk work,BURNS,101-1200
+desk work,BURNS,101-300
+desk work,BURNS,101-150
+desk work,BURNS,101-900
+desk work,BURNS,101-500
+driving,BURNS,101-200
+driving,BURNS,101-1200
+driving,BURNS,101-300
+driving,BURNS,101-150
+driving,BURNS,101-900
+driving,BURNS,101-500
+bathing,BURNS,101-200
+bathing,BURNS,101-1200
+bathing,BURNS,101-300
+bathing,BURNS,101-150
+bathing,BURNS,101-900
+bathing,BURNS,101-500
+spa,BURNS,101-200
+spa,BURNS,101-1200
+spa,BURNS,101-300
+spa,BURNS,101-150
+spa,BURNS,101-900
+spa,BURNS,101-500
+singing,BURNS,101-200
+singing,BURNS,101-1200
+singing,BURNS,101-300
+singing,BURNS,101-150
+singing,BURNS,101-900
+singing,BURNS,101-500
+showering,BURNS,101-200
+showering,BURNS,101-1200
+showering,BURNS,101-300
+showering,BURNS,101-150
+showering,BURNS,101-900
+showering,BURNS,101-500
+sexual activity,BURNS,101-200
+sexual activity,BURNS,101-1200
+sexual activity,BURNS,101-300
+sexual activity,BURNS,101-150
+sexual activity,BURNS,101-900
+sexual activity,BURNS,101-500
+sewing,BURNS,101-200
+sewing,BURNS,101-1200
+sewing,BURNS,101-300
+sewing,BURNS,101-150
+sewing,BURNS,101-900
+sewing,BURNS,101-500
+working,BURNS,101-200
+working,BURNS,101-1200
+working,BURNS,101-300
+working,BURNS,101-150
+working,BURNS,101-900
+working,BURNS,101-500
+studying,BURNS,101-200
+studying,BURNS,101-1200
+studying,BURNS,101-300
+studying,BURNS,101-150
+studying,BURNS,101-900
+studying,BURNS,101-500
+reading,BURNS,101-200
+reading,BURNS,101-1200
+reading,BURNS,101-300
+reading,BURNS,101-150
+reading,BURNS,101-900
+reading,BURNS,101-500
+music playing,BURNS,101-200
+music playing,BURNS,101-1200
+music playing,BURNS,101-300
+music playing,BURNS,101-150
+music playing,BURNS,101-900
+music playing,BURNS,101-500
+teaching,BURNS,101-200
+teaching,BURNS,101-1200
+teaching,BURNS,101-300
+teaching,BURNS,101-150
+teaching,BURNS,101-900
+teaching,BURNS,101-500
+massage,BURNS,101-200
+massage,BURNS,101-1200
+massage,BURNS,101-300
+massage,BURNS,101-150
+massage,BURNS,101-900
+massage,BURNS,101-500
+karaoke,BURNS,101-200
+karaoke,BURNS,101-1200
+karaoke,BURNS,101-300
+karaoke,BURNS,101-150
+karaoke,BURNS,101-900
+karaoke,BURNS,101-500
+walking (slow) - 2/mph,BURNS,101-200
+walking (slow) - 2/mph,BURNS,101-1200
+walking (slow) - 2/mph,BURNS,101-300
+walking (slow) - 2/mph,BURNS,101-150
+walking (slow) - 2/mph,BURNS,101-900
+walking (slow) - 2/mph,BURNS,101-500
+watching tv/computer,BURNS,101-200
+watching tv/computer,BURNS,101-1200
+watching tv/computer,BURNS,101-300
+watching tv/computer,BURNS,101-150
+watching tv/computer,BURNS,101-900
+watching tv/computer,BURNS,101-500
+golf (cart),BURNS,101-200
+golf (cart),BURNS,101-1200
+golf (cart),BURNS,101-300
+golf (cart),BURNS,101-150
+golf (cart),BURNS,101-900
+golf (cart),BURNS,101-500
+cooking,BURNS,101-200
+cooking,BURNS,101-1200
+cooking,BURNS,101-300
+cooking,BURNS,101-150
+cooking,BURNS,101-900
+cooking,BURNS,101-500
+breastfeeding,BURNS,101-200
+breastfeeding,BURNS,101-1200
+breastfeeding,BURNS,101-300
+breastfeeding,BURNS,101-150
+breastfeeding,BURNS,101-900
+breastfeeding,BURNS,101-500
+standing,BURNS,101-200
+standing,BURNS,101-1200
+standing,BURNS,101-300
+standing,BURNS,101-150
+standing,BURNS,101-900
+standing,BURNS,101-500
+shopping,BURNS,101-200
+shopping,BURNS,101-1200
+shopping,BURNS,101-300
+shopping,BURNS,151-200
+shopping,BURNS,101-900
+shopping,BURNS,101-500
+housework,BURNS,101-200
+housework,BURNS,101-1200
+housework,BURNS,101-300
+housework,BURNS,151-200
+housework,BURNS,101-900
+housework,BURNS,101-500
+stretching (yoga),BURNS,101-200
+stretching (yoga),BURNS,101-1200
+stretching (yoga),BURNS,101-300
+stretching (yoga),BURNS,151-200
+stretching (yoga),BURNS,101-900
+stretching (yoga),BURNS,101-500
+washing dishes,BURNS,201-300
+washing dishes,BURNS,101-1200
+washing dishes,BURNS,101-300
+washing dishes,BURNS,201-250
+washing dishes,BURNS,101-900
+washing dishes,BURNS,101-500
+scooter,BURNS,201-300
+scooter,BURNS,101-1200
+scooter,BURNS,101-300
+scooter,BURNS,201-250
+scooter,BURNS,101-900
+scooter,BURNS,101-500
+motorbike riding,BURNS,201-300
+motorbike riding,BURNS,101-1200
+motorbike riding,BURNS,101-300
+motorbike riding,BURNS,201-250
+motorbike riding,BURNS,101-900
+motorbike riding,BURNS,101-500
+ironing,BURNS,201-300
+ironing,BURNS,101-1200
+ironing,BURNS,101-300
+ironing,BURNS,201-250
+ironing,BURNS,101-900
+ironing,BURNS,101-500
+hanging laundry,BURNS,201-300
+hanging laundry,BURNS,101-1200
+hanging laundry,BURNS,101-300
+hanging laundry,BURNS,201-250
+hanging laundry,BURNS,101-900
+hanging laundry,BURNS,101-500
+grocery shopping,BURNS,201-300
+grocery shopping,BURNS,101-1200
+grocery shopping,BURNS,101-300
+grocery shopping,BURNS,201-250
+grocery shopping,BURNS,101-900
+grocery shopping,BURNS,101-500
+sauna,BURNS,201-300
+sauna,BURNS,101-1200
+sauna,BURNS,101-300
+sauna,BURNS,201-250
+sauna,BURNS,101-900
+sauna,BURNS,101-500
+yoga,BURNS,201-300
+yoga,BURNS,101-1200
+yoga,BURNS,101-300
+yoga,BURNS,201-250
+yoga,BURNS,101-900
+yoga,BURNS,101-500
+cleaning,BURNS,201-300
+cleaning,BURNS,101-1200
+cleaning,BURNS,101-300
+cleaning,BURNS,201-250
+cleaning,BURNS,101-900
+cleaning,BURNS,101-500
+wii fit (electronic games),BURNS,201-300
+wii fit (electronic games),BURNS,101-1200
+wii fit (electronic games),BURNS,101-300
+wii fit (electronic games),BURNS,201-250
+wii fit (electronic games),BURNS,101-900
+wii fit (electronic games),BURNS,101-500
+washing car,BURNS,201-300
+washing car,BURNS,101-1200
+washing car,BURNS,101-300
+washing car,BURNS,201-250
+washing car,BURNS,101-900
+washing car,BURNS,101-500
+boating or canoeing,BURNS,201-300
+boating or canoeing,BURNS,101-1200
+boating or canoeing,BURNS,101-300
+boating or canoeing,BURNS,201-250
+boating or canoeing,BURNS,101-900
+boating or canoeing,BURNS,101-500
+fishing,BURNS,201-300
+fishing,BURNS,101-1200
+fishing,BURNS,101-300
+fishing,BURNS,201-250
+fishing,BURNS,101-900
+fishing,BURNS,101-500
+vacuuming,BURNS,201-300
+vacuuming,BURNS,101-1200
+vacuuming,BURNS,101-300
+vacuuming,BURNS,201-250
+vacuuming,BURNS,101-900
+vacuuming,BURNS,101-500
+do it yourself (diy),BURNS,201-300
+do it yourself (diy),BURNS,101-1200
+do it yourself (diy),BURNS,101-300
+do it yourself (diy),BURNS,201-250
+do it yourself (diy),BURNS,101-900
+do it yourself (diy),BURNS,101-500
+surfing,BURNS,201-300
+surfing,BURNS,101-1200
+surfing,BURNS,101-300
+surfing,BURNS,201-250
+surfing,BURNS,101-900
+surfing,BURNS,101-500
+sailing,BURNS,201-300
+sailing,BURNS,101-1200
+sailing,BURNS,101-300
+sailing,BURNS,201-250
+sailing,BURNS,101-900
+sailing,BURNS,101-500
+pilates,BURNS,201-300
+pilates,BURNS,101-1200
+pilates,BURNS,101-300
+pilates,BURNS,201-250
+pilates,BURNS,101-900
+pilates,BURNS,101-500
+walking (moderate) - 3/mph,BURNS,201-300
+walking (moderate) - 3/mph,BURNS,101-1200
+walking (moderate) - 3/mph,BURNS,101-300
+walking (moderate) - 3/mph,BURNS,201-250
+walking (moderate) - 3/mph,BURNS,101-900
+walking (moderate) - 3/mph,BURNS,101-500
+"calisthenics (light, e.g. home exercise)",BURNS,201-300
+"calisthenics (light, e.g. home exercise)",BURNS,251-300
+"calisthenics (light, e.g. home exercise)",BURNS,101-1200
+"calisthenics (light, e.g. home exercise)",BURNS,101-300
+"calisthenics (light, e.g. home exercise)",BURNS,101-900
+"calisthenics (light, e.g. home exercise)",BURNS,101-500
+walking (exercise) - 3.5/mph,BURNS,201-300
+walking (exercise) - 3.5/mph,BURNS,251-300
+walking (exercise) - 3.5/mph,BURNS,101-1200
+walking (exercise) - 3.5/mph,BURNS,101-300
+walking (exercise) - 3.5/mph,BURNS,101-900
+walking (exercise) - 3.5/mph,BURNS,101-500
+yard work (gardening),BURNS,201-300
+yard work (gardening),BURNS,251-300
+yard work (gardening),BURNS,101-1200
+yard work (gardening),BURNS,101-300
+yard work (gardening),BURNS,101-900
+yard work (gardening),BURNS,101-500
+raking,BURNS,201-300
+raking,BURNS,251-300
+raking,BURNS,101-1200
+raking,BURNS,101-300
+raking,BURNS,101-900
+raking,BURNS,101-500
+archery,BURNS,201-300
+archery,BURNS,251-300
+archery,BURNS,101-1200
+archery,BURNS,101-300
+archery,BURNS,101-900
+archery,BURNS,101-500
+table tennis (ping pong),BURNS,201-300
+table tennis (ping pong),BURNS,251-300
+table tennis (ping pong),BURNS,101-1200
+table tennis (ping pong),BURNS,101-300
+table tennis (ping pong),BURNS,101-900
+table tennis (ping pong),BURNS,101-500
+motor-cross,BURNS,201-300
+motor-cross,BURNS,251-300
+motor-cross,BURNS,101-1200
+motor-cross,BURNS,101-300
+motor-cross,BURNS,101-900
+motor-cross,BURNS,101-500
+volleyball,BURNS,201-300
+volleyball,BURNS,251-300
+volleyball,BURNS,101-1200
+volleyball,BURNS,101-300
+volleyball,BURNS,101-900
+volleyball,BURNS,101-500
+water biking/running,BURNS,201-300
+water biking/running,BURNS,251-300
+water biking/running,BURNS,101-1200
+water biking/running,BURNS,101-300
+water biking/running,BURNS,101-900
+water biking/running,BURNS,101-500
+swimming (slow),BURNS,201-300
+swimming (slow),BURNS,251-300
+swimming (slow),BURNS,101-1200
+swimming (slow),BURNS,101-300
+swimming (slow),BURNS,101-900
+swimming (slow),BURNS,101-500
+horseback riding,BURNS,201-300
+horseback riding,BURNS,251-300
+horseback riding,BURNS,101-1200
+horseback riding,BURNS,101-300
+horseback riding,BURNS,101-900
+horseback riding,BURNS,101-500
+yoga (hot),BURNS,201-300
+yoga (hot),BURNS,251-300
+yoga (hot),BURNS,101-1200
+yoga (hot),BURNS,101-300
+yoga (hot),BURNS,101-900
+yoga (hot),BURNS,101-500
+bowling,BURNS,201-300
+bowling,BURNS,251-300
+bowling,BURNS,101-1200
+bowling,BURNS,101-300
+bowling,BURNS,101-900
+bowling,BURNS,101-500
+golf (walking),BURNS,201-300
+golf (walking),BURNS,251-300
+golf (walking),BURNS,101-1200
+golf (walking),BURNS,101-300
+golf (walking),BURNS,101-900
+golf (walking),BURNS,101-500
+dance (slow step),BURNS,201-300
+dance (slow step),BURNS,251-300
+dance (slow step),BURNS,101-1200
+dance (slow step),BURNS,101-300
+dance (slow step),BURNS,101-900
+dance (slow step),BURNS,101-500
+bicycling (leisurely) - <10/mph,BURNS,201-300
+bicycling (leisurely) - <10/mph,BURNS,251-300
+bicycling (leisurely) - <10/mph,BURNS,101-1200
+bicycling (leisurely) - <10/mph,BURNS,101-300
+bicycling (leisurely) - <10/mph,BURNS,101-900
+bicycling (leisurely) - <10/mph,BURNS,101-500
+mowing lawn,BURNS,301-500
+mowing lawn,BURNS,351-400
+mowing lawn,BURNS,101-1200
+mowing lawn,BURNS,101-900
+mowing lawn,BURNS,301-400
+mowing lawn,BURNS,101-500
+cricket,BURNS,301-500
+cricket,BURNS,351-400
+cricket,BURNS,101-1200
+cricket,BURNS,101-900
+cricket,BURNS,301-400
+cricket,BURNS,101-500
+softball,BURNS,301-500
+softball,BURNS,351-400
+softball,BURNS,101-1200
+softball,BURNS,101-900
+softball,BURNS,301-400
+softball,BURNS,101-500
+skating - 10/mph,BURNS,301-500
+skating - 10/mph,BURNS,351-400
+skating - 10/mph,BURNS,101-1200
+skating - 10/mph,BURNS,101-900
+skating - 10/mph,BURNS,301-400
+skating - 10/mph,BURNS,101-500
+walking (brisk) - 4/mph,BURNS,301-500
+walking (brisk) - 4/mph,BURNS,351-400
+walking (brisk) - 4/mph,BURNS,101-1200
+walking (brisk) - 4/mph,BURNS,101-900
+walking (brisk) - 4/mph,BURNS,301-400
+walking (brisk) - 4/mph,BURNS,101-500
+shoveling,BURNS,301-500
+shoveling,BURNS,351-400
+shoveling,BURNS,101-1200
+shoveling,BURNS,101-900
+shoveling,BURNS,301-400
+shoveling,BURNS,101-500
+dance (square dancing),BURNS,301-500
+dance (square dancing),BURNS,351-400
+dance (square dancing),BURNS,101-1200
+dance (square dancing),BURNS,101-900
+dance (square dancing),BURNS,301-400
+dance (square dancing),BURNS,101-500
+baseball,BURNS,301-500
+baseball,BURNS,351-400
+baseball,BURNS,101-1200
+baseball,BURNS,101-900
+baseball,BURNS,301-400
+baseball,BURNS,101-500
+painting,BURNS,301-500
+painting,BURNS,351-400
+painting,BURNS,101-1200
+painting,BURNS,101-900
+painting,BURNS,301-400
+painting,BURNS,101-500
+badminton,BURNS,301-500
+badminton,BURNS,351-400
+badminton,BURNS,101-1200
+badminton,BURNS,101-900
+badminton,BURNS,301-400
+badminton,BURNS,101-500
+kayaking,BURNS,301-500
+kayaking,BURNS,351-400
+kayaking,BURNS,101-1200
+kayaking,BURNS,101-900
+kayaking,BURNS,301-400
+kayaking,BURNS,101-500
+hunting,BURNS,301-500
+hunting,BURNS,351-400
+hunting,BURNS,101-1200
+hunting,BURNS,101-900
+hunting,BURNS,301-400
+hunting,BURNS,101-500
+hula hoop,BURNS,301-500
+hula hoop,BURNS,351-400
+hula hoop,BURNS,101-1200
+hula hoop,BURNS,101-900
+hula hoop,BURNS,301-400
+hula hoop,BURNS,101-500
+conditioning exercise (health club),BURNS,401-450
+conditioning exercise (health club),BURNS,301-500
+conditioning exercise (health club),BURNS,101-1200
+conditioning exercise (health club),BURNS,401-500
+conditioning exercise (health club),BURNS,101-900
+conditioning exercise (health club),BURNS,101-500
+bicycling (slow) - 11/mph,BURNS,401-450
+bicycling (slow) - 11/mph,BURNS,301-500
+bicycling (slow) - 11/mph,BURNS,101-1200
+bicycling (slow) - 11/mph,BURNS,401-500
+bicycling (slow) - 11/mph,BURNS,101-900
+bicycling (slow) - 11/mph,BURNS,101-500
+weight training (moderate),BURNS,401-450
+weight training (moderate),BURNS,301-500
+weight training (moderate),BURNS,101-1200
+weight training (moderate),BURNS,401-500
+weight training (moderate),BURNS,101-900
+weight training (moderate),BURNS,101-500
+circuit training,BURNS,401-450
+circuit training,BURNS,301-500
+circuit training,BURNS,101-1200
+circuit training,BURNS,401-500
+circuit training,BURNS,101-900
+circuit training,BURNS,101-500
+basketball,BURNS,401-450
+basketball,BURNS,301-500
+basketball,BURNS,101-1200
+basketball,BURNS,401-500
+basketball,BURNS,101-900
+basketball,BURNS,101-500
+tree climbing (ropes),BURNS,401-450
+tree climbing (ropes),BURNS,301-500
+tree climbing (ropes),BURNS,101-1200
+tree climbing (ropes),BURNS,401-500
+tree climbing (ropes),BURNS,101-900
+tree climbing (ropes),BURNS,101-500
+skiing (water),BURNS,401-450
+skiing (water),BURNS,301-500
+skiing (water),BURNS,101-1200
+skiing (water),BURNS,401-500
+skiing (water),BURNS,101-900
+skiing (water),BURNS,101-500
+"dance (fast step, aerobic)",BURNS,401-450
+"dance (fast step, aerobic)",BURNS,301-500
+"dance (fast step, aerobic)",BURNS,101-1200
+"dance (fast step, aerobic)",BURNS,401-500
+"dance (fast step, aerobic)",BURNS,101-900
+"dance (fast step, aerobic)",BURNS,101-500
+hiking,BURNS,401-450
+hiking,BURNS,301-500
+hiking,BURNS,101-1200
+hiking,BURNS,401-500
+hiking,BURNS,101-900
+hiking,BURNS,101-500
+shoveling snow,BURNS,401-450
+shoveling snow,BURNS,301-500
+shoveling snow,BURNS,101-1200
+shoveling snow,BURNS,401-500
+shoveling snow,BURNS,101-900
+shoveling snow,BURNS,101-500
+scuba diving,BURNS,401-450
+scuba diving,BURNS,301-500
+scuba diving,BURNS,101-1200
+scuba diving,BURNS,401-500
+scuba diving,BURNS,101-900
+scuba diving,BURNS,101-500
+power walking,BURNS,401-450
+power walking,BURNS,301-500
+power walking,BURNS,101-1200
+power walking,BURNS,401-500
+power walking,BURNS,101-900
+power walking,BURNS,101-500
+pole dancing,BURNS,401-450
+pole dancing,BURNS,301-500
+pole dancing,BURNS,101-1200
+pole dancing,BURNS,401-500
+pole dancing,BURNS,101-900
+pole dancing,BURNS,101-500
+exercise machine (slow),BURNS,401-450
+exercise machine (slow),BURNS,301-500
+exercise machine (slow),BURNS,101-1200
+exercise machine (slow),BURNS,401-500
+exercise machine (slow),BURNS,101-900
+exercise machine (slow),BURNS,101-500
+netball,BURNS,401-450
+netball,BURNS,301-500
+netball,BURNS,101-1200
+netball,BURNS,401-500
+netball,BURNS,101-900
+netball,BURNS,101-500
+floorball,BURNS,401-450
+floorball,BURNS,301-500
+floorball,BURNS,101-1200
+floorball,BURNS,401-500
+floorball,BURNS,101-900
+floorball,BURNS,101-500
+trampolining,BURNS,401-450
+trampolining,BURNS,301-500
+trampolining,BURNS,101-1200
+trampolining,BURNS,401-500
+trampolining,BURNS,101-900
+trampolining,BURNS,101-500
+gym,BURNS,401-450
+gym,BURNS,301-500
+gym,BURNS,101-1200
+gym,BURNS,401-500
+gym,BURNS,101-900
+gym,BURNS,101-500
+zumba,BURNS,501-900
+zumba,BURNS,501-600
+zumba,BURNS,101-1200
+zumba,BURNS,501-700
+zumba,BURNS,501-550
+zumba,BURNS,101-900
+t25,BURNS,501-900
+t25,BURNS,501-600
+t25,BURNS,101-1200
+t25,BURNS,501-700
+t25,BURNS,501-550
+t25,BURNS,101-900
+swimming (moderate),BURNS,501-900
+swimming (moderate),BURNS,501-600
+swimming (moderate),BURNS,101-1200
+swimming (moderate),BURNS,501-700
+swimming (moderate),BURNS,501-550
+swimming (moderate),BURNS,101-900
+stairs (climbing stairs),BURNS,501-900
+stairs (climbing stairs),BURNS,501-600
+stairs (climbing stairs),BURNS,101-1200
+stairs (climbing stairs),BURNS,501-700
+stairs (climbing stairs),BURNS,501-550
+stairs (climbing stairs),BURNS,101-900
+power jump,BURNS,501-900
+power jump,BURNS,501-600
+power jump,BURNS,101-1200
+power jump,BURNS,501-700
+power jump,BURNS,501-550
+power jump,BURNS,101-900
+fitness training (workout),BURNS,501-900
+fitness training (workout),BURNS,501-600
+fitness training (workout),BURNS,101-1200
+fitness training (workout),BURNS,501-700
+fitness training (workout),BURNS,501-550
+fitness training (workout),BURNS,101-900
+muay thai,BURNS,501-900
+muay thai,BURNS,501-600
+muay thai,BURNS,101-1200
+muay thai,BURNS,501-700
+muay thai,BURNS,501-550
+muay thai,BURNS,101-900
+grit,BURNS,501-900
+grit,BURNS,501-600
+grit,BURNS,101-1200
+grit,BURNS,501-700
+grit,BURNS,501-550
+grit,BURNS,101-900
+xco,BURNS,501-900
+xco,BURNS,501-600
+xco,BURNS,101-1200
+xco,BURNS,501-700
+xco,BURNS,501-550
+xco,BURNS,101-900
+high intensity interval training (hiit),BURNS,501-900
+high intensity interval training (hiit),BURNS,501-600
+high intensity interval training (hiit),BURNS,101-1200
+high intensity interval training (hiit),BURNS,501-700
+high intensity interval training (hiit),BURNS,501-550
+high intensity interval training (hiit),BURNS,101-900
+martial arts,BURNS,501-900
+martial arts,BURNS,501-600
+martial arts,BURNS,101-1200
+martial arts,BURNS,501-700
+martial arts,BURNS,501-550
+martial arts,BURNS,101-900
+insanity,BURNS,501-900
+insanity,BURNS,501-600
+insanity,BURNS,101-1200
+insanity,BURNS,501-700
+insanity,BURNS,501-550
+insanity,BURNS,101-900
+jiu jitsu,BURNS,501-900
+jiu jitsu,BURNS,501-600
+jiu jitsu,BURNS,101-1200
+jiu jitsu,BURNS,501-700
+jiu jitsu,BURNS,501-550
+jiu jitsu,BURNS,101-900
+judo,BURNS,501-900
+judo,BURNS,501-600
+judo,BURNS,101-1200
+judo,BURNS,501-700
+judo,BURNS,501-550
+judo,BURNS,101-900
+snow boarding,BURNS,501-900
+snow boarding,BURNS,501-600
+snow boarding,BURNS,101-1200
+snow boarding,BURNS,501-700
+snow boarding,BURNS,501-550
+snow boarding,BURNS,101-900
+kangoo,BURNS,501-900
+kangoo,BURNS,501-600
+kangoo,BURNS,101-1200
+kangoo,BURNS,501-700
+kangoo,BURNS,501-550
+kangoo,BURNS,101-900
+tae bo,BURNS,501-900
+tae bo,BURNS,501-600
+tae bo,BURNS,101-1200
+tae bo,BURNS,501-700
+tae bo,BURNS,501-550
+tae bo,BURNS,101-900
+karate,BURNS,501-900
+karate,BURNS,501-600
+karate,BURNS,101-1200
+karate,BURNS,501-700
+karate,BURNS,501-550
+karate,BURNS,101-900
+cx,BURNS,501-900
+cx,BURNS,501-600
+cx,BURNS,101-1200
+cx,BURNS,501-700
+cx,BURNS,501-550
+cx,BURNS,101-900
+crossfit,BURNS,501-900
+crossfit,BURNS,501-600
+crossfit,BURNS,101-1200
+crossfit,BURNS,501-700
+crossfit,BURNS,501-550
+crossfit,BURNS,101-900
+aerobics,BURNS,501-900
+aerobics,BURNS,501-600
+aerobics,BURNS,101-1200
+aerobics,BURNS,501-700
+aerobics,BURNS,501-550
+aerobics,BURNS,101-900
+pedalling,BURNS,501-900
+pedalling,BURNS,501-600
+pedalling,BURNS,101-1200
+pedalling,BURNS,501-700
+pedalling,BURNS,501-550
+pedalling,BURNS,101-900
+water aerobics,BURNS,501-900
+water aerobics,BURNS,501-600
+water aerobics,BURNS,101-1200
+water aerobics,BURNS,501-700
+water aerobics,BURNS,501-550
+water aerobics,BURNS,101-900
+ballet,BURNS,501-900
+ballet,BURNS,501-600
+ballet,BURNS,101-1200
+ballet,BURNS,501-700
+ballet,BURNS,501-550
+ballet,BURNS,101-900
+vtt,BURNS,501-900
+vtt,BURNS,501-600
+vtt,BURNS,101-1200
+vtt,BURNS,501-700
+vtt,BURNS,501-550
+vtt,BURNS,101-900
+trx,BURNS,501-900
+trx,BURNS,501-600
+trx,BURNS,101-1200
+trx,BURNS,501-700
+trx,BURNS,501-550
+trx,BURNS,101-900
+curves,BURNS,501-900
+curves,BURNS,501-600
+curves,BURNS,101-1200
+curves,BURNS,501-700
+curves,BURNS,501-550
+curves,BURNS,101-900
+p90x,BURNS,501-900
+p90x,BURNS,501-600
+p90x,BURNS,101-1200
+p90x,BURNS,501-700
+p90x,BURNS,501-550
+p90x,BURNS,101-900
+body balance,BURNS,501-900
+body balance,BURNS,501-600
+body balance,BURNS,101-1200
+body balance,BURNS,501-700
+body balance,BURNS,501-550
+body balance,BURNS,101-900
+body combat,BURNS,501-900
+body combat,BURNS,501-600
+body combat,BURNS,101-1200
+body combat,BURNS,501-700
+body combat,BURNS,501-550
+body combat,BURNS,101-900
+body pump,BURNS,501-900
+body pump,BURNS,501-600
+body pump,BURNS,101-1200
+body pump,BURNS,501-700
+body pump,BURNS,501-550
+body pump,BURNS,101-900
+rpm,BURNS,501-900
+rpm,BURNS,501-600
+rpm,BURNS,101-1200
+rpm,BURNS,501-700
+rpm,BURNS,501-550
+rpm,BURNS,101-900
+taekwondo,BURNS,501-900
+taekwondo,BURNS,501-600
+taekwondo,BURNS,101-1200
+taekwondo,BURNS,501-700
+taekwondo,BURNS,501-550
+taekwondo,BURNS,101-900
+cardio,BURNS,501-900
+cardio,BURNS,501-600
+cardio,BURNS,101-1200
+cardio,BURNS,501-700
+cardio,BURNS,501-550
+cardio,BURNS,101-900
+cross training,BURNS,501-900
+cross training,BURNS,501-600
+cross training,BURNS,101-1200
+cross training,BURNS,501-700
+cross training,BURNS,501-550
+cross training,BURNS,101-900
+body attack,BURNS,501-900
+body attack,BURNS,501-600
+body attack,BURNS,101-1200
+body attack,BURNS,501-700
+body attack,BURNS,501-550
+body attack,BURNS,101-900
+kickboxing,BURNS,501-900
+kickboxing,BURNS,501-600
+kickboxing,BURNS,101-1200
+kickboxing,BURNS,501-700
+kickboxing,BURNS,501-550
+kickboxing,BURNS,101-900
+rowing,BURNS,501-900
+rowing,BURNS,501-600
+rowing,BURNS,101-1200
+rowing,BURNS,501-700
+rowing,BURNS,551-600
+rowing,BURNS,101-900
+running (jogging) - 5/mph,BURNS,501-900
+running (jogging) - 5/mph,BURNS,501-600
+running (jogging) - 5/mph,BURNS,101-1200
+running (jogging) - 5/mph,BURNS,501-700
+running (jogging) - 5/mph,BURNS,551-600
+running (jogging) - 5/mph,BURNS,101-900
+stair climber (stepper),BURNS,501-900
+stair climber (stepper),BURNS,501-600
+stair climber (stepper),BURNS,101-1200
+stair climber (stepper),BURNS,501-700
+stair climber (stepper),BURNS,551-600
+stair climber (stepper),BURNS,101-900
+soccer,BURNS,501-900
+soccer,BURNS,501-600
+soccer,BURNS,101-1200
+soccer,BURNS,501-700
+soccer,BURNS,551-600
+soccer,BURNS,101-900
+spinning,BURNS,501-900
+spinning,BURNS,501-600
+spinning,BURNS,101-1200
+spinning,BURNS,501-700
+spinning,BURNS,551-600
+spinning,BURNS,101-900
+squash or handball,BURNS,501-900
+squash or handball,BURNS,501-600
+squash or handball,BURNS,101-1200
+squash or handball,BURNS,501-700
+squash or handball,BURNS,551-600
+squash or handball,BURNS,101-900
+squats (legs),BURNS,501-900
+squats (legs),BURNS,501-600
+squats (legs),BURNS,101-1200
+squats (legs),BURNS,501-700
+squats (legs),BURNS,551-600
+squats (legs),BURNS,101-900
+tennis,BURNS,501-900
+tennis,BURNS,501-600
+tennis,BURNS,101-1200
+tennis,BURNS,501-700
+tennis,BURNS,551-600
+tennis,BURNS,101-900
+treadmill,BURNS,501-900
+treadmill,BURNS,501-600
+treadmill,BURNS,101-1200
+treadmill,BURNS,501-700
+treadmill,BURNS,551-600
+treadmill,BURNS,101-900
+vibrating platform machine,BURNS,501-900
+vibrating platform machine,BURNS,501-600
+vibrating platform machine,BURNS,101-1200
+vibrating platform machine,BURNS,501-700
+vibrating platform machine,BURNS,551-600
+vibrating platform machine,BURNS,101-900
+weight training (bodybuilding),BURNS,501-900
+weight training (bodybuilding),BURNS,501-600
+weight training (bodybuilding),BURNS,101-1200
+weight training (bodybuilding),BURNS,501-700
+weight training (bodybuilding),BURNS,551-600
+weight training (bodybuilding),BURNS,101-900
+skiing (downhill),BURNS,501-900
+skiing (downhill),BURNS,501-600
+skiing (downhill),BURNS,101-1200
+skiing (downhill),BURNS,501-700
+skiing (downhill),BURNS,551-600
+skiing (downhill),BURNS,101-900
+rock climbing,BURNS,501-900
+rock climbing,BURNS,501-600
+rock climbing,BURNS,101-1200
+rock climbing,BURNS,501-700
+rock climbing,BURNS,551-600
+rock climbing,BURNS,101-900
+mountain biking,BURNS,501-900
+mountain biking,BURNS,501-600
+mountain biking,BURNS,101-1200
+mountain biking,BURNS,501-700
+mountain biking,BURNS,551-600
+mountain biking,BURNS,101-900
+race,BURNS,501-900
+race,BURNS,501-600
+race,BURNS,101-1200
+race,BURNS,501-700
+race,BURNS,551-600
+race,BURNS,101-900
+air climber,BURNS,501-900
+air climber,BURNS,501-600
+air climber,BURNS,101-1200
+air climber,BURNS,501-700
+air climber,BURNS,551-600
+air climber,BURNS,101-900
+arc trainer,BURNS,501-900
+arc trainer,BURNS,501-600
+arc trainer,BURNS,101-1200
+arc trainer,BURNS,501-700
+arc trainer,BURNS,551-600
+arc trainer,BURNS,101-900
+bicycling (moderate) - 13/mph,BURNS,501-900
+bicycling (moderate) - 13/mph,BURNS,501-600
+bicycling (moderate) - 13/mph,BURNS,101-1200
+bicycling (moderate) - 13/mph,BURNS,501-700
+bicycling (moderate) - 13/mph,BURNS,551-600
+bicycling (moderate) - 13/mph,BURNS,101-900
+bike machine (cycling),BURNS,501-900
+bike machine (cycling),BURNS,501-600
+bike machine (cycling),BURNS,101-1200
+bike machine (cycling),BURNS,501-700
+bike machine (cycling),BURNS,551-600
+bike machine (cycling),BURNS,101-900
+"calisthenics (heavy, e.g. pushups)",BURNS,501-900
+"calisthenics (heavy, e.g. pushups)",BURNS,501-600
+"calisthenics (heavy, e.g. pushups)",BURNS,101-1200
+"calisthenics (heavy, e.g. pushups)",BURNS,501-700
+"calisthenics (heavy, e.g. pushups)",BURNS,551-600
+"calisthenics (heavy, e.g. pushups)",BURNS,101-900
+elliptical,BURNS,501-900
+elliptical,BURNS,501-600
+elliptical,BURNS,101-1200
+elliptical,BURNS,501-700
+elliptical,BURNS,551-600
+elliptical,BURNS,101-900
+endurance sport,BURNS,501-900
+endurance sport,BURNS,501-600
+endurance sport,BURNS,101-1200
+endurance sport,BURNS,501-700
+endurance sport,BURNS,551-600
+endurance sport,BURNS,101-900
+exercise machine,BURNS,501-900
+exercise machine,BURNS,501-600
+exercise machine,BURNS,101-1200
+exercise machine,BURNS,501-700
+exercise machine,BURNS,551-600
+exercise machine,BURNS,101-900
+exercise machine (moderate),BURNS,501-900
+exercise machine (moderate),BURNS,501-600
+exercise machine (moderate),BURNS,101-1200
+exercise machine (moderate),BURNS,501-700
+exercise machine (moderate),BURNS,551-600
+exercise machine (moderate),BURNS,101-900
+football,BURNS,501-900
+football,BURNS,501-600
+football,BURNS,101-1200
+football,BURNS,501-700
+football,BURNS,551-600
+football,BURNS,101-900
+hockey,BURNS,501-900
+hockey,BURNS,501-600
+hockey,BURNS,101-1200
+hockey,BURNS,501-700
+hockey,BURNS,551-600
+hockey,BURNS,101-900
+ice hockey,BURNS,501-900
+ice hockey,BURNS,501-600
+ice hockey,BURNS,101-1200
+ice hockey,BURNS,501-700
+ice hockey,BURNS,551-600
+ice hockey,BURNS,101-900
+handball,BURNS,501-900
+handball,BURNS,501-600
+handball,BURNS,101-1200
+handball,BURNS,501-700
+handball,BURNS,551-600
+handball,BURNS,101-900
+abdominal (sit ups),BURNS,501-900
+abdominal (sit ups),BURNS,501-600
+abdominal (sit ups),BURNS,101-1200
+abdominal (sit ups),BURNS,501-700
+abdominal (sit ups),BURNS,551-600
+abdominal (sit ups),BURNS,101-900
+kettlebells,BURNS,501-900
+kettlebells,BURNS,501-600
+kettlebells,BURNS,101-1200
+kettlebells,BURNS,501-700
+kettlebells,BURNS,551-600
+kettlebells,BURNS,101-900
+padel tennis,BURNS,501-900
+padel tennis,BURNS,501-600
+padel tennis,BURNS,101-1200
+padel tennis,BURNS,501-700
+padel tennis,BURNS,551-600
+padel tennis,BURNS,101-900
+lacrosse,BURNS,501-900
+lacrosse,BURNS,501-600
+lacrosse,BURNS,101-1200
+lacrosse,BURNS,501-700
+lacrosse,BURNS,551-600
+lacrosse,BURNS,101-900
+nordic walking,BURNS,501-900
+nordic walking,BURNS,501-600
+nordic walking,BURNS,101-1200
+nordic walking,BURNS,501-700
+nordic walking,BURNS,551-600
+nordic walking,BURNS,101-900
+jumping jacks (star jumps),BURNS,501-900
+jumping jacks (star jumps),BURNS,501-600
+jumping jacks (star jumps),BURNS,101-1200
+jumping jacks (star jumps),BURNS,501-700
+jumping jacks (star jumps),BURNS,551-600
+jumping jacks (star jumps),BURNS,101-900
+roller blading,BURNS,701-800
+roller blading,BURNS,501-900
+roller blading,BURNS,701-900
+roller blading,BURNS,701-750
+roller blading,BURNS,101-1200
+roller blading,BURNS,101-900
+bicycling (fast) - 15/mph,BURNS,701-800
+bicycling (fast) - 15/mph,BURNS,501-900
+bicycling (fast) - 15/mph,BURNS,701-900
+bicycling (fast) - 15/mph,BURNS,701-750
+bicycling (fast) - 15/mph,BURNS,101-1200
+bicycling (fast) - 15/mph,BURNS,101-900
+running - 6/mph,BURNS,701-800
+running - 6/mph,BURNS,501-900
+running - 6/mph,BURNS,701-900
+running - 6/mph,BURNS,701-750
+running - 6/mph,BURNS,101-1200
+running - 6/mph,BURNS,101-900
+skipping rope (jumping rope),BURNS,701-800
+skipping rope (jumping rope),BURNS,501-900
+skipping rope (jumping rope),BURNS,701-900
+skipping rope (jumping rope),BURNS,701-750
+skipping rope (jumping rope),BURNS,101-1200
+skipping rope (jumping rope),BURNS,101-900
+swimming (fast),BURNS,701-800
+swimming (fast),BURNS,501-900
+swimming (fast),BURNS,701-900
+swimming (fast),BURNS,701-750
+swimming (fast),BURNS,101-1200
+swimming (fast),BURNS,101-900
+exercise machine (fast),BURNS,701-800
+exercise machine (fast),BURNS,501-900
+exercise machine (fast),BURNS,701-900
+exercise machine (fast),BURNS,701-750
+exercise machine (fast),BURNS,101-1200
+exercise machine (fast),BURNS,101-900
+racquetball,BURNS,701-800
+racquetball,BURNS,501-900
+racquetball,BURNS,701-900
+racquetball,BURNS,701-750
+racquetball,BURNS,101-1200
+racquetball,BURNS,101-900
+running - 7/mph,BURNS,501-900
+running - 7/mph,BURNS,801-850
+running - 7/mph,BURNS,701-900
+running - 7/mph,BURNS,101-1200
+running - 7/mph,BURNS,801-900
+running - 7/mph,BURNS,101-900
+boxing,BURNS,501-900
+boxing,BURNS,851-900
+boxing,BURNS,701-900
+boxing,BURNS,101-1200
+boxing,BURNS,801-900
+boxing,BURNS,101-900
+bicycling (very fast) - 17.5/mph,BURNS,501-900
+bicycling (very fast) - 17.5/mph,BURNS,851-900
+bicycling (very fast) - 17.5/mph,BURNS,701-900
+bicycling (very fast) - 17.5/mph,BURNS,101-1200
+bicycling (very fast) - 17.5/mph,BURNS,801-900
+bicycling (very fast) - 17.5/mph,BURNS,101-900
+skiing (cross country),BURNS,501-900
+skiing (cross country),BURNS,851-900
+skiing (cross country),BURNS,701-900
+skiing (cross country),BURNS,101-1200
+skiing (cross country),BURNS,801-900
+skiing (cross country),BURNS,101-900
+running - 8/mph,BURNS,901-1200
+running - 8/mph,BURNS,101-1200
+running - 8/mph,BURNS,901-1000
+running - 8/mph,BURNS,901-1100
+running - 8/mph,BURNS,951-1000
+running - 9/mph,BURNS,901-1200
+running - 9/mph,BURNS,1101-1200
+running - 9/mph,BURNS,101-1200
+running - 9/mph,BURNS,1101-1150
+running - 10/mph,BURNS,901-1200
+running - 10/mph,BURNS,1101-1200
+running - 10/mph,BURNS,1151-1200
+running - 10/mph,BURNS,101-1200
