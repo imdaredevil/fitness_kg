@@ -7,7 +7,7 @@ export default function CardioSelector(props) {
     const label = "name"
     const { records: cardio } = useReadCypher("MATCH (m:Cardioexercise) RETURN m", {})
     const loading = (
-        <Card sx={{ width: 275, height: "20%", marginTop: "5%", marginLeft: "5%" }}>
+        <Card sx={{ width: 275, height: "60%", marginTop: "5%", marginLeft: "5%" }}>
             Loading...
         </Card>
     )
@@ -16,7 +16,7 @@ export default function CardioSelector(props) {
         props.setActivity(option)
     }
     const element = (
-        <Card sx={{ width: 275, height: "20%", marginTop: "5%", marginLeft: "5%" }}>
+        <Card sx={{ width: 275, height: "60%", marginTop: "5%", marginLeft: "5%" }}>
         <Autocomplete
       id="cardio"
       options={cardioOptions}
