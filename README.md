@@ -7,4 +7,4 @@ A knowledge graph for gym exercises, cardiovascular activities and yoga.
 [Shyam Krishnan Ondanat Veetil](ondanatv@usc.edu)
 
 #Youtube link
-[GraphFit]()
+[GraphFit](https://youtu.be/WzIYzSUa37M)
