@@ -71,6 +71,12 @@ export default function RecordsTable(props) {
                   onPageChange={(params) => onPageChange(params, value)}
                   onCellClick={(params)=>{ 
                     if (clickable[value].includes(params.field)) setFocusIndex(params.row[params.field])}}
+                  onCellDoubleClick={(params) => {
+                    if(params.field == "name") {
+                        console.log(params.row)
+                        window.open(params.row['url'], '_blank');
+                    }
+                  }}
                   rowsPerPageOptions={[pageSize]}
                   sx={{
                     '& .MuiTablePagination-root': {

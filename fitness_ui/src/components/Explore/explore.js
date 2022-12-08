@@ -47,8 +47,8 @@ export default function Explorer(props) {
             }
             return x
         }, [new Set(), []])
-        const yoga_records = unique_records.filter((x) => x.exercise_type == "Yoga").map((x, index) => { return {id: index + 1, ...x}})
-        const workout_records = unique_records.filter((x) => x.exercise_type == "Workout").map((x, index) => { return {id: index + 1, ...x}})
+        const yoga_records = unique_records.filter((x) => x.exercise_type == "Yoga").map((x, index) => { return { ...x, id: index + 1}})
+        const workout_records = unique_records.filter((x) => x.exercise_type == "Workout").map((x, index) => { return { ...x, id: index + 1}})
         return [workout_records, yoga_records]
     }
 
