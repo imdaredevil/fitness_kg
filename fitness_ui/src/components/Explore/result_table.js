@@ -38,7 +38,6 @@ export default function RecordsTable(props) {
     const { loading, exercises } = props;
     const [value, setValue] = React.useState(0);
     const all_records = exercises
-    console.log(all_records[1].slice(0, 10))
     const onPageChange = (params, value) => {
         props.setIndices([params * pageSize, (params + 1) * pageSize], value)
     }

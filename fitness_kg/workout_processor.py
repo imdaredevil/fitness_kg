@@ -10,6 +10,3 @@ with open("workouts.csv", "w") as f:
     reader.writeheader()
     for workout in workouts:
         reader.writerow({ "name": workout["id"].split("/")[-1]})
-
-f  = open("exercises.csv")
-reader = csv.DictReader()

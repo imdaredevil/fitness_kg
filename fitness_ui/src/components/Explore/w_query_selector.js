@@ -77,11 +77,11 @@ export default function QuerySelector(props) {
             defaultValue: defaultValue
         }
     })
-    const common_filters = ["muscles", "exercise_type"]
+    const common_filters = ["muscles"]
     const gym_specific_filters = ["equipments", "difficulty", "mechanics", "type", "force_type"]
     const element = (
-        <Card sx={{ minWidth: 275, height: "90%", marginTop: "5%", marginLeft: "5%" }}>
-            <CardContent sx={{ maxHeight: "50vh", overflowY: "scroll" }}>
+        <Card sx={{ minWidth: 275, height: "57vh", marginTop: "5%", marginLeft: "5%" }}>
+            <CardContent sx={{ maxHeight: "60vh", overflowY: "scroll" }}>
             {common_filters.map(filter => (
                 <CheckboxesTags
                 options={filters[filter].values}
@@ -92,9 +92,6 @@ export default function QuerySelector(props) {
                 defaultValue={filters[filter].defaultValue}
                 />
             ))}
-            <br/>
-            <Typography variant="inherit">Gym Specific Filters</Typography>
-            <br/>
             {gym_specific_filters.map(filter => (
                 <CheckboxesTags
                 options={filters[filter].values}

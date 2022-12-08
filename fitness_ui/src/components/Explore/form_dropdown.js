@@ -12,6 +12,7 @@ const checkedIcon = <CheckBoxIcon fontSize="small" />;
 export default function CheckboxesTags(props) {
   const key = props.keyname;
   const label = props.label || "name";
+  const defaultValue = props.defaultValue || [{ [key]: "Select All", [label]: "Select All" }]
   const options = [ { [key]: "Select All", [label]: "Select All" }, ...props.options]
   const [selectedOption, setSelectedOption] = useState([{ [key]: "Select All", [label]: "Select All" }]);
   const onChange = (e, option, action) => {
@@ -66,7 +67,7 @@ export default function CheckboxesTags(props) {
           label={props.name}
         />
       )}
-      defaultValue={[{ [key]: "Select All", [label]: "Select All" }]}
+      defaultValue={defaultValue}
     />
   </Box>
   );

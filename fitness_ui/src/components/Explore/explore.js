@@ -7,7 +7,7 @@ import Graph from './graph';
 import Papa from 'papaparse';
 
 
-export default function Explorer() {
+export default function Explorer(props) {
     const change_to_string = (string) => {
         string = string.slice(1, string.length - 1)
         const { data } = Papa.parse(string)
@@ -87,9 +87,16 @@ export default function Explorer() {
     MATCH (ex)-[:TARGET]->(m)
     where (m.name IN $muscles)
     AND LABELS(ex)[0] IN $exercise_type
+    return ex, m, null as eq
+    UNION
+    MATCH (ex:Yoga)
+    MATCH (ex)-[:TARGET]->(mu)
+    MATCH (mu)-[:PART_OF]->(m)
+    where (m.name IN $muscles)
+    AND LABELS(ex)[0] IN $exercise_type
     return ex, m, null as eq`, { muscles: [], equipments: [], difficulty: [], mechanics: [], type: [], force_type: [], exercise_type: [] })
     useEffect(() => {
-        console.log(queryArgs)
+        props.setQueryArgs(queryArgs)
         queryRun(queryArgs)
     }, [queryArgs])
     useEffect(() => {

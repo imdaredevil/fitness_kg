@@ -2,13 +2,16 @@ import React, { useEffect, useState } from "react";
 import { Box, AppBar, ToggleButton, ToggleButtonGroup, Typography } from "@mui/material";
 import Explorer from "./explore";
 import Cardio from "./cardio";
+import Generate from "./generate";
 
 export default function Explore() {
     const [tab, setTab] = useState("explore")
+    const [queryArgs, setQueryArgs] = useState({})
 
     const TabPanels = {
-        explore: (<Explorer></Explorer>),
-        cardio: (<Cardio></Cardio>)
+        explore: (<Explorer setQueryArgs={setQueryArgs}></Explorer>),
+        cardio: (<Cardio></Cardio>),
+        generate: (<Generate queryArgs={queryArgs}></Generate>)
     }
     return (
         <Box sx={{ height: "100vh" }}>
